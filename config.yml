@@ -8,8 +8,8 @@ template:
   name: store-framework
 before:
   - type: createIssue
-    title: Welcome!
-    body: new-issue.md
+    title: Shelf
+    body: step-1.md
 steps:
   - title: Assign yourself
     description: Assign the first issue to yourself.
