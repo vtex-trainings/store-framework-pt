@@ -11,11 +11,14 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
+  - title: Assign yourself
+    description: Assign the first issue to yourself.
     event: issues.assigned
     link: '{{ repoUrl }}/issues/1'
     actions:
-      - type: respond
-        with: new-issue.md
-        issue: '1'
+    - type: gate
+      left: '%payload.assignee.login%'
+      operator: ===
+      right: '%user.username%'
+    - type: respond
+      with: new-issue.md
