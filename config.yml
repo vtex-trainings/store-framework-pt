@@ -16,12 +16,5 @@ steps:
     event: status
     link: '{{ repoUrl }}/issues/1'
     actions:
-      - type: gate
-        left: '%payload.state%'
-        operator: ===
-        right: success
-      - type: createIssue
-        title: Step 2
-        body: new-issue.md
       - type: respond
         with: new-issue.md
