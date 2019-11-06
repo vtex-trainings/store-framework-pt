@@ -22,3 +22,4 @@ steps:
       right: '%user.username%'
     - type: respond
       with: new-issue.md
+      issue: 1
