@@ -13,13 +13,9 @@ before:
 steps:
   - title: Assign yourself
     description: Assign the first issue to yourself.
-    event: issues.assigned
+    event: status
     link: '{{ repoUrl }}/issues/1'
     actions:
-    - type: gate
-      left: '%payload.assignee.login%'
-      operator: ===
-      right: '%user.username%'
     - type: respond
       with: new-issue.md
       issue: 1
