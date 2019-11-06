@@ -13,7 +13,7 @@ before:
 steps:
   - title: First step
     description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
+    event: push
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: closeIssue
