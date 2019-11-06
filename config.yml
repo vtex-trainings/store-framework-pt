@@ -23,3 +23,6 @@ steps:
       - type: respond
         with: new-issue.md
         issue: 1
+        data:
+          nextIssue: 2
+          nextName: Coisa linda
