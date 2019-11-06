@@ -18,3 +18,4 @@ steps:
     actions:
       - type: respond
         with: new-issue.md
+        issue: '1'
