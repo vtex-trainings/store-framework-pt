@@ -19,7 +19,7 @@ steps:
       - type: gate
         left: '%payload.state%'
         operator: ===
-        right: 'success' 
+        right: success
       - type: respond
         with: new-issue.md
         issue: 1
