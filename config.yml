@@ -26,3 +26,6 @@ steps:
         data:
           nextIssue: '2'
           nextName: Coisa linda
+      - type: createIssue
+        title: Carousel
+        body: step-1.md
