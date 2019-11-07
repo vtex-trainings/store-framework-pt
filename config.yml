@@ -8,13 +8,27 @@ template:
   name: store-framework
 before:
   - type: createIssue
-    title: Shelf
-    body: step-1.md
+    title: Store Framework 101
+    body: step-0.md
 steps:
-  - title: Assign yourself
-    description: Assign the first issue to yourself.
-    event: status
+  - title: Store Framework 101
+    description: Quick introduction definitions.
+    event: issues.closed
     link: '{{ repoUrl }}/issues/1'
+    actions:
+      - type: respond
+        with: new-issue.md
+        issue: 1
+        data:
+          nextIssue: '2'
+          nextName: 'First block: Info Card'
+      - type: createIssue
+        title: 'First block: Info Card'
+        body: step-1.md
+  - title: 'First block: Info Card'
+    description: Compose and reference your first store framework block
+    event: status
+    link: '{{ repoUrl }}/issues/2'
     actions:
       - type: gate
         left: '%payload.state%'
@@ -22,10 +36,10 @@ steps:
         right: success
       - type: respond
         with: new-issue.md
-        issue: 1
+        issue: 2
         data:
-          nextIssue: '2'
-          nextName: Coisa linda
+          nextIssue: '3'
+          nextName: Making the info card slide
       - type: createIssue
-        title: Carousel
-        body: step-1.md
+        title: Making the info card slide
+        body: step-2.md
