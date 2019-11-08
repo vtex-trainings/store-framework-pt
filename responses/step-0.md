@@ -15,10 +15,10 @@ Um tema é, essencialmente, um **arranjo de blocos** e suas posições. Nele sã
 ## Blocos
 
 Os blocos são a abstração mínima no Store Framework. Eles declaram pequenas peças que compõem o layout de uma loja. Por mais que pareçam simples, os blocos tem alto poder de customização, fazendo com que design complexos sejam possíveis de ser alcançados. Há **quatro níveis** de customização para blocos: 
-- **estilo semântico**;
-- **propriedades**;
-- **classes css**;
-- **filhos**  
+- **estilo semântico *(styles)***;
+- **propriedades *(props)***;
+- **classes css *(handles)***;
+- **filhos *(children)***  
 
 ![image](https://user-images.githubusercontent.com/18701182/68428069-266cca80-018a-11ea-958b-818d392583a8.png)
 
