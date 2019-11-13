@@ -12,11 +12,11 @@ O curso é divido em steps, ao começo de cada passo você receberá textos de i
 
 Para que possa enviar suas respostas faça os seguintes passos:
 
-1. Baixe o código deste repositório [aqui](https://github.com/{{ user }}/store-framework/archive/master.zip) e descomprima o arquivo `.zip` (se preferir você também pode clonar o repositório). 
+1. Baixe o código deste repositório [aqui](https://github.com/{{ user.username }}/store-framework/archive/master.zip) e descomprima o arquivo `.zip` (se preferir você também pode clonar o repositório). 
 2. Abra o projeto no VSCode, indo em `File`>`Open`. 
 3. Abra a [página de instalação do nosso robô de testes](https://github.com/apps/vtex-course-hub) e clique em **Configure**.
 4. Selecione **Only select repositories**, clique em **Select repositories** e digite `store-framework`
-5. Clique em `{{ user }}/store-framework` e, em seguida, clique em **Install**
+5. Clique em `{{ user.username }}/store-framework` e, em seguida, clique em **Install**
 
 <img src="https://user-images.githubusercontent.com/18701182/68790213-a03b0300-0625-11ea-8b8a-ec483f4c0a7a.png" width="350" />
 
