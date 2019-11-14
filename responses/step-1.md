@@ -1,20 +1,18 @@
-# First block: Info Card
+# Hello, World!
 
-**BRANCH:** infocard
+**BRANCH:** richtext
 
 ## Introdução
 
-Nosso percurso de montagem começa pela página principal. Uma loja precisa de uma boa *home page* para manter a atenção do usuário, aumentando o tempo de sessão e, portanto, aumentando as chances de conversão. Para que isso seja possível, vários elementos podem ser usados, como: banners promocionais, prateleiras de destaque, conteúdos institucionais.  
+Começamos nossa jornada pelo clássico **"Hello, World!"**. Para criar algo do tipo, precisamos conhecer os blocos do Store Framework e usar um que nos possibilite a criação de textos. Este bloco se chama **Rich Text**. 
 
-Criaremos o primeiro bloco na *home page* usando um *Call to Action*. No Store Framework, temos um bloco que serve para esse propósito chamado **Info Card**. 
+## Rich Text
 
-## Info Card
+<img src="https://user-images.githubusercontent.com/18701182/68885337-be6f3480-06f3-11ea-99dd-7d33ad3777cb.png" width="150" />
 
-![image](https://user-images.githubusercontent.com/18701182/68480411-7b085800-0213-11ea-9426-31dcb0d0aa7d.png)
+O Rich Text é somente um das dezenas de blocos disponíveis no Store Framework. É um bloco que parece simples, mas que possibilita uma série de customizações para criar textos. Para começar, todo texto escrito no Rich Text suporta [linguagem Markdown](https://www.markdownguide.org/cheat-sheet/), isso faz com que a estilização do texto seja muito mais fácil. 
 
-O Info Card é somente um das dezenas de blocos disponíveis no Store Framework. Com ele é possível criar imagens que, no topo ou ao lado, existam links ou botões que direcionem o fluxo do usuário (*Call to Action*). 
-
-Olhando a [documentação](https://vtex.io/docs/app/vtex.store-components/info-card#blocks-api) do bloco é possível encontrar a especificação técnica. Uma das seções presentes é a de **Blocks API** nela é vista toda a lista de **propriedades *(props)*** que o Info Card possui. As propriedades são o principal **argumento de customização** de um componente, são elas que garantem que um mesmo bloco possa ter visual e comportamento completamente diferente, dependendo de como for configurado.
+Olhando a [documentação](https://vtex.io/docs/app/vtex.rich-text#blocks-api) do bloco é possível encontrar a especificação técnica. Uma das seções presentes é a de **Blocks API** nela é vista toda a lista de **propriedades *(props)*** que o Rich Text possui. As propriedades são o principal **ponto de customização** de um bloco, são elas que garantem que um mesmo bloco possa ter visual e comportamento completamente diferente, dependendo de como for configurado.
 
 ## Começando
 
@@ -33,20 +31,20 @@ No `blocks.jsonc` se ver um bloco que é padrão em todos os temas: `store.home`
   }
 ```
 
-Vamos então incluir o Info Card em seu corpo:
+Vamos então incluir o Rich Text em seu corpo:
 
 ```
   {
     "store.home": {
       "blocks": [
-        "info-card"
+        "rich-text"
       ]
     }
     ...
   }
 ```
 
-Dessa forma, o `store.home` agora sabe que precisará renderizar um Info Card. Todavia, ainda não especificamos qual o visual desse Info Card. Para isso, precisamos fazer uma **definição de bloco**.
+Dessa forma, o `store.home` agora sabe que precisará renderizar um Rich Text. Todavia, ainda não especificamos qual o visual desse Rich Text. Para isso, precisamos fazer uma **definição de bloco**.
 
 ## Definição de blocos
 
@@ -56,24 +54,24 @@ A definição de blocos deve ser sempre feita fora de qualquer outro bloco, no n
   {
     "store.home": { 
       "blocks": [
-        "info-card" <----- Aqui o bloco está dentro de outro 
+        "rich-text" <----- Aqui o bloco está dentro de outro 
       ]
     },
-    "info-card": { <----- Aqui estamos na raiz
+    "rich-text": { <----- Aqui estamos na raiz
     }
   }
 ```
 
-Na definição é possível determinar o comportamento e visual de um bloco. Para tal devem ser usados **argumentos de customização**, começaremos usando as `props` do Info Card:
+Na definição é possível determinar o comportamento e visual de um bloco. Para tal devem ser usados **pontos de customização**, começaremos usando as `props` do Rich Text:
 
 ```
   {
     "store.home": { 
       "blocks": [
-        "info-card"
+        "rich-text"
       ]
     },
-    "info-card": {
+    "rich-text": {
       "props": { 
 
       }
@@ -81,46 +79,66 @@ Na definição é possível determinar o comportamento e visual de um bloco. Par
   }
 ```
 
-Observe novamente a [documentação](https://vtex.io/docs/app/vtex.store-components/info-card#blocks-api) do Info Card e vamos, então, definir as props que usaremos para customizá-lo, queremos chegar a este:
+Observe novamente a [documentação](https://vtex.io/docs/app/vtex.rich-text#blocks-api) do Rich Text e vamos, então, definir as props que usaremos para customizá-lo. 
 
-![image](https://user-images.githubusercontent.com/18701182/68485077-57e2a600-021d-11ea-8e34-650d82f4adbc.png)
+Queremos fazer um simples "Hello, World!", olhando nas props vemos uma que se chama: `text` [(Text written in markdown language to be displayed)](https://vtex.io/docs/app/vtex.rich-text#blocks-api). Essa é, então, a prop que determinará qual o texto que será exibido. 
 
-Olhando na [documentação](https://vtex.io/docs/app/vtex.store-components/info-card#blocks-api) vê-se que: 
-- `isFullModeStyle` define que o *Call to Action* deve estar acima do banner;
-- `textPosition` alinhará o texto a esquerda;
-- `imageUrl` definirá qual imagem será usada como banner;
-- `headline` determinará qual o texto que será usado;
-- `callToActionMode` possibilitará a escolha de *Call to Action* como sendo um link;
-- `callToActionText` definirá o texto do link;
-- `callToActionUrl` determinará o link ao qual será redirecionado;
-- `textAlignment` definirá a formatação do texto
-
-Ficamos, assim, com as seguintes props:
+Incluindo essa prop temos, então:
 
 ```
   {
     "store.home": { 
       "blocks": [
-        "info-card"
+        "rich-text"
       ]
     },
-    "info-card": {
+    "rich-text": {
       "props": { 
-        "isFullModeStyle": ...,
-        "textPosition": ...,
-        "imageUrl": ...,
-        "headline": ...,
-        "callToActionMode": ...,
-        "callToActionText": ...,
-        "callToActionUrl": ...,
-        "textAlignment": ...
+        "text": "Hello, World!"
       }
     }
   }
 ```
 
-## Ação
+Olhando a [documentação do Markdown](https://www.markdownguide.org/cheat-sheet/) vemos que para deixar **negrito** basta colocar `**` antes e depois do texto: 
 
-Defina os `...` no código acima e submeta sua solução para que possamos seguir para o próximo passo. 
+```
+  {
+    "store.home": { 
+      "blocks": [
+        "rich-text"
+      ]
+    },
+    "rich-text": {
+      "props": { 
+        "text": "**Hello, World!**"
+      }
+    }
+  }
+```
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui]().
+Para posicioná-lo ao centro, podemos adicionar `textPosition` [(*Choose in which position of the component text will be displayed, left, center or right. Default: "LEFT"*)](https://vtex.io/docs/app/vtex.rich-text#blocks-api) e atribuí-lo `CENTER`:
+
+```
+  {
+    "store.home": { 
+      "blocks": [
+        "rich-text"
+      ]
+    },
+    "rich-text": {
+      "props": { 
+        "text": "**Hello, World!**",
+        "textPosition": "CENTER"
+      }
+    }
+  }
+```
+
+
+## Atividade
+
+Defina um `rich-text` na sua home e crie um texto "Hello, World!" em *itálico* e **alinhado a direita**. 
+
+<img src="https://user-images.githubusercontent.com/18701182/68888503-d77ae400-06f9-11ea-967b-662fe1dac644.png" width="150" />
+
