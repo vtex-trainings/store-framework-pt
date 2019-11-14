@@ -93,7 +93,7 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 
 ## Atividade
 
-Copie o código acima, crie um `info-card#button` depois do `info-card#link`, que tenha um botão e tenha o texto posicionado no centro, como mostrado abaixo:
+Copie o código acima, crie um `info-card#button` depois do `info-card#link`, que tenha um botão e tenha o texto posicionado na direita, como mostrado abaixo:
 
 ![image](https://user-images.githubusercontent.com/18701182/68890571-e95e8600-06fd-11ea-8b38-ce2752efc6b6.png)
 
