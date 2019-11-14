@@ -142,3 +142,6 @@ Defina um `rich-text` na sua home e crie um texto "Hello, World!" em *itálico* 
 
 <img src="https://user-images.githubusercontent.com/18701182/68888503-d77ae400-06f9-11ea-967b-662fe1dac644.png" width="150" />
 
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
