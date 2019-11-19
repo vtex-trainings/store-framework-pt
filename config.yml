@@ -75,3 +75,21 @@ steps:
       - type: createIssue
         title: Estilizando o Info Card
         body: step-3.md
+  - title: 'CSS Handles: deixando sua loja com a sua cara'
+    description: Vamos estilizar nossa loja!
+    event: status
+    link: '{{ repoUrl }}/issues/5'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 5
+        data:
+          nextIssue: '6'
+          nextName: Fazendo milagres com Store Framework
+      - type: createIssue
+        title: Fazendo milagres com Store Framework
+        body: step-4.md
