@@ -1,6 +1,6 @@
 # Flex Layout: crie layouts utilizando o poder do Flexbox
 
-**BRANCH:** flex-layout
+**BRANCH:** flexlayout
 
 ## Introdução
 
