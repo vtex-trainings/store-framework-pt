@@ -94,7 +94,7 @@ steps:
         title: Página de produto
         body: step-8.md
   - title: Página de produto
-    description: Vamos criar layouts complexos de forma simples
+    description: Faremos um mvp da página de produto
     event: status
     link: '{{ repoUrl }}/issues/6'
     actions:
@@ -112,7 +112,7 @@ steps:
         title: Evoluindo a PdP
         body: step-9.md
   - title: Evoluindo a PdP
-    description: Vamos criar layouts complexos de forma simples
+    description: Enriqueceremos a página de produto que começamos com mais blocos
     event: status
     link: '{{ repoUrl }}/issues/7'
     actions:
@@ -130,7 +130,7 @@ steps:
         title: Finalizando a página de produto
         body: step-10.md
   - title: Finalizando a página de produto
-    description: Vamos criar layouts complexos de forma simples
+    description: Stack layout e finalização da página de produto
     event: status
     link: '{{ repoUrl }}/issues/8'
     actions:
