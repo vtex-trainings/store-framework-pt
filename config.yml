@@ -71,7 +71,79 @@ steps:
         issue: 4
         data:
           nextIssue: '5'
-          nextName: Estilizando o Info Card
+          nextName: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
       - type: createIssue
-        title: Estilizando o Info Card
+        title: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
+        body: step-4.md
+  - title: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
+    description: Vamos criar layouts complexos de forma simples
+    event: status
+    link: '{{ repoUrl }}/issues/5'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 5
+        data:
+          nextIssue: '6'
+          nextName: Página de produto
+      - type: createIssue
+        title: Página de produto
+        body: step-8.md
+  - title: Página de produto
+    description: Vamos criar layouts complexos de forma simples
+    event: status
+    link: '{{ repoUrl }}/issues/6'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 6
+        data:
+          nextIssue: '7'
+          nextName: Evoluindo a PdP
+      - type: createIssue
+        title: Evoluindo a PdP
+        body: step-9.md
+  - title: Evoluindo a PdP
+    description: Vamos criar layouts complexos de forma simples
+    event: status
+    link: '{{ repoUrl }}/issues/7'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 7
+        data:
+          nextIssue: '8'
+          nextName: Finalizando a página de produto
+      - type: createIssue
+        title: Finalizando a página de produto
+        body: step-10.md
+  - title: Finalizando a página de produto
+    description: Vamos criar layouts complexos de forma simples
+    event: status
+    link: '{{ repoUrl }}/issues/8'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 8
+        data:
+          nextIssue: '9'
+          nextName: Continua
+      - type: createIssue
+        title: Continua
         body: step-3.md
