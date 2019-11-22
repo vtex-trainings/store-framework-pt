@@ -71,12 +71,12 @@ steps:
         issue: 4
         data:
           nextIssue: '5'
-          nextName: Estilizando o Info Card
+          nextName: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
       - type: createIssue
-        title: Estilizando o Info Card
-        body: step-3.md
-  - title: 'Step de CSS Styles da Denise'
-    description: Some description
+        title: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
+        body: step-4.md
+  - title: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
+    description: Vamos criar layouts complexos de forma simples
     event: status
     link: '{{ repoUrl }}/issues/5'
     actions:
@@ -89,12 +89,12 @@ steps:
         issue: 5
         data:
           nextIssue: '6'
-          nextName: Flex Layout - crie layouts utilizando o poder do Flexbox
+          nextName: Página de produto
       - type: createIssue
-        title: Flex Layout - crie layouts utilizando o poder do Flexbox
-        body: step-4.md
-  - title: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
-    description: Vamos criar layouts complexos de forma simples
+        title: Página de produto
+        body: step-8.md
+  - title: Página de produto
+    description: Faremos um mvp da página de produto
     event: status
     link: '{{ repoUrl }}/issues/6'
     actions:
@@ -107,7 +107,43 @@ steps:
         issue: 6
         data:
           nextIssue: '7'
-          nextName: Criando a shelf
+          nextName: Evoluindo a PdP
       - type: createIssue
-        title: Criando a shelf
-        body: step-5.md
+        title: Evoluindo a PdP
+        body: step-9.md
+  - title: Evoluindo a PdP
+    description: Enriqueceremos a página de produto que começamos com mais blocos
+    event: status
+    link: '{{ repoUrl }}/issues/7'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 7
+        data:
+          nextIssue: '8'
+          nextName: Finalizando a página de produto
+      - type: createIssue
+        title: Finalizando a página de produto
+        body: step-10.md
+  - title: Finalizando a página de produto
+    description: Stack layout e finalização da página de produto
+    event: status
+    link: '{{ repoUrl }}/issues/8'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 8
+        data:
+          nextIssue: '9'
+          nextName: Continua
+      - type: createIssue
+        title: Continua
+        body: step-3.md
