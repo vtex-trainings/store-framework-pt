@@ -75,10 +75,10 @@ steps:
       - type: createIssue
         title: Estilizando o Info Card
         body: step-3.md
-  - title: 'Step de CSS Styles da Denise'
-    description: Some description
+  - title: 'Shelf - A prateleira de produtos'
+    description: Vamos usar o componente `shelf` para implementar uma prateleira de produtos
     event: status
-    link: '{{ repoUrl }}/issues/5'
+    link: '{{ repoUrl }}/issues/7'
     actions:
       - type: gate
         left: '%payload.state%'
@@ -86,28 +86,10 @@ steps:
         right: success
       - type: respond
         with: new-issue.md
-        issue: 5
+        issue: 7
         data:
-          nextIssue: '6'
-          nextName: Flex Layout - crie layouts utilizando o poder do Flexbox
+          nextIssue: '8'
+          nextName: Slider Layout - criando sliders de conteúdo
       - type: createIssue
-        title: Flex Layout - crie layouts utilizando o poder do Flexbox
-        body: step-4.md
-  - title: 'Flex Layout: crie layouts utilizando o poder do Flexbox'
-    description: Vamos criar layouts complexos de forma simples
-    event: status
-    link: '{{ repoUrl }}/issues/6'
-    actions:
-      - type: gate
-        left: '%payload.state%'
-        operator: ===
-        right: success
-      - type: respond
-        with: new-issue.md
-        issue: 6
-        data:
-          nextIssue: '7'
-          nextName: Criando a shelf
-      - type: createIssue
-        title: Criando a shelf
-        body: step-5.md
+        title: Slider Layout - criando sliders de conteúdo
+        body: step-6.md
