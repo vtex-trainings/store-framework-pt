@@ -93,3 +93,21 @@ steps:
       - type: createIssue
         title: Slider Layout - criando sliders de conteúdo
         body: step-6.md
+  - title: 'Slider Layout: criando sliders de conteúdo'
+    description: Vamos usar o componente `slider` para inserir conteúdo em um layout com slide
+    event: status
+    link: '{{ repoUrl }}/issues/8'
+    actions:
+      - type: gate
+        left: '%payload.state%'
+        operator: ===
+        right: success
+      - type: respond
+        with: new-issue.md
+        issue: 8
+        data:
+          nextIssue: '9'
+          nextName: Mudar texto, colocar imagem
+      - type: createIssue
+        title: Mudar texto, colocar imagem
+        body: step-7.md
