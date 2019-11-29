@@ -6,9 +6,9 @@
 
 A página inicial de um e-commerce é sempre o primeiro contato do cliente com a marca. Por isso, é comum que o lojista queira estabelecer uma comunicação direta com os seus usuários nesse momento estratégico da navegação. 
 
-No Store Framework, existem alguns componentes que atendem a esse cenário, como o [Info Card](https://vtex.io/docs/components/all/vtex.store-components/info-card) visto nos passos anteriores e o [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/). 
+No Store Framework, existem alguns componentes que atendem a esse cenário, como o [Info Card](https://vtex.io/docs/components/all/vtex.store-components/info-card) visto nos passos anteriores e o [**Rich Text**](https://vtex.io/docs/components/all/vtex.rich-text/). 
 
-Como vimos no [terceiro passo](https://github.com/{{ user.username }}/store-framework/issues/3), o Rich Text é responsável por transformar textos em elementos HTML, com a grande vantagem de ler em [Markdown](https://www.markdownguide.org/). Isso dá ao componente a flexibilidade de aceitar diferentes estruturas de texto, permitindo ao lojista construir sua comunicação de forma mais clara e direta. 
+Como vimos no [terceiro passo](https://github.com/{{ user.username }}/store-framework/issues/3), o Rich Text é responsável por transformar textos em elementos HTML, com a grande vantagem de ler em [**Markdown**](https://www.markdownguide.org/). Isso dá ao componente a flexibilidade de aceitar diferentes estruturas de texto, permitindo ao lojista construir sua comunicação de forma mais clara e direta. 
 
 ## Configurando o Rich Text
 
