@@ -21,4 +21,6 @@ $ yarn global add vtex
 
 Workspaces nada mais são do que espaços de trabalho na plataforma. O último passo irá fazer com que um workspace de desenvolvimento seja criado para você, permitindo que as suas configurações não alterem a versão final pública da loja. 
 
+Você conseguirá acessar a sua versão de loja em desenvolvimento a partir do link `https://{workspace}--{conta}.myvtex.com`, em que `{workspace}` é o nome do workspace de desenvolvimento já criado e `{conta}` o nome da conta em que você está trabalhando. 
+
 Com o Toolbelt instalado e um workspace de desenvolvimento criado, você está pronto pra começar o curso! 
