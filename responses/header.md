@@ -4,9 +4,9 @@
 
 ## Introdução
 
-Neste passo, aprenderemos a configurar o primeiro componente da página inicial de toda loja: o Header
+Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o Header
 
-O Header tem um papel fundamental, pois ele é responsável por abrigar outros componentes essenciais para a navegação do usuário, como a barra de busca e o menu. 
+O Header tem um papel fundamental na página inicial, pois ele é responsável por abrigar outros componentes essenciais para a navegação do usuário, como a barra de busca e o menu. 
 
 FOTO Header (galc)
 
