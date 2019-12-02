@@ -22,7 +22,6 @@ Para incluir textos no componente de `rich-text`, é necessário utilizar a prop
 A prop `text` aceita o formato de markdown. Portanto, se você deseja escrever seu texto utilizando essa linguagem, seu código deve ficar semelhante a este:
 
 ```json
-```json
   "rich-text#home1": {
     "props": {
       "text": "# Meu título h1 \n Escreva aqui um parágrafo \n ## Meu título h2 \n Escreva aqui seu segundo parágrafo \n Inclua aqui uma lista \n - Item 1 \n - Item 2 \n - Item3",
