@@ -6,7 +6,7 @@
 
 Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o Header
 
-O Header tem um papel fundamental na página inicial, pois ele é responsável por abrigar outros componentes essenciais para a navegação do usuário, como a barra de busca e o menu. 
+O Header tem um papel muito importante na página inicial da loja, pois ele é responsável por abrigar outros componentes essenciais para a navegação do usuário, como a barra de busca e o menu. 
 
 FOTO Header (galc)
 
@@ -14,7 +14,7 @@ FOTO Header (galc)
 
 O bloco do Header é responsivo, ou seja, ele pode ser configurado para se adaptar a diferentes dispositivos, como desktop e mobile. 
 
-Abaixo, podemos conferir um exemplo de implementação responsiva do Header:
+Abaixo, podemos conferir um exemplo de implementação do Header a partir da sua capacidade responsiva:
 
 ```
 {
@@ -44,9 +44,9 @@ Abaixo, podemos conferir um exemplo de implementação responsiva do Header:
 
 ## Atividade
 
-Agora, vamos configurar do zero um Header para a página inicial da sua loja, levando em consideração o código exemplo apresentado acima para desktop e mobile.  
+Agora, vamos configurar do zero um Header para a página inicial da sua loja, com barra de notificação e busca, logo, carrinho e login. O Menu não será configurado nesse momento, pois trabalharemos com ele mais a fundo na próxima atividade. 
 
-O Menu não será implementado nesse momento no Header, pois trabalharemos com ele mais a fundo na próxima atividade. 
+Para a implementação do bloco com todos esses componentes, levaremos em consideração o código exemplo apresentado acima. Assim, será possível construir um Header para desktop e outro para mobile. 
 
 1. Copie o código acima para usá-lo no seu tema;
 2. Declare o seguinte bloco em seguida:
@@ -118,5 +118,23 @@ O Menu não será implementado nesse momento no Header, pois trabalharemos com e
 }
 }
 ```
+
+8. Seguindo a recipe sobre [**customizar ícones de loja**](https://vtex.io/docs/recipes/style/customizing-your-stores-icons), substitua o ícone padrão usado na barra de busca e no carrinho pelos exemplificados abaixo.
+
+- Novo ícone da barra de busca:
+ ```
+ <path fill="currentColor" d="M4,13H1c-0.552,0-1-0.448-1-1v0c0-0.552,0.448-1,1-1h3V13z"></path> <path fill="currentColor" d="M15,3H1C0.448,3,0,2.552,0,2v0c0-0.552,0.448-1,1-1h14c0.552,0,1,0.448,1,1v0C16,2.552,15.552,3,15,3z"></path> <path fill="currentColor" d="M4,8H1C0.448,8,0,7.552,0,7v0c0-0.552,0.448-1,1-1h3V8z"></path> <path fill="currentColor" d="M15.707,13.293l-2.274-2.274C13.785,10.424,14,9.74,14,9c0-2.206-1.794-4-4-4S6,6.794,6,9 s1.794,4,4,4c0.74,0,1.424-0.215,2.019-0.567l2.274,2.274L15.707,13.293z M10,11c-1.103,0-2-0.897-2-2s0.897-2,2-2s2,0.897,2,2 S11.103,11,10,11z"></path>
+ ```
+
+- Novo ícone do carrinho: 
+
+```
+<path fill="currentColor" d="M15,6h-1.4l-2.7-5.4C10.6,0.1,10-0.1,9.6,0.1C9.1,0.4,8.9,1,9.1,1.4L11.4,6H4.6l2.3-4.6 c0.2-0.5,0-1.1-0.4-1.3C6-0.1,5.4,0.1,5.1,0.6L2.4,6H1c-1.1,0-1.1,1-0.9,1.4l3,8C3.2,15.7,3.6,16,4,16h8c0.4,0,0.8-0.3,0.9-0.6l3-8 C16.1,7,16,6,15,6z"></path>
+```
+
+Ao concluir o passo 8, os novos ícones de barra de busca e carrinho devem ser apresentados da seguinte forma:
+
+![new-store-icons](https://user-images.githubusercontent.com/52087100/69972450-652f3f80-1500-11ea-93b0-c9a652622840.png)
+
 
 
