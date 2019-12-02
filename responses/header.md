@@ -49,7 +49,7 @@ Agora, vamos configurar do zero um Header para a página inicial da sua loja, co
 Para a implementação do Header com todos esses blocos, levaremos em consideração o código exemplo apresentado acima. Assim, será possível construir um Header responsivo, adptável para usuários de desktop e mobile. 
 
 1. Copie o código acima para usá-lo no seu tema;
-2. Declare o seguinte bloco em seguida:
+2. Crie a primeira linha do Header, declare o seguinte bloco:
 
 ```
 "header-row#notification": {
@@ -60,9 +60,9 @@ Para a implementação do Header com todos esses blocos, levaremos em considera�
 ]
 },
 ```
-3. Com base no bloco acima, construa o `header-row#main` com as seguintes children: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`;
+3. Com base no formato do bloco acima, construa o `header-row#main` com as seguintes children: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`;
 4. Ainda no bloco `header-row#main`, declare as props `inverted`, `sticky` e `fullWidth` com os valores `true`, `true` e `false`, respectivamente;
-5. Copie e cole o código abaixo para configurar o bloco header para mobile, da mesma forma que fizemos para o desktop anteriormente:
+5. Copie e cole o código abaixo para configurar o bloco Header para mobile, da mesma forma que fizemos para o desktop nos passos anteriores:
 
 ```
 "header-row#main-mobile": {
