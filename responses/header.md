@@ -132,7 +132,7 @@ Para a implementação do bloco com todos esses componentes, levaremos em consid
 <path fill="currentColor" d="M15,6h-1.4l-2.7-5.4C10.6,0.1,10-0.1,9.6,0.1C9.1,0.4,8.9,1,9.1,1.4L11.4,6H4.6l2.3-4.6 c0.2-0.5,0-1.1-0.4-1.3C6-0.1,5.4,0.1,5.1,0.6L2.4,6H1c-1.1,0-1.1,1-0.9,1.4l3,8C3.2,15.7,3.6,16,4,16h8c0.4,0,0.8-0.3,0.9-0.6l3-8 C16.1,7,16,6,15,6z"></path>
 ```
 
-Ao concluir o passo 8, os novos ícones de barra de busca e carrinho devem ser apresentados da seguinte forma:
+Ao concluir o passo 8, os novos ícones de barra de busca e carrinho devem estar renderizados na sua loja da seguinte forma:
 
 ![new-store-icons](https://user-images.githubusercontent.com/52087100/69972450-652f3f80-1500-11ea-93b0-c9a652622840.png)
 
