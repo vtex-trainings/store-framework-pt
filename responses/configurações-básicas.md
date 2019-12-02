@@ -1,6 +1,6 @@
 # Configurações básicas
 
-O **Toolbelt** é a **linha de comando** do VTEX IO. É ele quem permite que você realize qualquer atividade na plataforma, como criar um novo workspace de desenvolvimento, fazer login em uma conta VTEX, desenvolver novas apps, gerenciar as já existentes, etc.
+O **Toolbelt** é a **linha de comando** do VTEX IO. É ele quem permite a realização de qualquer atividade na plataforma, como criar um novo workspace de desenvolvimento, fazer login em uma conta VTEX, desenvolver novas apps, gerenciar as já existentes, etc.
 
 Uma vez que o Toolbelt é quem estabelece a comunicação entre o desenvolvedor e a plataforma, você precisará dele para conseguir realizar todas as tarefas propostas durante o curso do Store Framework. 
 
