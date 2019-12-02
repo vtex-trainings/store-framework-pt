@@ -58,7 +58,7 @@ border: transparent;
 
 ## Atividade
 
-1. Copie o código acima para usá-lo no arquivo CSS do seu tema;
+1. Copie o código acima para usá-lo no arquivo CSS do seu tema, seguindo a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) sobre customizações de loja por CSS. 
 2. Com base nos Handles do [Info Card](https://vtex.io/docs/components/all/vtex.store-components/info-card), defina a altura (`height`) de todo componente para `450px`. 
 3. Mude a cor do título do componente para `black`; 
 4. Tirar o negrito do título, diminuindo o peso da sua fonte para `200`. 
