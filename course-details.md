@@ -1,9 +1,8 @@
-This is the description we show on the course page [here](https://lab.github.com/vtex-trainings/store-framework). This first paragraph will be featured at the top of the page so make it great.
+Construção de lojas com o Store Framework
 ​
 
 ​
-Be sure to tell the learner about the technology you are teaching, why they should learn it, how they can use it, and what you will teach them.
+Neste curso você irá aprender como usar o Store Framework, uma ferramenta no-code de desenvolvimento de lojas, para construir do zero o tema de uma loja funcional na VTEX. O Store Framework agiliza muito o desenvolvimento de temas, pois você aproveita todos os blocos que estão na maioria das lojas sem precisar programar nada. Por exemplo, para criar uma prateleira super customizada, você só irá precisar se preocupar em selecionar propriedades básicas e estilizar com CSS.
 ​
 
-
-Include information on how they can reach you for questions about the content or course. 
+Aprenda a usar o Store Framework e seja mais produtivo do que nunca na construção e manutenção de lojas VTEX.
