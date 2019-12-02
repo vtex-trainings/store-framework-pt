@@ -70,9 +70,9 @@ Nessa tarefa, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.
 
 IMAGEM QUE QUEREMOS  (GALC)
 
-1. Copie o código acima para usá-lo no seu tema;
-2. No Rich Text mobile, mude o markdown da primeira frase para `h3` e da segunda para `h4`. 
-3. Adicione `image#desktop` como children de `responsive-layout.desktop#testing`. Faça o mesmo com `image#mobile`  em `responsive-layout.mobile#testing`. 
+1. Copie o código acima para usá-lo na página inicial do seu tema;
+2. No Rich Text mobile, mude o markdown da primeira frase para `h3` e da segunda para `h4`;
+3. Adicione `image#desktop` como children de `responsive-layout.desktop#testing`. Faça o mesmo com `image#mobile`  em `responsive-layout.mobile#testing`;
 4. Declare os seguintes blocos de Image depois de `rich-text#mobile`: 
 
 ```
@@ -98,4 +98,4 @@ IMAGEM QUE QUEREMOS  (GALC)
 },
 ```
 
-5. Analisando as props do componente Image, defina a largura máxima das duas imagens como `100%`
+5. Analisando as props do componente Image, defina a largura máxima das duas imagens como `100%`.
