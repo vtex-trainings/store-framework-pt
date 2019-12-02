@@ -9,7 +9,7 @@ template:
 before:
   - type: createIssue
     title: Configurações básicas
-    body: step-minus2.md
+    body: setup.md
 steps:
   - title: Configurações básicas
     description: Pré-requisitos para desenvolver com o Store Framework
@@ -24,7 +24,7 @@ steps:
           nextName: 'Funcionamento do curso'
       - type: createIssue
         title: 'Funcionamento do curso'
-        body: step-minus1.md
+        body: course.md
   - title: Funcionamento do curso
     description: Explicando como interagir com o curso.
     event: issues.closed
@@ -38,7 +38,7 @@ steps:
           nextName: 'Store Framework 101'
       - type: createIssue
         title: 'Store Framework 101'
-        body: step-0.md
+        body: storeframework.md
   - title: Store Framework 101
     description: Definições rápidas e introdutórias sobre o Store Framework.
     event: issues.closed
@@ -52,7 +52,7 @@ steps:
           nextName: 'Hello, World!'
       - type: createIssue
         title: 'Hello, World!'
-        body: step-1.md
+        body: helloworld.md
   - title: Hello, World!
     description: Componha e referencie seu primeiro bloco no Store Framework
     event: status
@@ -70,7 +70,7 @@ steps:
           nextName: 'Info Card: o call to action do Store Framework'
       - type: createIssue
         title: 'Info Card: o call to action do Store Framework'
-        body: step-2.md
+        body: infocard.md
   - title: 'Info Card: o call to action do Store Framework'
     description: Definiremos um bloco call to action na nossa home
     event: status
@@ -88,7 +88,7 @@ steps:
           nextName: 'CSS handles e o poder da customização de blocos'
       - type: createIssue
         title: 'CSS handles e o poder da customização de blocos'
-        body: step-3.md
+        body: csshandles.md
   - title: 'CSS handles e o poder da customização de blocos'
     description: Personalize o estilo dos seus blocos
     event: status
@@ -124,7 +124,7 @@ steps:
           nextName: Prateleira de produtos
       - type: createIssue
         title: Prateleira de produtos
-        body: step-5.md
+        body: shelf.md
   - title: 'Prateleira de produtos'
     description: Como exibir uma vitrine de produtos de forma intuitiva
     event: status
@@ -142,7 +142,7 @@ steps:
           nextName: Carrossel de blocos 
       - type: createIssue
         title: Carrossel de blocos
-        body: step-6.md
+        body: slider.md
   - title: Carrossel de blocos
     description: Insira conteúdo num layout de carrossel 
     event: status
@@ -160,7 +160,7 @@ steps:
           nextName: Tornando seu conteúdo responsivo
       - type: createIssue
         title: Tornando seu conteúdo responsivo
-        body: step-7.md
+        body: responsive.md
   - title: Tornando seu conteúdo responsivo
     description: Use o responsive layout para adaptar seu conteúdo para diferentes dispositivos
     event: status
@@ -178,7 +178,7 @@ steps:
           nextName: Página de produto
       - type: createIssue
         title: Página de produto
-        body: step-8.md
+        body: pdp.md
   - title: Página de produto
     description: Primeiros passsos para montar uma página de detalhes de produto
     event: status
@@ -196,7 +196,7 @@ steps:
           nextName: Evoluindo sua página de produto (pdp)
       - type: createIssue
         title: Evoluindo sua página de produto (pdp)
-        body: step-9.md
+        body: pdp2.md
   - title: Evoluindo sua página de produto (pdp)
     description: Adicionando novos blocos e deixando a página mais interativa
     event: status
@@ -214,7 +214,7 @@ steps:
           nextName: Finalizando sua pdp
       - type: createIssue
         title: Finalizando sua pdp
-        body: step-10.md
+        body: pdp3.md
   - title: Finalizando sua pdp
     description: Usando produtos relacionados e alterando propriedades
     event: status
@@ -232,7 +232,7 @@ steps:
           nextName: Página de busca
       - type: createIssue
         title: Página de busca
-        body: step-11.md
+        body: search.md
   - title: Página de busca
     description: Conhecendo os blocos de uma página de busca
     event: status
@@ -250,7 +250,7 @@ steps:
           nextName: Ajustando layout da página de busca
       - type: createIssue
         title: Ajustando layout da página de busca
-        body: step-12.md
+        body: search2.md
   - title: Ajustando layout da página de busca
     description: Adicionando linhas e colunas para melhorar o layout da busca
     event: status
@@ -268,7 +268,7 @@ steps:
           nextName: Estilos globais
       - type: createIssue
         title: Estilos globais
-        body: step-13.md
+        body: styles.md
   - title: Estilos globais
     description: Altere classes semânticas para mudar o estilo da sua loja
     event: status
@@ -286,7 +286,7 @@ steps:
           nextName: Criando templates customizados
       - type: createIssue
         title: Criando templates customizados
-        body: step-14.md
+        body: template.md
   - title: Criando templates customizados
     description: Crie uma rota e associe um template customizado
     event: status
@@ -304,7 +304,7 @@ steps:
           nextName: Layout de abas
       - type: createIssue
         title: Layout de abas
-        body: step-15.md
+        body: tab-layout.md
   - title: Layout de abas
     description: Usando layout de abas na página institucional
     event: status
@@ -322,7 +322,7 @@ steps:
           nextName: Explorando o poder do rich text
       - type: createIssue
         title: Explorando o poder do rich text
-        body: step-16.md
+        body: richtextmarkdown.md
   - title: Explorando o poder do rich text
     description: Usando a linguagem do Markdown de forma avançada
     event: status
@@ -340,7 +340,7 @@ steps:
           nextName: Inserindo um Iframe na nossa página institucional
       - type: createIssue
         title: Inserindo um Iframe na nossa página institucional
-        body: step-17.md
+        body: iframe.md
   - title: Inserindo um Iframe na nossa página institucional
     description: Exibindo um post do Instagram na sua loja
     event: status
@@ -358,7 +358,7 @@ steps:
           nextName: Construindo uma landing customizada de busca
       - type: createIssue
         title: Construindo uma landing customizada de busca
-        body: step-18.md
+        body: landing.md
   - title: Construindo uma landing customizada de busca
     description: Definindo páginas de eventos com produtos customizados
     event: status
@@ -376,7 +376,7 @@ steps:
           nextName: Cabeçalho da loja
       - type: createIssue
         title: Cabeçalho da loja
-        body: step-19.md
+        body: header.md
   - title: Cabeçalho da loja
     description: Definindo blocos de cabeçalho e alterando iconografia
     event: status
@@ -430,7 +430,7 @@ steps:
           nextName: Continua
       - type: createIssue
         title: Continua
-        body: step-22.md
+        body: footer.md
   - title: Rodapé 
     description: Definindo blocos de rodapé
     event: status
