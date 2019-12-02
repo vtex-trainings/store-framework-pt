@@ -15,7 +15,7 @@ Por isso, o seu primeiro passo é instalar a linha de comando do VTEX IO no seu 
 $ yarn global add vtex
 ```
 
-:eyes: Você pode executar o comando `vtex` para confirmar se a instalação do Toolbelt ocorreu como esperado. 
+Você pode executar o comando `vtex` para confirmar se a instalação do Toolbelt ocorreu como esperado. 
 
 3. Execute `vtex use {workspace}`, substituindo `{workspace}` pelo nome desejado por você.
 
