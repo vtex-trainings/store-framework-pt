@@ -60,8 +60,8 @@ Para a implementação do bloco com todos esses componentes, levaremos em consid
 ]
 },
 ```
-3. Com base no bloco acima, construa o `header-row#main` com as seguintes children: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`. 
-4. Ainda no bloco `header-row#main`, declare as props `inverted`, `sticky` e `fullWidth` com os valores `true`, `true` e `false`, respectivamente. 
+3. Com base no bloco acima, construa o `header-row#main` com as seguintes children: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`;
+4. Ainda no bloco `header-row#main`, declare as props `inverted`, `sticky` e `fullWidth` com os valores `true`, `true` e `false`, respectivamente;
 5. Copie e cole o código abaixo para configurar o bloco header para mobile, da mesma forma que fizemos para o desktop anteriormente:
 
 ```
@@ -90,7 +90,7 @@ Para a implementação do bloco com todos esses componentes, levaremos em consid
 
 ```
 
-6.  Declare o bloco responsável por definir o login e o logo da loja, usando o código apresentado abaixo. Eles serão usados pelo Header dos dois dispositivos. 
+6.  Declare o bloco responsável por definir o login e o logo da loja, usando o código apresentado abaixo. Eles serão usados pelo Header dos dois dispositivos;
 
 ```
 "login":{
@@ -107,7 +107,7 @@ Para a implementação do bloco com todos esses componentes, levaremos em consid
 },
 ```
 
-7.  Por último, precisamos declarar o componente principal da linha do Header de notificação (`"header-row#notification"`): o Rich Text. 
+7.  Por último, precisamos declarar o componente principal da linha do Header de notificação (`"header-row#notification"`): o Rich Text;
 
 ```
 "rich-text#header": {
