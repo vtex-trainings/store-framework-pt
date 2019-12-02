@@ -54,7 +54,6 @@ Não implementaremos o menu nessa atividade, pois ele já foi visto no contexto 
 
 1. Com base no bloco acima, construa o `flex-layout.col#footer-left-desktop` com a seguinte children: `accepted-payment-methods`.
 
-2. Agora construa o bloco `accepted-payment-methods` com os seguintes meios de pagamento: `MasterCard`, `Visa` e `Diners Club`. Se precisar, consulte a documentação.
+2. Agora construa o bloco `accepted-payment-methods` com os seguintes meios de pagamento: `MasterCard`, `Visa` e `Diners Club`. Só para mostrar um pouco mais de conhecimento, descubra também como mostrar os meios de pagamento em cores.
 
-3. Copie e cole o código abaixo para configurar o bloco header para mobile, da mesma forma que fizemos para o desktop anteriormente:
-
+3. No próximo passo iremos usar o bloco `social-networks` para mostrar as redes sociais da nossa loja. Veja na documentação como fazer isso. E implemente como children do bloco `flex-layout.col#footer-right-desktop`. Nós queremos mostrar `Facebook`, `Instagram` e `Twitter`
