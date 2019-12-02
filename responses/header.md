@@ -6,7 +6,7 @@
 
 Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o Header
 
-O Header tem um papel muito importante na página inicial da loja, pois ele é responsável por abrigar outros componentes essenciais para a navegação do usuário, como a barra de busca e o menu. 
+O Header tem um papel muito importante na página inicial da loja, pois ele é o responsável por abrigar outros blocos essenciais para a navegação do usuário, como a barra de busca e o menu. 
 
 FOTO Header (galc)
 
@@ -14,7 +14,7 @@ FOTO Header (galc)
 
 O bloco do Header é responsivo, ou seja, ele pode ser configurado para se adaptar a diferentes dispositivos, como desktop e mobile. 
 
-Abaixo, podemos conferir um exemplo de implementação do Header a partir da sua capacidade responsiva:
+Abaixo, podemos conferir um exemplo de implementação:
 
 ```
 {
@@ -46,7 +46,7 @@ Abaixo, podemos conferir um exemplo de implementação do Header a partir da sua
 
 Agora, vamos configurar do zero um Header para a página inicial da sua loja, com barra de notificação e busca, logo, carrinho e login. O Menu não será configurado nesse momento, pois trabalharemos com ele mais a fundo na próxima atividade. 
 
-Para a implementação do bloco com todos esses componentes, levaremos em consideração o código exemplo apresentado acima. Assim, será possível construir um Header para desktop e outro para mobile. 
+Para a implementação do Header com todos esses blocos, levaremos em consideração o código exemplo apresentado acima. Assim, será possível construir um Header responsivo, adptável para usuários de desktop e mobile. 
 
 1. Copie o código acima para usá-lo no seu tema;
 2. Declare o seguinte bloco em seguida:
