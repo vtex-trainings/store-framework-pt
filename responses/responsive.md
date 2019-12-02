@@ -28,9 +28,9 @@ Da mesma forma que o "*Hello, world!*" foi feito, podemos montar um exemplo de i
 
 Como falado anteriormente, o uso de Markdown permite flexibilidade ao componente. Mas, por outro lado, também pode fazer com que a sua renderização sofra alterações de acordo com o dispositivo usado pelo usuário. 
 
-Por exemplo: a frase acima ( `# Your Coffee, Your Way \n ### New Coffee Makers Collection` ) pode usar um markdown adequado para desktop, mas não necessariamente para mobile cujo tamanho de tela é menor. 
+Por exemplo: a frase acima ( `# Your Coffee, Your Way \n ### New Coffee Makers Collection` ) pode usar um markdown adequado para desktop, mas não necessariamente para mobile (cujo tamanho de tela é menor). 
 
-Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, vamos usar o [Responsive Layout](https://vtex.io/docs/components/layout/vtex.responsive-layout):
+Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, devemos usar o [Responsive Layout](https://vtex.io/docs/components/layout/vtex.responsive-layout):
 
 ```
 {
@@ -64,9 +64,11 @@ Para resolver esse cenário e tornar o componente mais adaptável a outros dispo
 },
 ```
 
+Ao interpretar o código acima, perceba como duas configurações de Rich Text são construídas a partir do uso de `responsive-layout.desktop#testing` e `responsive-layout.mobile#testing`. 
+
 ## Atividade
 
-Nessa tarefa, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) e aprender a usá-lo com o componente [Image](https://vtex.io/docs/components/all/vtex.store-components/image).
+Nessa tarefa, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) e aprender a usá-lo com o componente [Image](https://vtex.io/docs/components/all/vtex.store-components/image). Tudo isso usando o Responsive Layout, é claro!
 
 IMAGEM QUE QUEREMOS  (GALC)
 
