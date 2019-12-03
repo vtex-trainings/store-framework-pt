@@ -49,9 +49,9 @@ Abaixo, segue um exemplo de implementação de um slider-layout com dois `info-c
 }
 ```
 
-## Tarefa
+## Atividade
 
-Nesta tarefa, vamos criar um slider de marcas para o nosso site:
+Nesta atividade, vamos criar um slider de marcas para o nosso site:
 
 ![](https://appliancetheme.vteximg.com.br/arquivos/brand-slider.png)
 
@@ -66,3 +66,7 @@ Nesta tarefa, vamos criar um slider de marcas para o nosso site:
    5.  `https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png`
    6.  `https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png`
 5. Por fim, você pode utilizar a propriedade de `autoplay` no bloco `slider-layout#home`. Faça com que o slide aconteça automaticamente a cada 7 segundos e que ele pare quando o usuário passar o mouse em cima do slide.
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

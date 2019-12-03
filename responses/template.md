@@ -99,7 +99,7 @@ Devemos criar um arquivo `routes.json` dentro da pasta `store` do seu tema. Apó
 
 onde `{URL}` é o nome do caminho desejado
 
-## Tarefa
+## Atividade
 
 Vamos criar uma página com informações sobre a sua loja conforme o exemplo abaixo:
 
@@ -112,3 +112,7 @@ Vamos criar uma página com informações sobre a sua loja conforme o exemplo ab
 5. Na pasta `store`, crie um arquivo `routes.json`
 6. Neste arquivo, declare um path `/about-us`
 7. Com o código linkado, acesse `{workspace}--appliancetheme.myvtex.com/about-us` para ver sua nova landing page
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

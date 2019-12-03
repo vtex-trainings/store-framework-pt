@@ -121,9 +121,9 @@ Por fim, você deve declarar as propriedades do seu conteúdo. No nosso exemplo,
 }
 ```
 
-## Tarefa
+## Atividade
 
-Nesta tarefa, vamos criar a estrutura simples de um tab layout, conforme imagem abaixo. Mais tarde, vamos incluir algum conteúdo para estilizar nossa página customizada.
+Nesta atividade, vamos criar a estrutura simples de um tab layout, conforme imagem abaixo. Mais tarde, vamos incluir algum conteúdo para estilizar nossa página customizada.
 
 ![](https://appliancetheme.vteximg.com.br/arquivos/tarefa-tab-layout.png)
 
@@ -152,3 +152,7 @@ Nesta tarefa, vamos criar a estrutura simples de um tab layout, conforme imagem 
     }
   }
   ```
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

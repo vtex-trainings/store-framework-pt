@@ -59,3 +59,7 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 3. No arquivo `shelf.jsonc`, declare o objeto `shelf` conforme o exemplo acima
 4. Altere o número máximo de itens exibidos para `8`
 5. Altere o número de itens por página para `4`
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

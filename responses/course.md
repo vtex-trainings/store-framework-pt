@@ -8,7 +8,7 @@ No começo do curso você recebeu um repositório com código mínimo e queremos
 
 ## Introdução
 
-O curso é divido em steps, ao começo de cada passo você receberá textos de input, como você já recebeu neste step e no anterior. Você deve ler todo o conteúdo apresentado e receberá, ao fim, uma pequena tarefa.
+O curso é divido em steps, ao começo de cada passo você receberá textos de input, como você já recebeu neste step e no anterior. Você deve ler todo o conteúdo apresentado e receberá, ao fim, uma pequena atividade.
 
 Para que possa enviar suas respostas faça os seguintes passos:
 
@@ -23,7 +23,7 @@ Para que possa enviar suas respostas faça os seguintes passos:
 
 ## Submetendo respostas
 
-Quando você terminar de ler todo o conteúdo e fizer a tarefa que lhe for atribuída, você deve, em seguida, enviar a sua resposta. 
+Quando você terminar de ler todo o conteúdo e fizer a atividade que lhe for atribuída, você deve, em seguida, enviar a sua resposta. 
 
 **1. Clique em `Source Control`, no menu lateral do VSCode:**
 
@@ -85,4 +85,4 @@ A qualquer momento você pode acompanhar o progresso do curso voltando na [pági
 
 ----
 
-### Para continuar clique em **Close issue**
+## Para continuar clique em **Close issue**

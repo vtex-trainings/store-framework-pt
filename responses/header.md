@@ -137,3 +137,7 @@ Ao concluir o passo 8, os novos ícones de barra de busca e carrinho devem estar
 
 ![new-store-icons](https://user-images.githubusercontent.com/52087100/69972450-652f3f80-1500-11ea-93b0-c9a652622840.png)
 
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
