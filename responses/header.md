@@ -4,15 +4,15 @@
 
 ## Introdução
 
-Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o Header
+Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o [**Header**](https://vtex.io/docs/components/all/vtex.store-header/)
 
 O Header tem um papel muito importante na página inicial da loja, pois ele é o responsável por abrigar outros blocos essenciais para a navegação do usuário, como a barra de busca e o menu. 
-
+x
 FOTO Header (galc)
 
 ## Configurando o Header
 
-O bloco do Header é responsivo, ou seja, ele pode ser configurado para se adaptar a diferentes dispositivos, como desktop e mobile. 
+O bloco do Header é **responsivo**, ou seja, ele pode ser configurado para se adaptar a diferentes dispositivos, como desktop e mobile. 
 
 Abaixo, podemos conferir um exemplo de implementação:
 
@@ -48,7 +48,7 @@ Agora, vamos configurar do zero um Header para a página inicial da sua loja, co
 
 Para a implementação do Header com todos esses blocos, levaremos em consideração o código exemplo apresentado acima. Assim, será possível construir um Header responsivo, adptável para usuários de desktop e mobile. 
 
-1. Copie o código acima para usá-lo no seu tema;
+1. Diferentemente do comportamento de outros blocos, o Header pode ser adicionado em qualquer template do código do seu tema, pois de toda forma ele será renderizado em todas as páginas da loja. Por isso, copie o código acima e cole no arquivo `jsonc` desejado por você; 
 2. Declare o seguinte bloco em seguida:
 
 ```
@@ -60,7 +60,7 @@ Para a implementação do Header com todos esses blocos, levaremos em considera�
 ]
 },
 ```
-3. Com base no bloco acima, construa o `header-row#main` com as seguintes children: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`;
+3. Com base no bloco acima, construa o `header-row#main` com as seguintes *children*: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`;
 4. Ainda no bloco `header-row#main`, declare as props `inverted`, `sticky` e `fullWidth` com os valores `true`, `true` e `false`, respectivamente;
 5. Copie e cole o código abaixo para configurar o bloco header para mobile, da mesma forma que fizemos para o desktop anteriormente:
 
@@ -122,6 +122,7 @@ Para a implementação do Header com todos esses blocos, levaremos em considera�
 8. Seguindo a recipe sobre [**customizar ícones de loja**](https://vtex.io/docs/recipes/style/customizing-your-stores-icons), substitua o ícone padrão usado na barra de busca e no carrinho pelos exemplificados abaixo.
 
 - Novo ícone da barra de busca:
+
  ```
  <path fill="currentColor" d="M4,13H1c-0.552,0-1-0.448-1-1v0c0-0.552,0.448-1,1-1h3V13z"></path> <path fill="currentColor" d="M15,3H1C0.448,3,0,2.552,0,2v0c0-0.552,0.448-1,1-1h14c0.552,0,1,0.448,1,1v0C16,2.552,15.552,3,15,3z"></path> <path fill="currentColor" d="M4,8H1C0.448,8,0,7.552,0,7v0c0-0.552,0.448-1,1-1h3V8z"></path> <path fill="currentColor" d="M15.707,13.293l-2.274-2.274C13.785,10.424,14,9.74,14,9c0-2.206-1.794-4-4-4S6,6.794,6,9 s1.794,4,4,4c0.74,0,1.424-0.215,2.019-0.567l2.274,2.274L15.707,13.293z M10,11c-1.103,0-2-0.897-2-2s0.897-2,2-2s2,0.897,2,2 S11.103,11,10,11z"></path>
  ```
@@ -135,6 +136,4 @@ Para a implementação do Header com todos esses blocos, levaremos em considera�
 Ao concluir o passo 8, os novos ícones de barra de busca e carrinho devem estar renderizados na sua loja da seguinte forma:
 
 ![new-store-icons](https://user-images.githubusercontent.com/52087100/69972450-652f3f80-1500-11ea-93b0-c9a652622840.png)
-
-
 

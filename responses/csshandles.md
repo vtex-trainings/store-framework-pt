@@ -1,4 +1,4 @@
-# CSS Handles e o poder da customização de componentes
+# CSS Handles e o poder da customização de blocos
 
 **BRANCH:** css-handles
 
@@ -6,7 +6,7 @@
 
 Dando uma rápida olhada na sua loja atual, você conseguirá perceber que todos os componentes possuem estilos parecidos, mesmo que nenhuma customização tenha sido feita por você.  
 
-Todos eles, incluindo o Info Card recém configurado, compartilham valores pré-estabelecidos para fonte, cor de fundo, cor principal, formato dos botões, etc.
+Todos eles, incluindo o Info Card recém configurado, compartilham **valores pré-estabelecidos** para fonte, cor de fundo, cor principal, formato dos botões, etc.
 
 Isso se deve ao `style.json`,  arquivo responsável por declarar valores genéricos de customização para toda loja do Store Framework. 
 
@@ -21,8 +21,8 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
 
 ```
 .{CSSHandle} {  
-{ClasseDeCSS1}: {ValorDesejado};
-{ClasseDeCSS2}: {ValorDesejado};  
+{PropriedadeDeCSS}: {ValorDesejado};
+{PropriedadeDeCSS}: {ValorDesejado};  
 }
 ```
 3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{AppName})`. 
@@ -59,9 +59,9 @@ border: transparent;
 ## Atividade
 
 1. Copie o código acima para usá-lo no arquivo CSS do seu tema, seguindo a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) sobre customizações de loja por CSS;
-2. Com base nos Handles do [Info Card](https://vtex.io/docs/components/all/vtex.store-components/info-card), defina a altura (`height`) de todo componente para `450px`;
+2. Com base nos Handles do [**Info Card**](https://vtex.io/docs/components/all/vtex.store-components/info-card), defina a altura (`height`) de todo componente para `450px`;
 3. Mude a cor do título do componente para `black`; 
-4. Tirar o negrito do título, diminuindo o peso da sua fonte para `200`;
+4. Tire o negrito do título, diminuindo o peso da sua fonte para `200`;
 5. Mude a cor de fundo do botão durante o hover para `white`. 
 
 
