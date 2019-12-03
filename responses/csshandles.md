@@ -69,7 +69,7 @@ background-color: blue;
 border: transparent;
 }
 ```
-Observe o efeito atingido linkando sua app.
+Você pode conferir o efeito das mudanças feitas por você executando o comando `vtex link`.
 
 Em seguida, vamos adicionar um estilo específico para o infocard Vintage.  Para começar, adicione a prop `blockClass` no `info-card#button-right` como mostrado abaixo:
 
