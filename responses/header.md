@@ -7,7 +7,7 @@
 Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o [**Header**](https://vtex.io/docs/components/all/vtex.store-header/)
 
 O Header tem um papel muito importante na página inicial da loja, pois ele é o responsável por abrigar outros blocos essenciais para a navegação do usuário, como a barra de busca e o menu. 
-
+x
 FOTO Header (galc)
 
 ## Configurando o Header
@@ -60,7 +60,7 @@ Para a implementação do Header com todos esses blocos, levaremos em considera�
 ]
 },
 ```
-3. Com base no bloco acima, construa o `header-row#main` com as seguintes children: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`;
+3. Com base no bloco acima, construa o `header-row#main` com as seguintes *children*: `logo`, `header-spacer`, `search-bar`, `minicart` e `login`;
 4. Ainda no bloco `header-row#main`, declare as props `inverted`, `sticky` e `fullWidth` com os valores `true`, `true` e `false`, respectivamente;
 5. Copie e cole o código abaixo para configurar o bloco header para mobile, da mesma forma que fizemos para o desktop anteriormente:
 
