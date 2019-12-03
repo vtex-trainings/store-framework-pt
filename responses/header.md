@@ -1,4 +1,4 @@
-# Header
+# Cabeçalho da loja
 
 **BRANCH:** header
 

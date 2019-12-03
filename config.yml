@@ -53,7 +53,7 @@ steps:
       - type: createIssue
         title: 'Hello, World!'
         body: helloworld.md
-  - title: Hello, World!
+  - title: 'Hello, World!'
     description: Componha e referencie seu primeiro bloco no Store Framework
     event: status
     link: '{{ repoUrl }}/issues/4'
@@ -391,10 +391,10 @@ steps:
         issue: 22
         data:
           nextIssue: '23'
-          nextName: Criando a navegação da sua loja
+          nextName: Menu
       - type: createIssue
-        title: Criando a navegação da sua loja
-        body: step-20.md
+        title: Menu
+        body: menu.md
   - title: Menu
     description: Criando a navegação da sua loja 
     event: status
@@ -412,7 +412,7 @@ steps:
           nextName: Menu avançado com flex layout
       - type: createIssue
         title: Menu avançado com flex layout
-        body: step-21.md
+        body: menu-flex.md
   - title: Menu avançado com flex layout
     description: Enriquecendo o menu com outros blocos 
     event: status
@@ -427,9 +427,9 @@ steps:
         issue: 24
         data:
           nextIssue: '25'
-          nextName: Continua
+          nextName: Rodapé
       - type: createIssue
-        title: Continua
+        title: Rodapé
         body: footer.md
   - title: Rodapé 
     description: Definindo blocos de rodapé

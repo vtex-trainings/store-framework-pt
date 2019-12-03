@@ -1,4 +1,4 @@
-# Usando estilos
+# Estilos globais
 
 **BRANCH:** styles
 

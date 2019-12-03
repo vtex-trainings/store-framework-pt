@@ -1,4 +1,4 @@
-# Slider Layout: criando sliders de conteúdo
+# Carrossel de blocos
 
 **BRANCH:** slider
 

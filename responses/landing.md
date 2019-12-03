@@ -1,4 +1,4 @@
-# Criando uma landing de busca
+# Construindo uma landing customizada de busca
 
 **BRANCH:** searchlanding
 

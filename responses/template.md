@@ -1,4 +1,4 @@
-# Landing Page: criando templates para páginas customizadas
+# Criando templates customizados
 
 **BRANCH:** template
 

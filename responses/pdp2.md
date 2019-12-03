@@ -1,4 +1,4 @@
-# Evoluindo a PdP
+# Evoluindo sua página de produto (pdp)
 
 **BRANCH:** pdp2
 

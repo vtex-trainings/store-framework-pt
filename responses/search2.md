@@ -1,4 +1,4 @@
-# Ajustando layout da search
+# Ajustando layout da página de busca
 
 **BRANCH:** search2
 

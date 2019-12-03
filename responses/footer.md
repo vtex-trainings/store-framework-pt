@@ -1,4 +1,4 @@
-# Footer
+# Rodapé
 
 **BRANCH:** footer
 

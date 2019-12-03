@@ -1,4 +1,4 @@
-# Shelf - A prateleira de produtos
+# Prateleira de produtos
 
 **BRANCH:** shelf
 

@@ -1,4 +1,4 @@
-# Finalizando a página de produto
+# Finalizando sua pdp
 
 **BRANCH:** pdp3
 

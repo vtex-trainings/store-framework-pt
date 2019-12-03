@@ -1,4 +1,4 @@
-# Tab Layout: criando um layout com navegação por abas
+# Layout de abas
 
 **BRANCH:** tablayout
 

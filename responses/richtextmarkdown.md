@@ -1,4 +1,4 @@
-# Rich text avançado: explorando o poder do Markdown para criar textos
+# Explorando o poder do rich text
 
 **BRANCH:** richtextmarkdown
 

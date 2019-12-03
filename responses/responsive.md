@@ -1,4 +1,4 @@
-# Rich Text 
+# Tornando seu conteúdo responsivo
 
 **BRANCH:** rich-text-image
 
