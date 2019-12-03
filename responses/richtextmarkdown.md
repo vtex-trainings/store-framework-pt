@@ -35,7 +35,7 @@ A prop `text` aceita o formato de markdown. Portanto, se você deseja escrever s
 
 Outras propriedades do componente `rich-text` podem ser encontrados na [documentação oficial do Store Framework](https://vtex.io/docs/components/all/vtex.rich-text/)
 
-## Tarefa
+## Atividade
 
 1. Dentro do arquivo `about-us.jsonc`, troque o texto da `tab-list.item#home1` para que apareça um "Sobre" na primeira aba.
 2. No conteúdo `rich-text` associado a essa aba, crie um texto que contenha um "Quem somos" como um título h2 e 3 parágrafos.
@@ -51,3 +51,6 @@ Nullam ligula dolor, vehicula ut nulla ut, tempus lobortis arcu. Morbi id blandi
 Curabitur ac mauris sed tortor bibendum euismod. Cras eu volutpat neque. Maecenas at massa eu lacus maximus lacinia. Nunc vehicula diam ac lorem bibendum eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vehicula vehicula nisi vel efficitur. Phasellus vitae pretium magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sodales nunc in libero congue condimentum. Mauris libero neque, cursus nec ipsum ut, gravida maximus libero. In rhoncus leo non ante porta mattis id sed erat. Etiam rhoncus sit amet mi sed gravida. Aliquam scelerisque accumsan malesuada. Praesent ante leo, gravida at tristique at, venenatis non purus. Proin elementum ante quis viverra maximus. Praesent lobortis scelerisque mauris, et eleifend nisi varius in.
 ```
 
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

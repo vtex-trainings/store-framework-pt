@@ -64,4 +64,8 @@ border: transparent;
 4. Tire o negrito do título, diminuindo o peso da sua fonte para `200`;
 5. Mude a cor de fundo do botão durante o hover para `white`. 
 
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+
 

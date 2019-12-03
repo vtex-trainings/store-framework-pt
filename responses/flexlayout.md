@@ -75,3 +75,7 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
     }
   }
 ```
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

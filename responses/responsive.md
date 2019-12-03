@@ -68,7 +68,7 @@ Ao interpretar o código acima, perceba como duas configurações de Rich Text s
 
 ## Atividade
 
-Nessa tarefa, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) e aprender a usá-lo com o componente [Image](https://vtex.io/docs/components/all/vtex.store-components/image). Tudo isso usando o Responsive Layout, é claro!
+Nessa atividade, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) e aprender a usá-lo com o componente [Image](https://vtex.io/docs/components/all/vtex.store-components/image). Tudo isso usando o Responsive Layout, é claro!
 
 IMAGEM QUE QUEREMOS  (GALC)
 
@@ -101,3 +101,7 @@ IMAGEM QUE QUEREMOS  (GALC)
 ```
 
 5. Analisando as props do componente Image, defina a largura máxima das duas imagens como `100%`.
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

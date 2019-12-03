@@ -2,7 +2,7 @@
 
 O **Toolbelt** é a **linha de comando** do VTEX IO. É ele quem permite a realização de qualquer atividade na plataforma, como criar um novo workspace de desenvolvimento, fazer login em uma conta VTEX, desenvolver novas apps, gerenciar as já existentes, etc.
 
-Uma vez que o Toolbelt é quem estabelece a comunicação entre o desenvolvedor e a plataforma, você precisará dele para conseguir realizar todas as tarefas propostas durante o curso do Store Framework. 
+Uma vez que o Toolbelt é quem estabelece a comunicação entre o desenvolvedor e a plataforma, você precisará dele para conseguir realizar todas as atividades propostas durante o curso do Store Framework. 
 
 Por isso, o seu primeiro passo é instalar a linha de comando do VTEX IO no seu computador.   
 
@@ -24,3 +24,7 @@ Workspaces nada mais são do que espaços de trabalho na plataforma. O último p
 Você conseguirá acessar a sua versão de loja em desenvolvimento a partir do link `https://{workspace}--{conta}.myvtex.com`, em que `{workspace}` é o nome do workspace de desenvolvimento já criado e `{conta}` o nome da conta em que você está trabalhando. 
 
 Com o Toolbelt instalado e um workspace de desenvolvimento criado, você está pronto pra começar o curso! 
+
+----
+
+## Para continuar clique em **Close issue**

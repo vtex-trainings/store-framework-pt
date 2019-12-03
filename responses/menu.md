@@ -92,3 +92,7 @@ Nesta atividade, entenderemos melhor sobre a configuração do Menu e a hierarqu
 
 8. Construa agora o Menu secundário de *Small Appliances*. Assim como feito para *Major Appliance*, você deve definir `vertical` como valor da prop `orientation` e configurar os seguintes *Menu Items* na lista de children do bloco:  `menu-item#mixers`, `menu-item#toasters` e `menu-item#coffee`;
 9. Com base nos passos anteriores, faça o mesmo para *Eletronics*: crie o seu Submenu (`vtex.menu@2.x:submenu#electronics`) e Menu secundário. Depois, construa esse último com o mesmo valor de prop (`vertical`) e configure o os seguintes *Menu Items* na lista de children do bloco: `menu-item#cameras`, `menu-item#laptops` e `menu-item#tvs`. 
+
+----
+
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

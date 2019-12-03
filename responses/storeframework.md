@@ -28,4 +28,4 @@ Ambientes de trabalho protegidos que representam uma cópia bem próxima do est�
 
 ----
 
-### Para continuar clique em **Close issue**
+## Para continuar clique em **Close issue**

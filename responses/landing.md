@@ -45,7 +45,9 @@ A query schema é uma das [props do search result custom query](https://vtex.io/
 - Use como *query* "Blue Top Retro Camera"
 - Use como mapField `ft`
 
+----
 
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
 
 
 
