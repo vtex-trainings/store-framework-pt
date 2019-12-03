@@ -17,10 +17,36 @@ $ yarn global add vtex
 
 Você pode executar o comando `vtex` para confirmar se a instalação do Toolbelt ocorreu como esperado. 
 
-3. Execute `vtex use {workspace}`, substituindo `{workspace}` pelo nome desejado por você.
+Com a instalação concluída, o seu próximo passo deve ser *logar* em uma conta VTEX. 
 
-Workspaces nada mais são do que espaços de trabalho na plataforma. O último passo irá fazer com que um workspace de desenvolvimento seja criado para você, permitindo que as suas configurações não alterem a versão final pública da loja. 
+## Fazendo login 
 
-Você conseguirá acessar a sua versão de loja em desenvolvimento a partir do link `https://{workspace}--{conta}.myvtex.com`, em que `{workspace}` é o nome do workspace de desenvolvimento já criado e `{conta}` o nome da conta em que você está trabalhando. 
+1. Execute o comando `vtex login {contaVTEX}` no seu terminal. 
 
-Com o Toolbelt instalado e um workspace de desenvolvimento criado, você está pronto pra começar o curso! 
+Lembre-se que {contaVTEX} deve ser substituído pelo nome real da conta em que você deseja trabalhar.
+
+2. Uma vez *logado*, execute o comando `vtex whoami` para confirmar em qual conta e workspace você está. 
+
+Workspaces nada mais são do que espaços de trabalho. Na plataforma do VTEX IO, as contas possuem três tipos principais de workspaces: [master](https://vtex.io/docs/recipes/store/promoting-a-workspace-to-master), de [produção](https://vtex.io/docs/recipes/store/creating-a-production-workspace) e desenvolvimento. 
+
+O próximo passo irá fazer com que um workspace de desenvolvimento seja criado para você, permitindo que as configurações feitas nas atividades do curso não alterem a versão final pública da loja. 
+
+## Criando um workspace de desenvolvimento
+
+1. Execute `vtex use {workspace}`, substituindo `{workspace}` pelo nome desejado.
+
+Com isso, você conseguirá acessar a sua versão de loja em desenvolvimento a partir do link `https://{workspace}--{conta}.myvtex.com`. 
+
+Lembre-se que `{workspace}` deve ser substituído pelo nome do workspace de desenvolvimento já criado e `{conta}` pelo nome da conta em que você está trabalhando.
+
+A partir desse endereço, qualquer alteração feita por você no workspace poderá ser conferida em tempo real através do comando `vtex link`. 
+
+## Linkando seus arquivos locais
+
+Ao executar `vtex link`, os arquivos locais do seu computador são automaticamente sincronizados com a plataforma do VTEX IO. Isso significa que qualquer alteração feita e salva por você será refletida no workspace e na conta em que você está *logado*. 
+
+---
+
+Com todas as configurações básicas concluídas, você está pronto pra começar o curso! 
+
+## Para continuar clique em Close Issue
