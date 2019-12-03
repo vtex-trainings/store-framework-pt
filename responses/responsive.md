@@ -4,7 +4,7 @@
 
 ## Introdução
 
-A página inicial de um e-commerce é sempre o primeiro contato do cliente com a marca. Por isso, é comum que o lojista queira estabelecer uma comunicação direta com os seus usuários nesse momento estratégico da navegação. 
+A página inicial de um e-commerce é sempre o primeiro contato do cliente com a marca. Por isso, é comum que o lojista queira estabelecer uma **comunicação direta** com os seus usuários nesse momento estratégico da navegação. 
 
 No Store Framework, existem alguns componentes que atendem a esse cenário, como o [Info Card](https://vtex.io/docs/components/all/vtex.store-components/info-card) visto nos passos anteriores e o [**Rich Text**](https://vtex.io/docs/components/all/vtex.rich-text/). 
 
@@ -30,7 +30,7 @@ Como falado anteriormente, o uso de Markdown permite flexibilidade ao componente
 
 Por exemplo: a frase acima ( `# Your Coffee, Your Way \n ### New Coffee Makers Collection` ) pode usar um markdown adequado para desktop, mas não necessariamente para mobile (cujo tamanho de tela é menor). 
 
-Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, devemos usar o [Responsive Layout](https://vtex.io/docs/components/layout/vtex.responsive-layout):
+Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, devemos usar o [**Responsive Layout**](https://vtex.io/docs/components/layout/vtex.responsive-layout):
 
 ```
 {
