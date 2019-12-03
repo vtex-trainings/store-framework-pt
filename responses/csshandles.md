@@ -1,6 +1,6 @@
 # CSS Handles e o poder da customização de blocos
 
-**BRANCH:** csshandles
+## **BRANCH:** csshandles
 
 ## Introdução
 
@@ -21,8 +21,8 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
 
 ```
 .{CSSHandle} {  
-{PropriedadeDeCSS}: {ValorDesejado};
-{PropriedadeDeCSS}: {ValorDesejado};  
+    {PropriedadeDeCSS}: {ValorDesejado};
+    {PropriedadeDeCSS}: {ValorDesejado};  
 }
 ```
 3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{AppName})`. 
@@ -31,9 +31,8 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
 
 ```
 .{CSSHandle}--{blockClass} {  
-{PropriedadeDeCSS}: {ValorDesejado};
-{PropriedadeDeCSS}: {Val
-orDesejado};  
+    {PropriedadeDeCSS}: {ValorDesejado};
+    {PropriedadeDeCSS}: {ValorDesejado};  
 }
 ```
 
@@ -54,15 +53,15 @@ De acordo com a descrição dos CSS Handles, conseguimos implementar um exemplo 
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
-color: white;
-background-color: gray;
-border: transparent;
+    color: white;
+    background-color: gray;
+    border: transparent;
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-color: gray;
-background-color: blue;
-border: transparent;
+    color: gray;
+    background-color: blue;
+    border: transparent;
 }
 ```
 Você pode conferir o efeito das mudanças feitas por você executando o comando `vtex link`.
@@ -88,7 +87,7 @@ Em seguida, vamos adicionar um estilo específico para o infocard Vintage.  Para
 E então declare uma `background-color` para este infocard específico no seu arquivo de css:
 
 ```
-  .infoCardContainer--vintage {
+ .infoCardContainer--vintage {
     background-color: #EDCFD1
 }
 ```
