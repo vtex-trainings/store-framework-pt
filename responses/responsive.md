@@ -18,11 +18,11 @@ Da mesma forma que o "*Hello, world!*" foi feito, podemos montar um exemplo de i
 
 ```
 "rich-text": {
-"props": {
-"text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-"textPosition": "CENTER",
-"textAlignment": "CENTER"
-}
+  "props": {
+    "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER"
+  }
 },
 ```
 
@@ -32,36 +32,41 @@ Por exemplo: a frase acima ( `# Your Coffee, Your Way \n ### New Coffee Makers C
 
 Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, devemos usar o [**Responsive Layout**](https://vtex.io/docs/components/layout/vtex.responsive-layout):
 
+TODO melhorar a instanciação do bloco (`testing`)
 ```
 {
-"store.home": {
-"responsive-layout.desktop#testing",
-"responsive-layout.mobile#testing"
-]
-},
+  "store.home": {
+    blocks: [
+      ...
+      "responsive-layout.desktop#testing",
+      "responsive-layout.mobile#testing"
+    ]
+  },
+  ...
 
-"responsive-layout.desktop#testing": {
-"children": ["rich-text#desktop"]
-},
-"responsive-layout.mobile#testing": {
-"children": ["rich-text#mobile"]
-},
+  "responsive-layout.desktop#testing": {
+    "children": ["rich-text#desktop"]
+  },
 
-"rich-text#desktop": {
-"props": {
-"text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
-"textPosition": "CENTER",
-"textAlignment": "CENTER"
+  "responsive-layout.mobile#testing": {
+    "children": ["rich-text#mobile"]
+  },
+
+  "rich-text#desktop": {
+    "props": {
+      "text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "rich-text#mobile": {
+    "props": {
+      "text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+  }
 }
-},
-
-"rich-text#mobile": {
-"props": {
-"text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
-"textPosition": "CENTER",
-"textAlignment": "CENTER"
-}
-},
 ```
 
 Ao interpretar o código acima, perceba como duas configurações de Rich Text são construídas a partir do uso de `responsive-layout.desktop#testing` e `responsive-layout.mobile#testing`. 
@@ -70,7 +75,7 @@ Ao interpretar o código acima, perceba como duas configurações de Rich Text s
 
 Nessa atividade, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) e aprender a usá-lo com o componente [Image](https://vtex.io/docs/components/all/vtex.store-components/image). Tudo isso usando o Responsive Layout, é claro!
 
-IMAGEM QUE QUEREMOS  (GALC)
+TODO IMAGEM QUE QUEREMOS  (GALC)
 
 1. Copie o código acima para usá-lo na página inicial do seu tema;
 2. No Rich Text mobile, mude o markdown da primeira frase para `h3` e da segunda para `h4`;
@@ -79,25 +84,23 @@ IMAGEM QUE QUEREMOS  (GALC)
 
 ```
 "image#desktop": {
-"props": {
-"src": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
-"link": {
-"url": "/small-appliances/coffee-makers"
-} ,
-"alt": "Coffee Makers Collection",
-}
+  "props": {
+    "src": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
+    "link": {
+    "url": "/small-appliances/coffee-makers"
+    } ,
+    "alt": "Coffee Makers Collection",
+  }
 },
 
 "image#mobile": {
-"props": {
-"src": "https://images.unsplash.com/photo-1560108878-8147b6c871d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80",
-"link": {
-"url": "/small-appliances/coffee-makers"
-} ,
-
-"alt": "Coffee Makers Collection",
+  "props": {
+    "src": "https://images.unsplash.com/photo-1560108878-8147b6c871d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80",
+    "link": {
+    "url": "/small-appliances/coffee-makers"
+    "alt": "Coffee Makers Collection",
+  }
 }
-},
 ```
 
 5. Analisando as props do componente Image, defina a largura máxima das duas imagens como `100%`.

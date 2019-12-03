@@ -22,6 +22,8 @@ Analisando a [documentação](https://vtex.io/docs/components/layout/vtex.flex-l
 
 Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *childrens*: um `info-card` e um `rich-text`:
 
+TODO trabalhar continuidade desse step com os anteriores
+
 ```
 {
   "store.home": {
@@ -42,7 +44,6 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
       "headline": "Black Friday",
       "callToActionText": "Subscribe",
       "textPosition": "center"
-
     }
   },
   "rich-text": {
@@ -56,13 +57,13 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
 ## Atividade
 
 1. Copie o código acima;
-2. Faça com que o `rich-text` não apareça mais como componente do `flex-layout.row`;
-3. Adicione um `flex-layout.col` como *children* do `flex-layout.row`;
+2. Faça com que o `rich-text` não apareça mais como bloco do `flex-layout.row`;
+3. Adicione um `flex-layout.col` como filho(*children*) do `flex-layout.row`;
 4. Dentro do `flex-layout.col`, declare dois componentes `image` como `image#electronics` e `image#major-appliance`
-5. Declare as seguintes props abaixo do objeto do `flex-layout.col`:
+5. Defina os blocos `image` com as seguintes props:
 
 ```
-"image#electronics": {
+  "image#electronics": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
       "maxWidth": "100%"

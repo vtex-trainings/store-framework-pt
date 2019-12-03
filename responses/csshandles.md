@@ -1,6 +1,6 @@
 # CSS Handles e o poder da customização de blocos
 
-**BRANCH:** css-handles
+**BRANCH:** csshandles
 
 ## Introdução
 
@@ -25,7 +25,7 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
 {PropriedadeDeCSS}: {ValorDesejado};  
 }
 ```
-3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{AppName})`. 
+3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{componentName})`. 
 
 ## Customizando o Info Card 
 
@@ -57,6 +57,10 @@ border: transparent;
 ```
 
 ## Atividade
+
+TODO falta especificar em que arquivo será feita a mudança
+TODO falta imagem dizendo qual o resultado esperado
+TODO talvez seja necessário mais um step, usando blockClass (talvez iframe?)
 
 1. Copie o código acima para usá-lo no arquivo CSS do seu tema, seguindo a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) sobre customizações de loja por CSS;
 2. Com base nos Handles do [**Info Card**](https://vtex.io/docs/components/all/vtex.store-components/info-card), defina a altura (`height`) de todo componente para `450px`;

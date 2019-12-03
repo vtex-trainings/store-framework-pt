@@ -58,7 +58,10 @@ Ficamos, assim, com as seguintes props:
 
 ## Instanciando blocos
 
-Pode ser que você tenha se perguntado: "E se eu quiser ter dois Info Cards com aparências diferentes?". Isso é possível através da **instanciação de blocos**.
+Pode ser que você tenha se perguntado: 
+> "E se eu quiser ter dois Info Cards com aparências diferentes?". 
+
+Isso é possível através da **instanciação de blocos**.
 
 Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias deles e definir aparências diferentes para um mesmo tipo de bloco. Para fazer isso, basta colocar um `#` com um nome **arbitrário** e que faça sentido depois da definição de cada bloco, por exemplo:
 
@@ -95,6 +98,7 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 
 Copie o código acima, crie um `info-card#button` depois do `info-card#link`, que tenha um botão e tenha o texto posicionado na direita, como mostrado abaixo:
 
+TODO Mudar imagem
 ![image](https://user-images.githubusercontent.com/18701182/68890571-e95e8600-06fd-11ea-8b38-ce2752efc6b6.png)
 
 ----

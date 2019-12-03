@@ -18,9 +18,11 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 {
   "store.home": {
     "blocks": [
+      ...,
       "shelf"
     ]
   },
+  ...
   "shelf": {
     "blocks": ["product-summary.shelf"],
     "props": {
@@ -56,7 +58,7 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 
 1. Declare um componente `shelf` no `store.home`
 2. Dentro da pasta blocks, crie um arquivo `shelf.jsonc`
-3. No arquivo `shelf.jsonc`, declare o objeto `shelf` conforme o exemplo acima
+3. No arquivo `shelf.jsonc`, defina o bloco `shelf` conforme o exemplo acima
 4. Altere o número máximo de itens exibidos para `8`
 5. Altere o número de itens por página para `4`
 

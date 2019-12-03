@@ -16,9 +16,9 @@ Olhando a [documentação](https://vtex.io/docs/app/vtex.rich-text#blocks-api) d
 
 ## Começando
 
-Vamos então começar a personalizar a *home page*. No seu tema é possível encontrar um arquivo chamado `blocks.jsonc` na pasta `store/`. Neste arquivo é determinada a organização dos blocos que se deseja usar. A linguagem para composição do layout é simples e baseada em [JSON](http://www.json.org/json-pt.html).
+Vamos então começar a personalizar a *home page*. No seu tema é possível encontrar um arquivo chamado `home.jsonc` na pasta `store/`. Neste arquivo é determinada a organização dos blocos que se deseja usar. A linguagem para composição do layout é simples e baseada em [JSON](http://www.json.org/json-pt.html).
 
-No `blocks.jsonc` se ver um bloco que é padrão em todos os temas: `store.home`. Este bloco determina os blocos filhos que estarão expostos na *home page*. 
+No `home.jsonc` se ver um bloco que é padrão em todos os temas: `store.home`. Este bloco determina os blocos filhos que estarão expostos na *home page*. 
 
 ```
   {
@@ -31,7 +31,7 @@ No `blocks.jsonc` se ver um bloco que é padrão em todos os temas: `store.home`
   }
 ```
 
-Vamos então incluir o Rich Text em seu corpo:
+Vamos então **usar** o Rich Text em seu corpo:
 
 ```
   {
@@ -54,10 +54,10 @@ A definição de blocos deve ser sempre feita fora de qualquer outro bloco, no n
   {
     "store.home": { 
       "blocks": [
-        "rich-text" <----- Aqui o bloco está dentro de outro 
+        "rich-text" <----- Aqui o bloco está dentro de outro, sendo usado
       ]
     },
-    "rich-text": { <----- Aqui estamos na raiz
+    "rich-text": { <----- Aqui ele está na raiz
     }
   }
 ```

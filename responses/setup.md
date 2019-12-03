@@ -25,6 +25,8 @@ Você conseguirá acessar a sua versão de loja em desenvolvimento a partir do l
 
 Com o Toolbelt instalado e um workspace de desenvolvimento criado, você está pronto pra começar o curso! 
 
+TODO Falar sobre link de aplicação
+ 
 ----
 
 ## Para continuar clique em **Close issue**

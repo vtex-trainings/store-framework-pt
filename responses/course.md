@@ -8,7 +8,7 @@ No começo do curso você recebeu um repositório com código mínimo e queremos
 
 ## Introdução
 
-O curso é divido em steps, ao começo de cada passo você receberá textos de input, como você já recebeu neste step e no anterior. Você deve ler todo o conteúdo apresentado e receberá, ao fim, uma pequena atividade.
+O curso é divido em steps, ao começo de cada step você receberá textos de input, como você já recebeu neste e no anterior. Você deve ler todo o conteúdo apresentado e receberá, ao fim, uma pequena atividade.
 
 Para que possa enviar suas respostas faça os seguintes passos:
 
@@ -62,14 +62,13 @@ Quando terminar de fazer todo o fluxo, nosso robô responderá se você consegui
 
 Logo em seguida, você receberá uma outra resposta que indicará os próximos passos:
 
-
 <img src="https://user-images.githubusercontent.com/18701182/68778199-97d8cd00-0611-11ea-9383-856cf735c094.png" width="450" />
 
 >Se você é familiarizado com o git, todo esse fluxo equivale a **criar uma branch** com um **nome predefinido**, fazer **commit** das mudanças e dar **push**
 
 ## Tentando novamente
 
-Ao longo do curso pode acontecer de você não mandar a resposta certa na primeira tentativa. Se isso acontecer você receberá uma mensagem de feedback que indicará qual teste você falhou e porque você falhou:
+Ao longo do curso pode acontecer de você não mandar a resposta certa na primeira tentativa. Se isso acontecer você receberá uma mensagem de feedback que indicará qual teste você falhou e o por quê da falha:
 
 <img src="https://user-images.githubusercontent.com/18701182/68778030-56e0b880-0611-11ea-806b-d5232b6e3bd6.png" width="450" />
 
