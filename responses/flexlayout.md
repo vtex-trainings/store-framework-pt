@@ -37,10 +37,10 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
   },
   "info-card": {
     "props": {
-      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
       "isFullModeStyle": true,
-      "headline": "Black Friday",
-      "callToActionText": "Subscribe",
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
       "textPosition": "center"
 
     }
@@ -55,7 +55,11 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
 
 ## Atividade
 
-1. Copie o código acima;
+Vamos montar um flex layout como o da imagem abaixo:
+
+![](https://appliancetheme.vteximg.com.br/arquivos/flex-layout-exercise.png)
+
+1. Adicione um bloco `flex-layout.row` ao template `store.home` e, depois, copie e cole o código de acima a partir da declaração do bloco `flex-layout.row` com seus children;
 2. Faça com que o `rich-text` não apareça mais como componente do `flex-layout.row`;
 3. Adicione um `flex-layout.col` como *children* do `flex-layout.row`;
 4. Dentro do `flex-layout.col`, declare dois componentes `image` como `image#electronics` e `image#major-appliance`
