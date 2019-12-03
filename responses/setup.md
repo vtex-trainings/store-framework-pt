@@ -48,3 +48,5 @@ Ao executar `vtex link`, os arquivos locais do seu computador são automaticamen
 ---
 
 Com todas as configurações básicas concluídas, você está pronto pra começar o curso! 
+
+## Para continuar clique em Close Issue
