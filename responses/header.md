@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o [Header](https://vtex.io/docs/components/all/vtex.store-header/)
+Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o [**Header**](https://vtex.io/docs/components/all/vtex.store-header/)
 
 O Header tem um papel muito importante na página inicial da loja, pois ele é o responsável por abrigar outros blocos essenciais para a navegação do usuário, como a barra de busca e o menu. 
 
@@ -12,7 +12,7 @@ FOTO Header (galc)
 
 ## Configurando o Header
 
-O bloco do Header é responsivo, ou seja, ele pode ser configurado para se adaptar a diferentes dispositivos, como desktop e mobile. 
+O bloco do Header é **responsivo**, ou seja, ele pode ser configurado para se adaptar a diferentes dispositivos, como desktop e mobile. 
 
 Abaixo, podemos conferir um exemplo de implementação:
 
