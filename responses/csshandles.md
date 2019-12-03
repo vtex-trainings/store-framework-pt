@@ -53,7 +53,7 @@ De acordo com a descrição dos CSS Handles, conseguimos implementar um exemplo 
     padding: 24px;
 }
 
-.infoCardContainer--vintage: {
+.infoCardContainer--vintage {
     background-color: #EDCFD1;
 }
 
