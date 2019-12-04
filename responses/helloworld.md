@@ -140,7 +140,7 @@ Para posicioná-lo ao centro, podemos adicionar `textPosition` [(*Choose in whic
 
 Defina um `rich-text` na sua home e crie um texto "Hello, World!" em **negrito** e **posicionado à direita**. 
 
-<img src="https://user-images.githubusercontent.com/18701182/68888503-d77ae400-06f9-11ea-967b-662fe1dac644.png" width="150" />
+<img src="https://user-images.githubusercontent.com/12139385/70143376-2e7d3480-167a-11ea-8727-2bc6a9422f21.png" width="150" />
 
 ----
 
