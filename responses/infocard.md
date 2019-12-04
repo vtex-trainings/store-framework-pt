@@ -98,9 +98,13 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 Copie o código acima, crie um `info-card#button-left` depois do `info-card#button-right`. Este infocard deve possuir:
 
  1. O título `Shining chrome`
+ 
  2. Um call to action do tipo link com o texto `Go to Collection` no lugar do botao
+ 
  3. A imagem `https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png`
+ 
  4. O subtítulo `Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.`
+ 
  5. O texto posicionado à esquerda.
  
 
