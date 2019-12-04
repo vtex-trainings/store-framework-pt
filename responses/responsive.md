@@ -77,7 +77,7 @@ Nessa tarefa, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.
 
 ### Mobile:
 
-![image](https://user-images.githubusercontent.com/12139385/70152185-84a6a380-168b-11ea-861e-9282ac024936.png)
+![image](https://user-images.githubusercontent.com/12139385/70152883-bf5d0b80-168c-11ea-81e0-25be5ed3d5ce.png)
 
 
 1. Copie o código acima para usá-lo na página inicial do seu tema;
