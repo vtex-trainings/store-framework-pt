@@ -1,6 +1,6 @@
 # Configurações básicas
 
-O **Toolbelt** é a **linha de comando** do VTEX IO. É ele quem permite a realização de qualquer atividade na plataforma, como criar um novo workspace de desenvolvimento, fazer login em uma conta VTEX, desenvolver novas apps, gerenciar as já existentes, etc.
+O **Toolbelt** é a ferramenta de **linha de comando** do VTEX IO. É ele quem permite a realização de qualquer atividade na plataforma, como criar um novo workspace de desenvolvimento, fazer login em uma conta VTEX, desenvolver novas apps, gerenciar as já existentes, etc.
 
 Uma vez que o Toolbelt é quem estabelece a comunicação entre o desenvolvedor e a plataforma, você precisará dele para conseguir realizar todas as tarefas propostas durante o curso do Store Framework. 
 
@@ -21,9 +21,7 @@ Com a instalação concluída, o seu próximo passo deve ser *logar* em uma cont
 
 ## Fazendo login 
 
-1. Execute o comando `vtex login {contaVTEX}` no seu terminal. 
-
-Lembre-se que {contaVTEX} deve ser substituído pelo nome real da conta em que você deseja trabalhar.
+1. Execute o comando `vtex login contaVTEX` no seu terminal, substituindo `contaVTEX` pelo nome real da conta em que você deseja trabalhar. Por exemplo, `vtex login appliancetheme`.
 
 2. Uma vez *logado*, execute o comando `vtex whoami` para confirmar em qual conta e workspace você está. 
 
@@ -33,17 +31,15 @@ O próximo passo irá fazer com que um workspace de desenvolvimento seja criado 
 
 ## Criando um workspace de desenvolvimento
 
-1. Execute `vtex use {workspace}`, substituindo `{workspace}` pelo nome desejado.
+1. Execute `vtex use nome-do-workspace`, substituindo `nome-do-workspace` pelo nome desejado. Por exemplo, `vtex use devworkspace`.
 
-Com isso, você conseguirá acessar a sua versão de loja em desenvolvimento a partir do link `https://{workspace}--{conta}.myvtex.com`. 
+### Visualizando seu workspace
 
-Lembre-se que `{workspace}` deve ser substituído pelo nome do workspace de desenvolvimento já criado e `{conta}` pelo nome da conta em que você está trabalhando.
-
-A partir desse endereço, qualquer alteração feita por você no workspace poderá ser conferida em tempo real através do comando `vtex link`. 
+Depois que seu workspace foi criado, você conseguirá acessá-lo a partir do link `https://{workspace}--{conta}.myvtex.com`, substituindo `{workspace}` e `{conta}` pelo workspace criado anteriormente e pelo nome da conta, respectivamente. Por exemplo, `https://devworkspace--appliancetheme.myvtex.com`
 
 ## Linkando seus arquivos locais
 
-Ao executar `vtex link`, os arquivos locais do seu computador são automaticamente sincronizados com a plataforma do VTEX IO. Isso significa que qualquer alteração feita e salva por você será refletida no workspace e na conta em que você está *logado*. 
+Ao executar `vtex link` a partir da pasta onde estão os arquivos do seu tema, eles passarão a ser automaticamente sincronizados com a plataforma do VTEX IO. Isso significa que qualquer alteração feita e salva por você será refletida no workspace e na conta em que você está *logado*, e poderá ser visualizada através do endereço descrito acima.
 
 ---
 
