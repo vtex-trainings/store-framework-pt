@@ -4,7 +4,7 @@
 
 ## Introdução
 
-O Store Framework é uma ferramenta *no-code* de construção de frentes de loja únicas e customizadas.
+O Store Framework é uma ferramenta *commerce low-code* de construção de frentes de loja únicas e customizadas.
 
 O fluxo de construção se dá pela customização de um **tema**, que pode ser trabalhado em diferentes **workspaces** sem que o ambiente de produção seja impactado. 
 

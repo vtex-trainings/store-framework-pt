@@ -56,10 +56,10 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
 ## Atividade
 
 1. Copie o código acima;
-2. Faça com que o `rich-text` não apareça mais como componente do `flex-layout.row`;
+2. Faça com que o `rich-text` não apareça mais como bloco do `flex-layout.row`;
 3. Adicione um `flex-layout.col` como *children* do `flex-layout.row`;
 4. Dentro do `flex-layout.col`, declare dois componentes `image` como `image#electronics` e `image#major-appliance`
-5. Declare as seguintes props abaixo do objeto do `flex-layout.col`:
+5. Defina os blocos `image` com as seguintes props:
 
 ```
 "image#electronics": {

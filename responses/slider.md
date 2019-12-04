@@ -55,7 +55,7 @@ Nesta atividade, vamos criar um slider de marcas para o nosso site:
 
 ![](https://appliancetheme.vteximg.com.br/arquivos/brand-slider.png)
 
-1. Crie um arquivo chamado `slider-layout#home.jsonc`
+1. Crie um arquivo chamado `slider-layout.jsonc`
 2. Acrescente o bloco `slider-layout#home` ao `store.home`
 3. Neste arquivo, baseando-se no código acima, apague os `info-card` declarados para o bloco `slider-layout#home` e adicione 6 componentes `image` como children. Utilize o formato `image#brand1`, `image#brand2` e etc para declarar os componentes.
 4. Declare uma prop `src` específica para cada `image#brand`. Utilize as URLs abaixo para cada uma delas:

@@ -25,7 +25,7 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
     {PropriedadeDeCSS}: {ValorDesejado};  
 }
 ```
-3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{AppName})`. 
+3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{componentName})`. 
 
 4. Para aplicar CSS em um bloco específico e não a todos os blocos daquele tipo, usa-se o recurso de blockClass, que aparece ao lado dos handles de css ao inspecionar seu código. As blockClass devem ser declaradas como uma prop no bloco em questão, e então referenciado no arquivo de estilo como mostrado abaixo:
 

@@ -59,7 +59,10 @@ Ficamos, assim, com as seguintes props:
 
 ## Instanciando blocos
 
-Pode ser que você tenha se perguntado: "E se eu quiser ter dois Info Cards com aparências diferentes?". Isso é possível através da **instanciação de blocos**.
+Pode ser que você tenha se perguntado: 
+> "E se eu quiser ter dois Info Cards com aparências diferentes?" 
+
+Isso é possível através da **instanciação de blocos**.
 
 Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias deles e definir aparências diferentes para um mesmo tipo de bloco. Para fazer isso, basta colocar um `#` com um nome **arbitrário** e que faça sentido depois da definição de cada bloco, por exemplo:
 
@@ -71,12 +74,7 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
         "info-card#button-right",
       ]
     },
-    "rich-text": {
-      "props": {
-        "text": "*Hello, World!*",
-        "textPosition": "RIGHT"
-      }
-    },
+    ...
     "info-card#button-right": {
       "props": {
         "isFullModeStyle": false,
@@ -92,6 +90,8 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
     }
   }
 ```
+
+> **ATENÇÃO:** Durante o curso serão vistos vários `...`, essa parte não deve ser copiada e representa o progresso de steps anteriores
 
 ## Atividade
 

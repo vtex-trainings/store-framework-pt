@@ -31,7 +31,7 @@ No `blocks.jsonc` se ver um bloco que é padrão em todos os temas: `store.home`
   }
 ```
 
-Vamos então incluir o Rich Text em seu corpo:
+Vamos então usar o Rich Text em seu corpo:
 
 ```
   {
@@ -54,10 +54,10 @@ A definição de blocos deve ser sempre feita fora de qualquer outro bloco, no n
   {
     "store.home": { 
       "blocks": [
-        "rich-text" <----- Aqui o bloco está dentro de outro 
+        "rich-text" <----- Aqui o bloco está sendo usado dentro de outro
       ]
     },
-    "rich-text": { <----- Aqui estamos na raiz
+    "rich-text": { <----- Aqui está na raiz
     }
   }
 ```
