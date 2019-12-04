@@ -95,7 +95,7 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 
 ## Atividade
 
-Copie o código acima, crie um `info-card#button-left` depois do `info-card#button-right`. Este infocard deve possuir:
+A partir do código acima, crie o `info-card#button-right` proposto no seu template de `store.home`. Logo abaixo deste infocard, declare um novo bloco chamado `info-card#button-left`. Este novo infocard deve possuir:
 
  1. O título `Shining chrome`
  
