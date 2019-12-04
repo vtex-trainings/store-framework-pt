@@ -14,15 +14,15 @@ Como vimos no [terceiro passo](https://github.com/{{ user.username }}/store-fram
 
 Assim como a sua funcionalidade, a configuração do Rich Text também é simples. 
 
-Da mesma forma que o "*Hello, world!*" foi feito, podemos montar um exemplo de implementação do bloco usando texto escrito em markdown. Por exemplo:
+Da mesma forma que o "**Hello, world!**" foi feito, podemos montar um exemplo de implementação do bloco usando texto escrito em markdown. Por exemplo:
 
 ```
 "rich-text": {
-"props": {
-"text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-"textPosition": "CENTER",
-"textAlignment": "CENTER"
-}
+  "props": {
+    "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER"
+  }
 },
 ```
 
@@ -30,41 +30,41 @@ Como falado anteriormente, o uso de Markdown permite flexibilidade ao componente
 
 Por exemplo: a frase acima ( `# Your Coffee, Your Way \n ### New Coffee Makers Collection` ) pode usar um markdown adequado para desktop, mas não necessariamente para mobile (cujo tamanho de tela é menor). 
 
-Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, devemos usar o [**Responsive Layout**](https://vtex.io/docs/components/layout/vtex.responsive-layout):
+Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, devemos usar o [**Responsive Layout**](https://vtex.io/docs/components/layout/vtex.responsive-layout).
+
+Primeiramente devemos delcarar os blocos dentro do template de home `store.home`:
+`"responsive-layout.desktop#desktop",
+ "responsive-layout.mobile#mobile"`
+
+Em seguida devemos declarar esses blocos da seguinte forma:
 
 ```
-{
-"store.home": {
-"responsive-layout.desktop#testing",
-"responsive-layout.mobile#testing"
-]
+"responsive-layout.desktop#desktop": {
+  "children": ["rich-text#desktop"]
 },
 
-"responsive-layout.desktop#testing": {
-"children": ["rich-text#desktop"]
-},
-"responsive-layout.mobile#testing": {
-"children": ["rich-text#mobile"]
+"responsive-layout.mobile#mobile": {
+  "children": ["rich-text#mobile"]
 },
 
 "rich-text#desktop": {
-"props": {
-"text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
-"textPosition": "CENTER",
-"textAlignment": "CENTER"
-}
+  "props": {
+    "text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER"
+  }
 },
 
 "rich-text#mobile": {
-"props": {
-"text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
-"textPosition": "CENTER",
-"textAlignment": "CENTER"
+  "props": {
+    "text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER"
+  }
 }
-},
 ```
 
-Ao interpretar o código acima, perceba como duas configurações de Rich Text são construídas a partir do uso de `responsive-layout.desktop#testing` e `responsive-layout.mobile#testing`. 
+Ao interpretar o código acima, perceba como duas configurações de Rich Text são construídas a partir do uso de `responsive-layout.desktop#desktop` e `responsive-layout.mobile#mobile`. 
 
 ## Atividade
 
@@ -74,30 +74,30 @@ IMAGEM QUE QUEREMOS  (GALC)
 
 1. Copie o código acima para usá-lo na página inicial do seu tema;
 2. No Rich Text mobile, mude o markdown da primeira frase para `h3` e da segunda para `h4`;
-3. Adicione `image#desktop` como children de `responsive-layout.desktop#testing`. Faça o mesmo com `image#mobile`  em `responsive-layout.mobile#testing`;
+3. Adicione `image#desktop` como children de `responsive-layout.desktop#desktop`. Faça o mesmo com `image#mobile`  em `responsive-layout.mobile#mobile`;
 4. Declare os seguintes blocos de Image depois de `rich-text#mobile`: 
 
 ```
 "image#desktop": {
-"props": {
-"src": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
-"link": {
-"url": "/small-appliances/coffee-makers"
-} ,
-"alt": "Coffee Makers Collection",
-}
+  "props": {
+    "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+    "link": {
+      "url": "/small-appliances/coffee-makers"
+    } ,
+    "alt": "Coffee Makers Collection",
+  }
 },
 
 "image#mobile": {
-"props": {
-"src": "https://images.unsplash.com/photo-1560108878-8147b6c871d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80",
-"link": {
-"url": "/small-appliances/coffee-makers"
-} ,
-
-"alt": "Coffee Makers Collection",
+  "props": {
+  "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
+  "link": {
+    "url": "/small-appliances/coffee-makers"
+  } ,
+  "alt": "Coffee Makers Collection"
 }
 },
+
 ```
 
 5. Analisando as props do componente Image, defina a largura máxima das duas imagens como `100%`.
