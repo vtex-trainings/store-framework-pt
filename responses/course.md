@@ -21,7 +21,6 @@ Para que possa enviar suas respostas faça os seguintes passos:
 
 <img src="https://user-images.githubusercontent.com/18701182/68790213-a03b0300-0625-11ea-8b8a-ec483f4c0a7a.png" width="350" />
 
-
 ## Submetendo respostas
 
 Quando você terminar de ler todo o conteúdo e fizer a atividade que lhe for atribuída, você deve, em seguida, enviar a sua resposta. 
@@ -52,7 +51,6 @@ Quando você terminar de ler todo o conteúdo e fizer a atividade que lhe for at
 
 <img src="https://user-images.githubusercontent.com/18701182/68776527-fcdef380-060e-11ea-9d26-84e16a583c3d.png" width="400" />
 
-
 **7. Para finalizar clique na nuvem no canto inferior esquerdo:**
 
 <img src="https://user-images.githubusercontent.com/18701182/68776153-614d8300-060e-11ea-92a0-58205a3e9e7d.png" width="150" />
@@ -62,7 +60,6 @@ Quando terminar de fazer todo o fluxo, nosso robô responderá se você consegui
 <img src="https://user-images.githubusercontent.com/18701182/68778185-93141900-0611-11ea-8b72-791ab9a2a3f8.png" width="400" />
 
 Logo em seguida, você receberá uma outra resposta que indicará os próximos passos:
-
 
 <img src="https://user-images.githubusercontent.com/18701182/68778199-97d8cd00-0611-11ea-9383-856cf735c094.png" width="450" />
 

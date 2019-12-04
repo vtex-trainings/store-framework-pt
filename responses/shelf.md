@@ -67,7 +67,6 @@ Obs.: É importante notar que o bloco `product-summary.shelf` já está declarad
 O resultado final esperado deve ser semelhante a este:
 ![image](https://user-images.githubusercontent.com/12139385/70187041-1209e800-16cc-11ea-85b8-80162239ce1d.png)
 
-
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
