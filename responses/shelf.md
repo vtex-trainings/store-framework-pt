@@ -10,7 +10,7 @@ O próximo bloco que vamos utilizar é a Shelf, a nossa prateleira para uma cole
 
 Analisando a documentação da [Shelf](https://vtex.io/docs/app/vtex.shelf), vemos que é possível configurar qual coleção de produtos queremos mostrar através das props `category`, `specificationFilters` ou `collection`, de acordo com os produtos cadastrados no catálogo.
 
-As demais props são para configuração na maneira com que os items são mostrados. É importante notar que o componente `shelf` sempre pede que block do tipo `product-summary` faça parte da sua composição.
+As demais props são para configuração na maneira com que os items são mostrados. É importante notar que o componente `shelf` sempre pede que block do tipo `product-summary` faça parte da sua composição. Veja a [documentação](https://vtex.io/docs/components/product/vtex.product-summary) do bloco product-summary para entender mais sobre seu funcionamento
 
 Abaixo, temos o exemplo da implementação de uma Shelf:
 
@@ -56,11 +56,17 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 
 ## Atividade
 
-1. Declare um componente `shelf` no `store.home`
+1. Declare um componente `shelf` no template `store.home`
 2. Dentro da pasta blocks, crie um arquivo `shelf.jsonc`
-3. No arquivo `shelf.jsonc`, defina o objeto `shelf` conforme o exemplo acima
+3. No arquivo `shelf.jsonc`, defina o bloco `shelf` com todas as props propostas no exemplo acima
 4. Altere o número máximo de itens exibidos para `8`
 5. Altere o número de itens por página para `4`
+
+Obs.: É importante notar que o bloco `product-summary.shelf` já está declarado dentro do arquivo default.jsonc. Por este motivo não foi necessário declará-lo nesta atividade.
+
+O resultado final esperado deve ser semelhante a este:
+![image](https://user-images.githubusercontent.com/12139385/70187041-1209e800-16cc-11ea-85b8-80162239ce1d.png)
+
 
 ----
 
