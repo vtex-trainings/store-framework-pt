@@ -17,10 +17,10 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
 
 ```
 "flex-layout.row#major": {
-"children": [
-"flex-layout.col#menu",
-"flex-layout.col#img"
-]
+  "children": [
+    "flex-layout.col#menu",
+    "flex-layout.col#img"
+  ]
 },
 ```
 3. Agora temos que declarar os blocos definidos em  `flex-layout.row#major`. Para começar, declare o bloco `flex-layout.col#menu` com `vtex.menu@2.x:menu#major` como *children*;
@@ -28,21 +28,22 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
 
 ```
 "props":{
-"paddingRight": 4,
-"horizontalAlign": "right"
+  "paddingRight": 4,
+  "horizontalAlign": "right"
+ }
 ```
 
 5. Por último, vamos declarar o `image#menu` passado como *children* no último passo. Para isso, use o código abaixo: 
 
 ```
 "image#menu": {
-"props": {
-"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Green_square.svg/1024px-Green_square.svg.png",
-"link": {
-"url": "/small-appliances/coffee-makers"
-},
-"alt": "Coffee Makers Collection",
-"maxWidth": "200px"
-}
+  "props": {
+    "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
+    "link": {
+      "url": "/small-appliances/coffee-makers"
+    },
+    "alt": "Coffee Makers Collection",
+    "maxWidth": "200px"
+  }
 }
 ```
