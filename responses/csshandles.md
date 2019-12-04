@@ -6,7 +6,7 @@
 
 Dando uma rápida olhada na sua loja atual, você conseguirá perceber que todos os componentes possuem estilos parecidos, mesmo que nenhuma customização tenha sido feita por você.  
 
-Todos eles, incluindo o Info Card recém configurado, compartilham **valores pré-estabelecidos** para fonte, cor de fundo, cor principal, formato dos botões, etc.
+Todos eles, incluindo o [Info Card](https://vtex.io/docs/components/all/vtex.store-components/info-card) recém configurado, compartilham **valores pré-estabelecidos** para fonte, cor de fundo, cor principal, formato dos botões, etc.
 
 Isso se deve ao `style.json`, arquivo responsável por declarar valores genéricos de customização para toda loja do Store Framework.
 
@@ -38,10 +38,9 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
 
 ## Customizando o Info Card
 
-Para descobrir os CSS Handles de um componente, como o Info Card, basta acessar a sessão `Customization` da sua [documentação](https://vtex.io/docs/components/all/vtex.store-components/info-card). 
-A [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) explica o passo-a-passo de como identificar um css handle na prática e de como modificá-lo na sua loja.
+Para descobrir os CSS Handles de um componente, como o Info Card, basta acessar a sessão `Customization` da sua documentação. 
 
-De acordo com a descrição dos CSS Handles e com a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization), conseguimos implementar um exemplo de Info Card customizado, alterando seu título e as configurações do botão call to action ao adicionar o código a seguir no arquivo `vtex.store-components.css` dentro de `/styles/css`:
+De acordo com a descrição dos CSS Handles e com a recipe customizações de loja por CSS, conseguimos implementar um exemplo de Info Card customizado, alterando seu título e as configurações do botão call to action ao adicionar o código a seguir no arquivo `vtex.store-components.css` dentro de `/styles/css`:
 
 ```css
 .infoCardHeadline {
