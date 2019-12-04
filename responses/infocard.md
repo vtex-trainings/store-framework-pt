@@ -95,13 +95,19 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 
 ## Atividade
 
-Copie o código acima, crie um `info-card#button-left` depois do `info-card#button-right`, que tenha um botão e seja exibido como a imagem abaixo:
+Copie o código acima, crie um `info-card#button-left` depois do `info-card#button-right`. Este infocard deve possuir:
+
+ 1. O título `Shining chrome`
+ 2. Um call to action do tipo link com o texto `Go to Collection` no lugar do botao
+ 3. A imagem `https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png`
+ 4. O subtítulo `Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.`
+ 5. O texto posicionado à esquerda.
+ 
+
+O resultado esperado é semelhante ao apresentado na imagem abaixo:
 
 ![image](https://appliancetheme.vteximg.com.br/arquivos/info-card-activity.png)
 
-**DICA**: Utilize a imagem a seguir para compor o seu `info-card#button-left`: 
-
-`https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png`
 
 ----
 
