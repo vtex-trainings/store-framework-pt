@@ -4,14 +4,13 @@
 
 ## Introdução
 
-Neste passo vamos terminar de montar a nossa página de produto. Aprenderemos como empilhar blocos usando o **Stack Layout**, como sugerir produtos similares e como customizar melhor o SKU Selector para produtos com imagem de SKU. 
+Neste passo vamos terminar de montar a nossa página de produto. Aprenderemos como empilhar blocos usando o [**Stack Layout**](https://vtex.io/docs/app/vtex.stack-layout), como sugerir produtos similares e como customizar melhor o SKU Selector para produtos com imagem de SKU.
 
 ![image](https://user-images.githubusercontent.com/18701182/69393219-50a8a700-0cb7-11ea-8718-c5ec0536cbe2.png)
 
-
 ## Stack Layout
 
-O `stack-layout` é um tipo layout que possibilita que blocos possam ser empilhados sobre outros. É muito útil quando se deseja colocar algum badge em cima de uma imagem ou produto. Também é útil para compor textos compostos sobre imagens (usando um `rich-text` e uma `image`). 
+O `stack-layout` é um tipo layout que possibilita que blocos possam ser empilhados sobre outros. É muito útil quando se deseja colocar algum badge em cima de uma imagem ou produto. Também é útil para compor textos compostos sobre imagens (usando um `rich-text` e uma `image`).
 
 ![image](https://user-images.githubusercontent.com/18701182/69392819-0a9f1380-0cb6-11ea-8238-1e2e75b9eee9.png)
 
@@ -21,9 +20,9 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 
 ## Atividade
 
-1. Declare um `shelf.relatedProducts` abaixo da **linha principal** de produto
+1. Declare um [`shelf.relatedProducts`](https://vtex.io/docs/app/vtex.shelf) abaixo da **linha principal** de produto
 
-```
+```json
 "store.product": {
   "children": [
     "breadcrumb",
@@ -35,7 +34,7 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 
 2. Troque `product-images` na coluna da esquerda por uma declaração de `stack-layout`
 
-```
+```json
 "flex-layout.col#left": { 
   "children": [ 
     "stack-layout#brand"
@@ -45,7 +44,7 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 
 3. Defina o `stack-layout` e coloque como filhos o `product-images` e `product-brand`
 
-```
+```json
 "stack-layout#brand": { 
   "children": [
     "product-images",
@@ -57,9 +56,9 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer e com altura de **30**. 
 
 5. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) para fazer com que o `sku-selector`: 
-- comece sem nenhum SKU selecionado, 
-- mostre o nome por variação de sku, 
-- mostre erro se nenhuma variação de sku for selecionada
+  - comece sem nenhum SKU selecionado,
+  - mostre o nome por variação de sku,
+  - mostre erro se nenhuma variação de sku for selecionada
 
 ----
 
