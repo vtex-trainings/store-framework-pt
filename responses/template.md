@@ -65,18 +65,18 @@ A seguir, você deve preencher o código com os componentes necessários para mo
 "rich-text#about-title": {
    "props": {
      "text":
-     "# About us Title"
+     "# Sobre a FlatFlat"
    }
  },
  "rich-text#about-content": {
    "props": {
      "text":
-     " About us content - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+     " FlatFlat é uma loja de eletro eletrônicos com muita tradição na fabricação de itens modernos e vintage. Nosso objetivo é criar eletrodomésticos que tornem as casas dos nossos clientes interessantes, independente do estilo. Com apenas 2 meses de história, já somos a loja com os produtos mais bonitos de toda a VTEX. Estamos construindo o nosso site nesse momento com o intuito de dar ao nosso cliente uma experiência memorável com a nossa marca!"
    }
  },
  "image#about-us": {
    "props": {
-     "src": "https://storecomponents.vteximg.com/files/mobile-phone.png",
+     "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
      "maxHeight": "600px"
    }
  }
@@ -103,7 +103,7 @@ onde `{URL}` é o nome do caminho desejado
 
 Vamos criar uma página com informações sobre a sua loja conforme o exemplo abaixo:
 
-![](https://user-images.githubusercontent.com/12139385/63775975-dbdfef80-c8b6-11e9-9b76-e50924b828ae.png)
+![](https://appliancetheme.vteximg.com.br/arquivos/about-us-activity.png)
 
 1. Na pasta `blocks`, crie um arquivo `about-us.jsonc`
 2. Declare um template `store.custom#about-us` neste arquivo
