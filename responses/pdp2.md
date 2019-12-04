@@ -4,7 +4,7 @@
 
 ## Introdução
 
-No último passo aprendemos como fazer uma página de produto simples com seus itens mínimos, mas sabemos que o que fizemos está longe de ser uma página de produto ideal, colocaremos outros elementos que vemos com frequente nas páginas de produto de várias lojas.
+No último passo aprendemos como fazer uma página de produto simples com seus itens mínimos, mas sabemos que o que fizemos está longe de ser uma página de produto ideal, colocaremos outros elementos que vemos com frequência nas páginas de produto de várias lojas.
 
 ![image](https://user-images.githubusercontent.com/18701182/69391258-002e4b00-0cb1-11ea-901f-f69d9c0b3062.png)
 
@@ -21,7 +21,7 @@ Na [nossa documentação](https://vtex.io/docs/components/product-related) é po
 
 ## Atividade
 
-Evolua a página de produto adicionando os outros 4 blocos listados a cima da seguinte forma:
+Evolua a página de produto adicionando os outros 4 blocos listados acima da seguinte forma:
 
 1. Defina um `breadcrumb` logo no início antes da **linha principal** do produto
 
