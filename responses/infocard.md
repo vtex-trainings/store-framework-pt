@@ -4,15 +4,15 @@
 
 ## Introdução
 
-Uma loja precisa de uma boa *home page* para manter a atenção do usuário, aumentando o tempo de sessão e, portanto, aumentando as chances de conversão. Para que isso seja possível, vários elementos podem ser usados, como: banners promocionais, prateleiras de destaque, conteúdos institucionais.  
+Uma loja precisa de uma boa *home page* para manter a atenção do usuário, aumentando o tempo de sessão e, portanto, aumentando as chances de conversão. Para que isso seja possível, vários elementos podem ser usados, como: banners promocionais, prateleiras de destaque, conteúdos institucionais.
 
-Criaremos o próximo bloco na *home page* usando um *Call to Action*. No Store Framework, temos um bloco que serve para esse propósito chamado **Info Card**. 
+Criaremos o próximo bloco na *home page* usando um *Call to Action*. No Store Framework, temos um bloco que serve para esse propósito chamado **Info Card**.
 
 ## Info Card
 
 ![image](https://user-images.githubusercontent.com/18701182/68480411-7b085800-0213-11ea-9426-31dcb0d0aa7d.png)
 
-Com o [Info Card](https://vtex.io/docs/app/vtex.store-components/Info-Card#blocks-api) é possível criar imagens que, no topo ou ao lado, existam links ou botões que direcionem o fluxo do usuário (*Call to Action*). 
+Com o [Info Card](https://vtex.io/docs/app/vtex.store-components/Info-Card#blocks-api) é possível criar imagens que, no topo ou ao lado, existam links ou botões que direcionem o fluxo do usuário (*Call to Action*).
 
 Olhando a [documentação](https://vtex.io/docs/app/vtex.store-components/info-card#blocks-api) é possível ver que:
 
@@ -27,30 +27,31 @@ Olhando a [documentação](https://vtex.io/docs/app/vtex.store-components/info-c
 
 Ficamos, assim, com as seguintes props:
 
-```
+```json
   {
-    "store.home": { 
+    "store.home": {
       "blocks": [
+        "rich-text",
         "info-card",
-        "rich-text"
       ]
     },
     "rich-text": {
-      "props": { 
+      "props": {
         "text": "*Hello, World!*",
         "textPosition": "RIGHT"
       }
     },
     "info-card": {
       "props": {
-        "isFullModeStyle": true,
-        "textPosition": "left",
-        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-        "headline": "Clearance Sale",
-        "callToActionMode": "link",
-        "callToActionText": "BUY",
-        "callToActionUrl": "/sale/d",
-        "textAlignment": "center"
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
       }
     }
   }
@@ -62,28 +63,29 @@ Pode ser que você tenha se perguntado: "E se eu quiser ter dois Info Cards com 
 
 Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias deles e definir aparências diferentes para um mesmo tipo de bloco. Para fazer isso, basta colocar um `#` com um nome **arbitrário** e que faça sentido depois da definição de cada bloco, por exemplo:
 
-```
+```json
   {
-    "store.home": { 
+    "store.home": {
       "blocks": [
-        "info-card#link",
-        "rich-text#helloworld"
+        "rich-text"
+        "info-card#button-right",
       ]
     },
-    "rich-text#helloworld": {
-      "props": { 
+    "rich-text": {
+      "props": {
         "text": "*Hello, World!*",
         "textPosition": "RIGHT"
       }
     },
-    "info-card#link": {
+    "info-card#button-right": {
       "props": {
-        "isFullModeStyle": true,
-        "textPosition": "left",
-        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-        "headline": "Clearance Sale",
-        "callToActionMode": "link",
-        "callToActionText": "BUY",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+        "headline": "Vintage Pink",
+        "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+        "callToActionMode": "button",
+        "callToActionText": "Explore",
         "callToActionUrl": "/sale/d",
         "textAlignment": "center"
       }
@@ -93,9 +95,13 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 
 ## Atividade
 
-Copie o código acima, crie um `info-card#button` depois do `info-card#link`, que tenha um botão e tenha o texto posicionado na direita, como mostrado abaixo:
+Copie o código acima, crie um `info-card#button-left` depois do `info-card#button-right`, que tenha um botão e seja exibido como a imagem abaixo:
 
-![image](https://user-images.githubusercontent.com/18701182/68890571-e95e8600-06fd-11ea-8b38-ce2752efc6b6.png)
+![image](https://appliancetheme.vteximg.com.br/arquivos/info-card-activity.png)
+
+**DICA**: Utilize a imagem a seguir para compor o seu `info-card#button-left`: 
+
+`https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png`
 
 ----
 
