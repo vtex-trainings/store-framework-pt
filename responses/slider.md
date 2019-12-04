@@ -1,6 +1,6 @@
 # Carrossel de blocos
 
-## :sparkles: **Branch:** slider
+## :sparkles: **Branch:** slider-layout
 
 ## Introdução
 
