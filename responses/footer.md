@@ -1,6 +1,6 @@
 # Rodapé
 
-**BRANCH:** footer
+## :sparkles: **Branch:** footer
 
 ## Introdução
 

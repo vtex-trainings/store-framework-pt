@@ -1,6 +1,6 @@
 # Explorando o poder do rich text
 
-**BRANCH:** richtextmarkdown
+## :sparkles: **Branch:** richtextmarkdown
 
 ## Introdução
 

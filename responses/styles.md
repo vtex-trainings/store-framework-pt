@@ -1,6 +1,6 @@
 # Estilos globais
 
-**BRANCH:** styles
+## :sparkles: **Branch:** styles
 
 ## Introdução
 

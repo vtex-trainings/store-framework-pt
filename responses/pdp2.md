@@ -1,6 +1,6 @@
 # Evoluindo sua página de produto (pdp)
 
-**BRANCH:** pdp2
+## :sparkles: **Branch:** pdp2
 
 ## Introdução
 

@@ -1,6 +1,6 @@
 # Hello, World!
 
-**BRANCH:** richtext
+## :sparkles: **Branch:** richtext
 
 ## Introdução
 

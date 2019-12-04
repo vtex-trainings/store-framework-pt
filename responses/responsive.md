@@ -1,6 +1,6 @@
 # Tornando seu conteúdo responsivo
 
-**BRANCH:** rich-text-image
+## :sparkles: **Branch:** responsiveimage
 
 ## Introdução
 
