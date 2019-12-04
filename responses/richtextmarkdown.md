@@ -38,8 +38,10 @@ Outras propriedades do componente `rich-text` podem ser encontrados na [document
 ## Atividade
 
 1. Dentro do arquivo `about-us.jsonc`, troque o texto da `tab-list.item#home1` para que apareça um "Sobre" na primeira aba.
+
 2. No conteúdo `rich-text` associado a essa aba, crie um texto que contenha um "Quem somos" como um título h2 e 3 parágrafos.
-3. Coloque o título e os parágrafos em itálico.
+
+3. Coloque o título e os parágrafos em negrito.
 
 **DICA**: você pode utilizar o texto abaixo como conteúdo dos três parágrafos:
 
