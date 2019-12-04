@@ -21,7 +21,7 @@ Na [nossa documentação](https://vtex.io/docs/components/product-related) é po
 
 ## Atividade
 
-Evolua a página de produto adicionando os outros 4 blocos listados acima da seguinte forma:
+Evolua a página de produto adicionando os outros 4 blocos listados acima da seguinte forma no arquivo `product.jsonc`:
 
 1. Defina um `breadcrumb` logo no início antes da **linha principal** do produto
 
