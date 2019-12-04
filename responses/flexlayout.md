@@ -31,18 +31,17 @@ Abaixo, temos um exemplo de flex layout composto de um `flex-layout.row` com doi
     ]
   },
   
-  "info-card": {
+ "info-card#rethink": {
     "props": {
-      "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
       "isFullModeStyle": true,
-      "headline": "Black Friday",
-      "callToActionText": "Subscribe",
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
       "textPosition": "center"
-
     }
   },
   
-  "rich-text": {
+  "rich-text#deletar": {
     "props": {
       "text": "I'll be deleted soon"
     }
@@ -52,8 +51,9 @@ Abaixo, temos um exemplo de flex layout composto de um `flex-layout.row` com doi
 ## Atividade
 
 1. Declare o `flex-layout.row` dentro dos `blocks` do template de `store.home` e declare os blocos propostos acima no seu arquivo `home.jsonc`
-2. Altere as *children* do `flex-layout.row`, substituindo o bloco `rich-text` por uma coluna `flex-layout.col`
-3. Declare o bloco `flex-layout.col` no seu arquivo `home.jsonc` com dois componentes de imagem como children: `image#electronics` e `image#major-appliance`, *nesta ordem*.
+2. Altere as *children* do `flex-layout.row`, substituindo o bloco `rich-text` por uma coluna `flex-layout.col`.
+3. Delete o bloco de `rich-text` proposto acima do seu tema.
+4. Declare o bloco `flex-layout.col` no seu arquivo `home.jsonc` com dois componentes de imagem como children: `image#electronics` e `image#major-appliance`, *nesta ordem*.
 5. Defina os blocos `image` com as seguintes props:
 
 ```
@@ -70,6 +70,10 @@ Abaixo, temos um exemplo de flex layout composto de um `flex-layout.row` com doi
     }
   }
 ```
+O resultado obtido deve ser semelhante a este:
+
+![image](https://user-images.githubusercontent.com/12139385/70185681-0c5ed300-16c9-11ea-9260-b88179b508f2.png)
+
 
 Lembre-se, acesse a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout) caso haja alguma dúvida.
 
