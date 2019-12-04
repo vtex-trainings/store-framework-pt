@@ -15,6 +15,7 @@ Para que possa enviar suas respostas faça os seguintes passos:
 1. Baixe o código deste repositório [aqui](https://github.com/{{ user.username }}/store-framework/archive/master.zip) e descomprima o arquivo `.zip` (se preferir você também pode clonar o repositório). 
 2. Abra o projeto no VSCode, indo em `File`>`Open`. 
 3. Abra a [página de instalação do nosso robô de testes](https://github.com/apps/vtex-course-hub) e clique em **Configure**.
+    - :warning: Note que este bot é diferente do bot do [GitHub Learning Lab](https://lab.github.com/). Ele é responsável por analisar a resposta de cada etapa do curso.
 4. Selecione **Only selected repositories**, clique em **Select repositories** e digite `store-framework`
 5. Clique em `{{ user.username }}/store-framework` e, em seguida, clique em **Install**
 
