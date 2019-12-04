@@ -67,6 +67,9 @@ De acordo com a descrição dos CSS Handles e com a [recipe](https://vtex.io/doc
 ```
 Você pode conferir o efeito das mudanças feitas por você executando o comando `vtex link`.
 
+![image](https://user-images.githubusercontent.com/12139385/70145123-2626f880-167e-11ea-97f4-65aaacba74c3.png)
+
+
 Em seguida, vamos adicionar um estilo específico para o infocard Vintage.  Para começar, adicione a prop `blockClass` no `info-card#button-right` como mostrado abaixo:
 
   ```
@@ -94,6 +97,8 @@ E então declare uma `background-color` para este infocard específico no seu ar
 ```
 Observe o efeito atingido linkando sua app.
 
+![image](https://user-images.githubusercontent.com/12139385/70145268-743bfc00-167e-11ea-9dca-070d444b16b5.png)
+
 ## Atividade
 
 1. Copie o código acima para usá-lo no arquivo CSS do seu tema, seguindo a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) sobre customizações de loja por CSS;
@@ -102,5 +107,8 @@ Observe o efeito atingido linkando sua app.
 4. Coloque o título em negrito (`bold`);
 5. Mude a cor de fundo do botão durante o hover para `white`.
 6. Paralelamente ao blockClass `vintage`, aplique um novo block class chamado `metal` no infocard `info-card#button-left` e aplique a cor de fundo `#e1e1e1`nele.
+
+
+![image](https://user-images.githubusercontent.com/12139385/70145478-ead8f980-167e-11ea-8951-5d4b98e6d5c0.png)
 
 
