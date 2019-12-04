@@ -70,7 +70,15 @@ Ao interpretar o código acima, perceba como duas configurações de Rich Text s
 
 Nessa tarefa, vamos brincar um pouco com o markdown do [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) e aprender a usá-lo com o componente [Image](https://vtex.io/docs/components/all/vtex.store-components/image). Tudo isso usando o Responsive Layout, é claro!
 
-IMAGEM QUE QUEREMOS  (GALC)
+### Desktop:
+
+![image](https://user-images.githubusercontent.com/12139385/70152049-414c3500-168b-11ea-8da3-4f4ce0f5fee6.png)
+
+
+### Mobile:
+
+![image](https://user-images.githubusercontent.com/12139385/70152185-84a6a380-168b-11ea-861e-9282ac024936.png)
+
 
 1. Copie o código acima para usá-lo na página inicial do seu tema;
 2. No Rich Text mobile, mude o markdown da primeira frase para `h3` e da segunda para `h4`;
