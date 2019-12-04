@@ -10,14 +10,14 @@ No último passo aprendemos como fazer uma página de produto simples com seus i
 
 ## Mais de 30 blocos de produto
 
-Na [nossa documentação](https://vtex.io/docs/components/product-related) é possível encontrar mais 30 blocos relacionados a produto. No começo do curso falamos sobre Shelf e seus blocos relacionados, além de na última seção termos visto outros 4 blocos. Neste passo veremos mais 4: 
+Na [nossa documentação](https://vtex.io/docs/components/product-related) é possível encontrar mais 30 blocos relacionados a produto. No começo do curso falamos sobre Shelf e seus blocos relacionados, além de na última seção termos visto outros 4 blocos. Neste passo veremos mais 4:
 
-- Breadcrumb
-- Product Identifier
-- Product Quantity
-- SKU Selector
+- [Breadcrumb](https://vtex.io/docs/app/vtex.breadcrumb)
+- [Product Identifier](https://vtex.io/docs/components/product/vtex.product-identifier)
+- [Product Quantity](https://vtex.io/docs/components/product-related/vtex.product-quantity/)
+- [SKU Selector](https://vtex.io/docs/components/product/vtex.store-components/sku-selector)
 
-É importante que ao fim do curso, você tome um tempo para explorar nossos componentes, bem como as possibilidades de customização que se tem com estes. 
+É importante que ao fim do curso, você tome um tempo para explorar nossos componentes, bem como as possibilidades de customização que se tem com estes.
 
 ## Atividade
 
@@ -25,7 +25,7 @@ Evolua a página de produto adicionando os outros 4 blocos listados acima da seg
 
 1. Defina um `breadcrumb` logo no início antes da **linha principal** do produto
 
-```
+```json
 "store.product": {
   "children": [
     "breadcrumb",
@@ -35,10 +35,9 @@ Evolua a página de produto adicionando os outros 4 blocos listados acima da seg
 ```
 
 2. Defina o `product-identifier.product` logo abaixo do `product-name`
-
 3. Crie uma **linha** logo abaixo do preço com o `sku-selector` e o `product-quantity` como filhos
 
-```
+```json
 {
   ...
     "children": [ 
@@ -46,7 +45,7 @@ Evolua a página de produto adicionando os outros 4 blocos listados acima da seg
       "flex-layout.row#qty-sku"
     ]
   },
-  "flex-layout.row#qty-sku": { 
+  "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
       "product-quantity"
@@ -54,8 +53,6 @@ Evolua a página de produto adicionando os outros 4 blocos listados acima da seg
   },
   ...
 }
-
-
 ```
 
 4. Defina `shipping-simulator` logo abaixo da linha com o SKU Selector e o Product Quantity
