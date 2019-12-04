@@ -20,21 +20,17 @@ Com o [Flex Layout](https://vtex.io/docs/components/layout/vtex.flex-layout) é 
 Analisando a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout), vemos que você pode utilizar qualquer *array* de blocos como `children` do Flex Layout. Além disso, você deve sempre usar `flex-layout.row` e `flex-layout.col`, **NUNCA** `flex-layout` de forma isolada.
 
 
-Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *childrens*: um `info-card` e um `rich-text`:
+Abaixo, temos um exemplo de flex layout composto de um `flex-layout.row` com dois *children*: um `info-card` e um `rich-text`:
 
 ```
-{
-  "store.home": {
-    "blocks": [
-      "flex-layout.row"
-    ]
-  },
+
   "flex-layout.row":{
     "children": [
       "info-card",
       "rich-text"
     ]
   },
+  
   "info-card": {
     "props": {
       "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
@@ -45,20 +41,19 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
 
     }
   },
+  
   "rich-text": {
     "props": {
       "text": "I'll be deleted soon"
     }
   }
-}
 ```
 
 ## Atividade
 
-1. Copie o código acima;
-2. Faça com que o `rich-text` não apareça mais como bloco do `flex-layout.row`;
-3. Adicione um `flex-layout.col` como *children* do `flex-layout.row`;
-4. Dentro do `flex-layout.col`, declare dois componentes `image` como `image#electronics` e `image#major-appliance`
+1. Declare o `flex-layout.row` dentro dos `blocks` do template de `store.home` e declare os blocos propostos acima no seu arquivo `home.jsonc`
+2. Altere as *children* do `flex-layout.row`, substituindo o bloco `rich-text` por uma coluna `flex-layout.col`
+3. Declare o bloco `flex-layout.col` no seu arquivo `home.jsonc` com dois componentes de imagem como children: `image#electronics` e `image#major-appliance`, *nesta ordem*.
 5. Defina os blocos `image` com as seguintes props:
 
 ```
@@ -75,6 +70,8 @@ Abaixo, temos um exemplo de implementação do `flex-layout.row` com dois *child
     }
   }
 ```
+
+Lembre-se, acesse a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout) caso haja alguma dúvida.
 
 ----
 
