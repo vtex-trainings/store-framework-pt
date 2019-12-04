@@ -62,7 +62,7 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 4. Altere o número máximo de itens exibidos para `8`
 5. Altere o número de itens por página para `4`
 
-Obs.: É importante notar que o bloco `product-summary.shelf` já está declarado dentro do arquivo default.jsonc. Por este motivo não foi necessário declará-lo nesta atividade.
+Obs.: É importante notar que o bloco `product-summary.shelf` já está declarado dentro do arquivo `default.jsonc`. Por este motivo, não foi necessário declará-lo nesta atividade.
 
 O resultado final esperado deve ser semelhante a este:
 ![image](https://user-images.githubusercontent.com/12139385/70187041-1209e800-16cc-11ea-85b8-80162239ce1d.png)
