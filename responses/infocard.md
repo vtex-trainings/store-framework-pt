@@ -35,12 +35,7 @@ Ficamos, assim, com as seguintes props:
         "rich-text"
       ]
     },
-    "rich-text": {
-      "props": { 
-        "text": "*Hello, World!*",
-        "textPosition": "RIGHT"
-      }
-    },
+    ...
     "info-card": {
       "props": {
         "isFullModeStyle": true,
@@ -55,6 +50,8 @@ Ficamos, assim, com as seguintes props:
     }
   }
 ```
+
+> **ATENÇÃO: Ao longo do curso, serão visto vários exemplos de código com uma marcação de `...`, isso não deve ser copiado para o código da sua solução e representa somente o que foi definido em passos anteriores.**
 
 ## Instanciando blocos
 

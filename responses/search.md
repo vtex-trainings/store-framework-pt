@@ -6,7 +6,6 @@
 
 ![image](https://user-images.githubusercontent.com/18701182/69843114-d6db6500-1244-11ea-82a7-b10880e2ed55.png)
 
-
 Terminamos de implementar nossa página de produto e seguiremos para a página de busca. Ambas são muito similares no aspecto de terem blocos que são únicos desse contexto. Exploraremos esse bloco de forma desordenada nesse step, somente para entender seus comportamentos e seguiremos para melhorar o layout no próximo passo.  
 
 ## Search Layout  
