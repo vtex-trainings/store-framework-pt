@@ -1,6 +1,6 @@
 # Página de busca 
 
-**BRANCH:** search 
+## :sparkles: **Branch:** search 
 
 ## Introdução  
 

@@ -1,6 +1,6 @@
 # Ajustando layout da página de busca
 
-**BRANCH:** search2
+## :sparkles: **Branch:** search2
 
 ## Introdução  
 

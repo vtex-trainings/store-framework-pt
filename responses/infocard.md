@@ -1,6 +1,6 @@
 # Info Card: o call to action do Store Framework
 
-**BRANCH:** infocard
+## :sparkles: **Branch:** infocard
 
 ## Introdução
 
