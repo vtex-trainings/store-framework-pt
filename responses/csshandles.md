@@ -39,8 +39,9 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
 ## Customizando o Info Card 
 
 Para descobrir os CSS Handles de um componente, como o Info Card, basta acessar a sessão `Customization` da sua [documentação](https://vtex.io/docs/components/all/vtex.store-components/info-card). 
+A [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) explica o passo-a-passo de como identificar um css handle na prática e de como modificá-lo na sua loja.
 
-De acordo com a descrição dos CSS Handles, conseguimos implementar um exemplo de Info Card customizado, alterando seu título e as configurações do botão call to action:
+De acordo com a descrição dos CSS Handles e com a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization), conseguimos implementar um exemplo de Info Card customizado, alterando seu título e as configurações do botão call to action ao adicionar o código a seguir no arquivo `vtex.store-components.css` dentro de `/styles/css`:
 
 ```
 .infoCardHeadline {
