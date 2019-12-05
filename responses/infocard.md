@@ -95,7 +95,7 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 
 ## Atividade
 
-A partir do código acima, no arquivo `home.jsonc`, crie o `info-card#button-right` proposto no seu template de `store.home`. Logo abaixo deste infocard, declare um novo bloco chamado `info-card#button-left`. Este novo infocard deve possuir:
+A partir do código acima, no arquivo `home.jsonc`, crie o `info-card#button-left` logo abaixo do infocard `info-card#button-right`. Este novo infocard deve possuir:
 
  1. O título `Shining chrome`
  2. Um call to action do tipo link com o texto `Go to Collection` no lugar do botao
