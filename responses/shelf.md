@@ -56,11 +56,11 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 
 ## Atividade
 
-1. Declare um componente `shelf` no template `store.home`
-2. Dentro da pasta blocks, crie um arquivo `shelf.jsonc`
-3. No arquivo `shelf.jsonc`, defina o bloco `shelf` com todas as props propostas no exemplo acima
-4. Altere o número máximo de itens exibidos para `8`
-5. Altere o número de itens por página para `4`
+1. Declare um componente `shelf` no template `store.home`;
+2. Dentro da pasta blocks, crie um arquivo `shelf.jsonc`;
+3. No arquivo `shelf.jsonc`, defina o bloco `shelf` com todas as props propostas no exemplo acima;
+4. Altere o número máximo de itens exibidos para `8`;
+5. Altere o número de itens por página para `4`.
 
 Obs.: É importante notar que o bloco `product-summary.shelf` já está declarado dentro do arquivo `default.jsonc`. Por este motivo, não foi necessário declará-lo nesta atividade.
 
