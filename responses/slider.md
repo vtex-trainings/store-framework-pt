@@ -54,11 +54,11 @@ Nesta atividade, vamos criar um slider de marcas para o nosso site:
 
 ![](https://appliancetheme.vteximg.com.br/arquivos/brand-slider.png)
 
-1. Declare o bloco `slider-layout#home` ao template `store.home`.
+1. Declare o bloco `slider-layout#home` ao template `store.home`;
 
-2. Crie um arquivo chamado `slider-layout.jsonc` dentro da pasta `/store/blocks`.
+2. Crie um arquivo chamado `slider-layout.jsonc` dentro da pasta `/store/blocks`;
 
-3. Neste arquivo, baseando-se no código acima, substitua os `info-card` declarados como children de `slider-layout#home` e adicione 6 [componentes de imagem](https://vtex.io/docs/components/general/vtex.store-components/image) `image` como children. Utilize o formato `image#brand1`, `image#brand2` (...) `image#brand6` para declarar os componentes.
+3. Neste arquivo, baseando-se no código acima, substitua os `info-card` declarados como children de `slider-layout#home` e adicione 6 [componentes de imagem](https://vtex.io/docs/components/general/vtex.store-components/image) `image` como children. Utilize o formato `image#brand1`, `image#brand2` (...) `image#brand6` para declarar os componentes;
 
 4. Declare uma prop `src` específica para cada `image#brand` definido. Utilize as URLs abaixo para cada uma delas:
    1.  `https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png`
@@ -69,6 +69,8 @@ Nesta atividade, vamos criar um slider de marcas para o nosso site:
    6.  `https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png`
    
 5. Por fim, você deve utilizar a propriedade de `autoplay` no bloco `slider-layout#home`. Faça com que o slide aconteça automaticamente a cada **7 segundos e que ele pare quando o usuário passar o mouse em cima do slide**.
+
+:information_source: Lembre-se de acessar a documentação do [Slider Layout](https://vtex.io/docs/components/layout/vtex.slider-layout) e [Image](https://vtex.io/docs/components/general/vtex.store-components/image) caso tenha alguma dúvida durante a atividade.
 
 ----
 
