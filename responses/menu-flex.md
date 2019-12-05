@@ -15,7 +15,8 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
 1. Substitua `vtex.menu@2.x:menu#major` por `flex-layout.row#major` na lista de *children* do bloco `vtex.menu@2.x:submenu#major`;
 2. Defina em seguida o bloco `flex-layout.row#major`: 
 
-```
+```json
+...
 "flex-layout.row#major": {
   "children": [
     "flex-layout.col#menu",
@@ -23,19 +24,23 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
   ]
 },
 ```
+
 3. Agora temos que declarar os blocos definidos em  `flex-layout.row#major`. Para começar, declare o bloco `flex-layout.col#menu` com `vtex.menu@2.x:menu#major` como *children*;
 4. Faça o mesmo para o bloco `flex-layout.col#img`, o declarando com `image#menu` e `rich-text#header` como *children* e as seguintes props:
 
-```
+```json
+...
 "props":{
   "paddingRight": 4,
   "horizontalAlign": "right"
  }
+...
 ```
 
 5. Por último, vamos declarar o `image#menu` passado como *children* no último passo. Para isso, use o código abaixo: 
 
-```
+```json
+...
 "image#menu": {
   "props": {
     "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
