@@ -8,10 +8,10 @@ Neste passo, aprenderemos a configurar o primeiro componente de toda loja: o [**
 
 O Header tem um papel muito importante na página inicial da loja, pois ele é o responsável por abrigar outros blocos essenciais para a navegação do usuário, como a barra de busca e o menu. 
 
-Header Desktop
+Header Desktop:
 ![image](https://user-images.githubusercontent.com/12139385/70191371-420ab880-16d7-11ea-9d28-fa2f184870ce.png)
 
-Header Mobile
+Header Mobile:
 ![image](https://user-images.githubusercontent.com/12139385/70191413-6797c200-16d7-11ea-9401-754942f5d9a9.png)
 
 ## Configurando o Header
@@ -52,7 +52,7 @@ Agora, vamos configurar do zero um Header para a página inicial da sua loja, co
 
 Para a implementação do Header com todos esses blocos, levaremos em consideração o código exemplo apresentado acima. Assim, será possível construir um Header responsivo, adptável para usuários de desktop e mobile. 
 
-1. Diferentemente do comportamento de outros blocos, o Header não precisa ser declarado dentro um template do seu tema, pois de toda forma ele será renderizado em todas as páginas da loja. Neste exercício, vamos declarar os blocos do `header` no arquivo `header.jsonc` que deve ser criado na pasta `store/blocks`.
+1. Diferentemente do comportamento de outros blocos, o [Header](https://vtex.io/docs/components/all/vtex.store-header/) não precisa ser declarado dentro um template do seu tema, pois de toda forma ele será renderizado em todas as páginas da loja. Neste exercício, vamos declarar os blocos do `header` no arquivo `header.jsonc`, que deve ser criado na pasta `store/blocks`.
 
 2. Declare o seguinte bloco em seguida:
 
@@ -141,6 +141,7 @@ Ao concluir o passo 8, os novos ícones de barra de busca e carrinho devem estar
 
 ![new-store-icons](https://user-images.githubusercontent.com/52087100/69972450-652f3f80-1500-11ea-93b0-c9a652622840.png)
 
+Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.store-header/) do Header caso tenha alguma dúvida durante a atividade.
 
 ----
 
