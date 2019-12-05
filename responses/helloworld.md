@@ -125,7 +125,7 @@ Para posicioná-lo ao centro, podemos adicionar `textPosition` [(*Choose in whic
     ]
   },
   "rich-text": {
-    "props": { 
+    "props": {
       "text": "*Hello, World!*",
       "textPosition": "CENTER"
     }

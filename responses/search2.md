@@ -11,20 +11,23 @@ No último step conhecemos a página de busca e seus principais componentes. Tam
 ![image](https://user-images.githubusercontent.com/18701182/69843559-db088200-1246-11ea-8873-8651dd973be9.png)
 
 1. Remova `total-products.v2` e `order-by.v2` do `search-result-layout.desktop`. 
-
 2. Substitua ambos acima por uma linha de topo que inclua os blocos removidos:
-  ```
-  "flex-layout.row#top": { 
-      "children": [
-        "total-products.v2",
-        "order-by.v2"
-      ]
-  }
-  ```
-3. Remova o `search-content` e o `filter-navigator.v3` do `search-result-layout.desktop` e crie uma linha de resultados 
 
-4. Na linha de resultado coloque outras duas colunas:
+```json
+...
+"flex-layout.row#top": {
+  "children": [
+    "total-products.v2",
+    "order-by.v2"
+  ]
+}
+...
 ```
+
+3. Remova o `search-content` e o `filter-navigator.v3` do `search-result-layout.desktop` e crie uma linha de resultados
+4. Na linha de resultado coloque outras duas colunas:
+
+```json
 {
   ...
   "search-result-layout.desktop": {
@@ -40,8 +43,8 @@ No último step conhecemos a página de busca e seus principais componentes. Tam
       "pagination": "show-more"
     }
   },
-  "flex-layout.row#results": { 
-    "children": [ 
+  "flex-layout.row#results": {
+    "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search"
     ]
@@ -56,7 +59,7 @@ Para finalizar, vamos usar o mesmo **Resumo de Produto**(`product-summary`) que 
 
 6. Defina seu `search-content` com os blocos `gallery` e `not-found`:
 
-```
+```json
 {
   ...
   "search-content": { 
@@ -67,7 +70,8 @@ Para finalizar, vamos usar o mesmo **Resumo de Produto**(`product-summary`) que 
 ```
 
 7. Use o `product-summary.shelf` nas props da Gallery:
-```
+
+```json
 {
   ...
   "search-content": { 
@@ -83,5 +87,3 @@ Para finalizar, vamos usar o mesmo **Resumo de Produto**(`product-summary`) que 
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
-
-
