@@ -21,9 +21,9 @@ steps:
         issue: 1
         data:
           nextIssue: '2'
-          nextName: 'Funcionamento do curso'
+          nextName: 'Store Framework 101'
       - type: createIssue
-        title: 'Funcionamento do curso'
+        title: 'Store Framework 101'
         body: storeframework.md
   - title: Store Framework 101
     description: Definições rápidas e introdutórias sobre o Store Framework.
