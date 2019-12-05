@@ -10,7 +10,7 @@ No último step conhecemos a página de busca e seus principais componentes. Tam
 
 ![image](https://user-images.githubusercontent.com/18701182/69843559-db088200-1246-11ea-8873-8651dd973be9.png)
 
-1. Remova `total-products.v2` e `order-by.v2` do `search-result-layout.desktop`. 
+1. Remova `total-products.v2` e `order-by.v2` do `search-result-layout.desktop`;
 2. Substitua ambos acima por uma linha de topo que inclua os blocos removidos:
 
 ```json
@@ -24,7 +24,7 @@ No último step conhecemos a página de busca e seus principais componentes. Tam
 ...
 ```
 
-3. Remova o `search-content` e o `filter-navigator.v3` do `search-result-layout.desktop` e crie uma linha de resultados
+3. Remova o `search-content` e o `filter-navigator.v3` do `search-result-layout.desktop` e crie uma linha de resultados;
 4. Na linha de resultado coloque outras duas colunas:
 
 ```json
@@ -53,9 +53,7 @@ No último step conhecemos a página de busca e seus principais componentes. Tam
 }
 ```
 
-5. Na coluna da esquerda inclua o `filter-navigator.v3` novamente e, na da direita, inclua o `search-content`  
-
-Para finalizar, vamos usar o mesmo **Resumo de Produto**(`product-summary`) que usamos na shelf para exibir os resultados de busca.
+5. Na coluna da esquerda inclua o `filter-navigator.v3` novamente e, na da direita, inclua o `search-content`. Para finalizar, vamos usar o mesmo **Resumo de Produto**(`product-summary`) que usamos na shelf para exibir os resultados de busca;
 
 6. Defina seu `search-content` com os blocos `gallery` e `not-found`:
 
@@ -83,6 +81,8 @@ Para finalizar, vamos usar o mesmo **Resumo de Produto**(`product-summary`) que 
   ...
 }
 ```
+
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout) do Flex Layout caso tenha alguma dúvida durante a atividade.
 
 ----
 
