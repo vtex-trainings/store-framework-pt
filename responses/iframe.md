@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Um *iframe* é um elemento HTML que permite a incorporação de uma outra página HTML à atual. Dessa forma, é possível embutir conteúdos de outras URLs para serem exibidos em nossa página. É importante lembrar que que as URLs renderizadas pelo iframe possuem um contexto próprio, tendo histórico de sessão e DOM independentes da sua página customizada.
+Um [*iframe*](https://vtex.io/docs/app/vtex.iframe) é um elemento HTML que permite a incorporação de uma outra página HTML à atual. Dessa forma, é possível embutir conteúdos de outras URLs para serem exibidos em nossa página. É importante lembrar que que as URLs renderizadas pelo iframe possuem um contexto próprio, tendo histórico de sessão e DOM independentes da sua página customizada.
 
 **ATENÇÃO**: iframes só são permitidos dentro de templates de custom pages
 
@@ -23,6 +23,8 @@ Abaixo, vemos um exemplo de implementação do bloco `iframe`:
      "iframe"
    ]
  },
+
+...
 
 "iframe": {
   "props": {
