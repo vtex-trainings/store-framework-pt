@@ -14,8 +14,8 @@ Para incluir textos no componente de `rich-text`, é necessário utilizar a prop
   "rich-text#home1": {
     "props": {
       "text": "Meu texto",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT"
     }
 ```
 
@@ -26,8 +26,8 @@ A prop `text` aceita o formato de markdown. Portanto, se você deseja escrever s
   "rich-text#home1": {
     "props": {
       "text": "# Meu título h1 \n Escreva aqui um parágrafo \n ## Meu título h2 \n Escreva aqui seu segundo parágrafo \n Inclua aqui uma lista \n - Item 1 \n - Item 2 \n - Item3",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT"
     }
 ```
 
@@ -39,22 +39,18 @@ Outras propriedades do componente `rich-text` podem ser encontrados na [document
 
 1. Dentro do arquivo `about-us.jsonc`, troque o texto da `tab-list.item#home1` para que apareça um "Sobre" na primeira aba.
 
-2. No conteúdo `rich-text` associado a essa aba, crie um texto que contenha um "Quem somos" como um título h2 e 3 parágrafos.
-
-3. Coloque o título e os parágrafos em negrito.
-
-**DICA**: você pode utilizar o texto abaixo como conteúdo dos três parágrafos:
+2. No conteúdo `rich-text` associado a essa aba, utilize o texto abaixo.
 
 ```
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nibh tellus, malesuada vel faucibus eu, laoreet nec lorem. Praesent lorem erat, tempus in malesuada eu, tincidunt vitae risus. Pellentesque vulputate neque vitae mollis mattis. Cras aliquet ac felis eget dictum. Nulla porttitor, ante in lobortis tincidunt, ipsum ligula bibendum turpis, in facilisis ligula velit ac tortor. Proin feugiat ultricies purus, et pretium lorem pulvinar ut. Donec blandit ipsum sit amet neque semper imperdiet. Cras maximus elementum ligula, a mollis risus hendrerit quis. Morbi gravida enim quis erat faucibus cursus.
-
-Nullam ligula dolor, vehicula ut nulla ut, tempus lobortis arcu. Morbi id blandit nisl, non tempus urna. Phasellus lacus ante, dignissim a egestas at, pharetra in dui. Curabitur posuere sapien vitae lectus semper, fermentum fermentum tellus semper. Aenean ligula elit, elementum quis iaculis in, fringilla nec est. Vestibulum ex sapien, iaculis eget tortor id, porta tempor lorem. Aenean aliquam mi et nisi bibendum rhoncus. Sed viverra risus et nulla sodales, eget rutrum lectus fringilla. Quisque iaculis metus in dignissim pretium. Fusce sollicitudin et ipsum et varius.
-
-Curabitur ac mauris sed tortor bibendum euismod. Cras eu volutpat neque. Maecenas at massa eu lacus maximus lacinia. Nunc vehicula diam ac lorem bibendum eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vehicula vehicula nisi vel efficitur. Phasellus vitae pretium magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sodales nunc in libero congue condimentum. Mauris libero neque, cursus nec ipsum ut, gravida maximus libero. In rhoncus leo non ante porta mattis id sed erat. Etiam rhoncus sit amet mi sed gravida. Aliquam scelerisque accumsan malesuada. Praesent ante leo, gravida at tristique at, venenatis non purus. Proin elementum ante quis viverra maximus. Praesent lobortis scelerisque mauris, et eleifend nisi varius in.
+# Nossa História \n ### Nascemos de uma hackathon interna da VTEX! \n Isso mesmo. A primeira Hackatheme (hackathon de temas de loja) da VTEX teve 3 finalistas. Um deles foi a FlatFlat, essa loja que vocês estão acessando agora. A FlatFlat foi criada pelos engenheiros Afonso Praça e Sávio Muniz, pelos designers Lucas Falcão e Augusto Barbosa, e pelo diretor de novos negócios Maurício Baum. Como a loja foi criada por profissionais com os mais diversos backgrounds, o resultado ficou óbvio: foram finalistas com o layout mais legal dentre os participantes.
 ```
+
+3. Coloque o título e o subtítulo em negrito.
 
 Resultado esperado:
 ![](https://appliancetheme.vteximg.com.br/arquivos/rich-text-solution.png)
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever no link a seguir:
+
+`https://github.com/{{user.username}}/store-framework/issues/2`
