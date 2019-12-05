@@ -10,7 +10,7 @@ A partir desse entendimento, podemos melhorar a configuração do [Menu](https:/
 
 ## Atividade
 
-De acordo com o que foi praticado na atividade anterior e o que foi aprendido sobre Flex Layout na atividade pipipipopopo, vamos aplicar o Flex Layout no Submenu de *Major Appliance*. 
+De acordo com o que foi praticado na atividade anterior e o que foi aprendido sobre Flex Layout, vamos aplicar o Flex Layout no Submenu de *Major Appliance*. 
 
 1. No arquivo `menu.jsonc`, substitua `vtex.menu@2.x:menu#major` por `flex-layout.row#major` na lista de *children* do bloco `vtex.menu@2.x:submenu#major`;
 2. Defina em seguida o bloco `flex-layout.row#major`: 
