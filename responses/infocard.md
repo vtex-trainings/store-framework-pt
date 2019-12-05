@@ -70,7 +70,7 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
   {
     "store.home": {
       "blocks": [
-        "rich-text"
+        "rich-text",
         "info-card#button-right"
       ]
     },
