@@ -4,11 +4,11 @@
 
 ## Introdução
 
-Conforme já vimos, Markdown é uma linguagem de marcação amigável que pode ser convertida de maneira simples para HTML. Nesta lição, veremos como é possível utilizar esta linguagem em nosso componente de `rich-text` para criar textos interessantes.
+Conforme já vimos, Markdown é uma linguagem de marcação amigável que pode ser convertida de maneira simples para HTML. Nesta lição, veremos como é possível utilizar esta linguagem em nosso bloco [**Rich Text**](https://vtex.io/docs/components/all/vtex.rich-text/) para criar textos interessantes.
 
 ## Rich Text com Markdown
 
-Para incluir textos no componente de `rich-text`, é necessário utilizar a prop `text`:
+Para incluir textos no bloco de `rich-text`, é necessário utilizar a prop `text`:
 
 ```json
   "rich-text#home1": {
@@ -49,6 +49,9 @@ Outras propriedades do componente `rich-text` podem ser encontrados na [document
 
 Resultado esperado:
 ![](https://appliancetheme.vteximg.com.br/arquivos/rich-text-solution.png)
+
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.rich-text/) do Rich Text caso tenha alguma dúvida durante a atividade.
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever no link a seguir:
