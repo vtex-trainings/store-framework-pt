@@ -1,21 +1,32 @@
 # Configurações básicas
 
+Antes de começar a botar a mão na massa e aprender mais sobre o Store Framework do VTEX IO, algumas configurações básicas precisam ser feitas por você, como:
+
+- Instalar o Git; 
+- Instalar o Toolbelt; 
+- Fazer login em uma conta VTEX;
+- Criar um workspace de desenvolvimento;
+- Linkar seus arquivos locais com a plataforma.
+
+Confira abaixo o passo a passo para cada uma dessas configurações:
+
+## Instalando o Git 
+
+Instale o Git no seu computador acessando o link abaixo e selecionando o software usado pelo seu computador (Windows, MAC ou Linux):
+
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+
+## Instalando o Toolbelt
+
 O **Toolbelt** é a ferramenta de **linha de comando** do VTEX IO. É ele quem permite a realização de qualquer atividade na plataforma, como criar um novo workspace de desenvolvimento, fazer login em uma conta VTEX, desenvolver novas apps, gerenciar as já existentes, etc.
 
 Uma vez que o Toolbelt é quem estabelece a comunicação entre o desenvolvedor e a plataforma, você precisará dele para conseguir realizar todas as atividades propostas durante o curso do Store Framework. 
 
-Por isso, o seu primeiro passo é instalar a linha de comando do VTEX IO no seu computador.   
+1. Instale o [**Node.js**](https://nodejs.org/). Se o computador que você está usando é MAC, instale também o [**Yarn**](https://yarnpkg.com/);
+2. Execute o comando `npm i -g vtex` no seu terminal se você estiver trabalhando de um Windows e `yarn global add vtex` no MAC;
 
-## Instalando o Toolbelt
-
-1. Instale o [**Node.js**](https://nodejs.org/) e o [**Yarn**](https://yarnpkg.com/) no seu computador;
-2. Execute o comando `yarn global add vtex` no seu terminal;
-
-```
-$ yarn global add vtex
-```
-
-Você pode executar o comando `vtex` para confirmar se a instalação do Toolbelt ocorreu como esperado. 
+Você pode executar o comando `vtex-v` (Windows) ou `vtex` (MAC) para confirmar se a instalação do Toolbelt ocorreu como esperado. 
 
 Com a instalação concluída, o seu próximo passo deve ser *logar* em uma conta VTEX. 
 
