@@ -6,7 +6,7 @@
 
 Como vimos no último passo, um Submenu aceita como *children* qualquer bloco do Store Framework.  
 
-A partir desse entendimento, podemos melhorar a configuração do Menu feita na atividade anterior, incrementando seu conteúdo com o uso do [**Flex Layout**](https://vtex.io/docs/components/layout/vtex.flex-layout). 
+A partir desse entendimento, podemos melhorar a configuração do [Menu](https://vtex.io/docs/components/all/vtex.menu/) feita na atividade anterior, incrementando seu conteúdo com o uso do [**Flex Layout**](https://vtex.io/docs/components/layout/vtex.flex-layout). 
 
 ## Atividade
 
@@ -47,6 +47,8 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
   }
 }
 ```
+
+:information_source: Lembre-se de acessar a documentação do [Flex Layout](https://vtex.io/docs/components/layout/vtex.flex-layout) e do [Menu](https://vtex.io/docs/components/all/vtex.menu/) caso tenha alguma dúvida durante a atividade.
 
 ----
 
