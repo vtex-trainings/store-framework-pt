@@ -53,6 +53,8 @@ Nullam ligula dolor, vehicula ut nulla ut, tempus lobortis arcu. Morbi id blandi
 Curabitur ac mauris sed tortor bibendum euismod. Cras eu volutpat neque. Maecenas at massa eu lacus maximus lacinia. Nunc vehicula diam ac lorem bibendum eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vehicula vehicula nisi vel efficitur. Phasellus vitae pretium magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sodales nunc in libero congue condimentum. Mauris libero neque, cursus nec ipsum ut, gravida maximus libero. In rhoncus leo non ante porta mattis id sed erat. Etiam rhoncus sit amet mi sed gravida. Aliquam scelerisque accumsan malesuada. Praesent ante leo, gravida at tristique at, venenatis non purus. Proin elementum ante quis viverra maximus. Praesent lobortis scelerisque mauris, et eleifend nisi varius in.
 ```
 
+Resultado esperado:
+![](https://appliancetheme.vteximg.com.br/arquivos/rich-text-solution.png)
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
