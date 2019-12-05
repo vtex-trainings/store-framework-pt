@@ -50,6 +50,9 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
 
 :information_source: Lembre-se de acessar a documentação do [Flex Layout](https://vtex.io/docs/components/layout/vtex.flex-layout) e do [Menu](https://vtex.io/docs/components/all/vtex.menu/) caso tenha alguma dúvida durante a atividade.
 
+Resultado esperado:
+![](https://appliancetheme.vteximg.com.br/arquivos/menu-flex.png)
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
