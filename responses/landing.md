@@ -28,7 +28,7 @@ A query schema é uma das [props do search result custom query](https://vtex.io/
 
 2. Crie um novo arquivo na pasta de blocos chamado `search-landing.jsonc`;
 3. Crie um novo template custom `store.custom#landing`;
-4. Defina o bloco [`image`](https://vtex.io/docs/components/all/vtex.store-components/image) como um dos blocos desse template;
+4. Defina o bloco [`image`](https://vtex.io/docs/components/all/vtex.store-components/image) como um dos blocos desse template. Este bloco deve possuir props `minWidth` de 100% e uma imagem a sua escolha.
 5. Faça o mesmo com o `search-result-layout.customQuery`:
 
 ```json
