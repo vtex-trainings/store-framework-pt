@@ -36,6 +36,7 @@ Vamos supor que você queira criar uma página simples com informações sobre a
   }
 }
 ```
+
 onde `{templateName}` deve ser substituído pelo nome identificador do template.
 
 A seguir, você deve preencher o código com os componentes necessários para montar o layout. Abaixo, vemos um exemplo dessa implementação:
