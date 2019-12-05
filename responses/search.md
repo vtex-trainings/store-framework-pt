@@ -81,6 +81,14 @@ E tenha como filhos, nesta ordem:
 
 :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.search-result/) de Search Result caso tenha alguma dúvida durante a atividade.
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=P%C3%A1gina+de+busca) 
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

@@ -69,6 +69,14 @@ Obs.: É importante notar que o bloco `product-summary.shelf` já está declarad
 O resultado final esperado deve ser semelhante a este:
 ![image](https://user-images.githubusercontent.com/12139385/70187041-1209e800-16cc-11ea-85b8-80162239ce1d.png)
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Prateleira+de+produtos) 
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

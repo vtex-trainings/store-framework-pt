@@ -26,6 +26,14 @@ Os blocos são a abstração mínima no Store Framework. Eles declaram pequenas 
 
 Ambientes de trabalho protegidos que representam uma cópia bem próxima do está montado em produção, possibilitando a evolução de temas sem que nada na loja seja afetado. 
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Store+Framework+101) 
+
 ----
 
 ## Para continuar clique em **Close issue**

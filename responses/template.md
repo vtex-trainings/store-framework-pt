@@ -114,6 +114,14 @@ Vamos criar uma página com informações sobre a sua loja conforme o exemplo ab
 6. Neste arquivo, declare um path `/about-us`;
 7. Com o código linkado, acesse `{workspace}--appliancetheme.myvtex.com/about-us` para ver sua nova landing page.
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Criando+templates+customizados) 
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

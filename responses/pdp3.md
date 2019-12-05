@@ -62,6 +62,14 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
   
   :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/app/vtex.stack-layout) do Stack Layout caso tenha alguma dúvida durante a atividade.
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Finalizando+sua+pdp) 
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

@@ -103,6 +103,15 @@ A todo momento, abrindo o terminal do VSCode, você pode executar um `vtex link`
 
 Não crie issues e PRs durante o fluxo do curso, isso pode interferir no seu funcionament
 
+---
+
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Funcionamento+do+curso) 
+
 ----
 
 ## Para continuar clique em **Close issue**

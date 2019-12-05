@@ -58,6 +58,14 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
 Resultado esperado:
 ![](https://appliancetheme.vteximg.com.br/arquivos/menu-flex.png)
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Menu+avan%C3%A7ado+com+flex+layout) 
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

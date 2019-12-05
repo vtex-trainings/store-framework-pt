@@ -59,6 +59,14 @@ Evolua a página de produto adicionando os outros 4 blocos listados acima da seg
 
 :information_source: Lembre-se de acessar a documentação do [Breadcrumb](https://vtex.io/docs/app/vtex.breadcrumb), [Product Identifier](https://vtex.io/docs/components/product/vtex.product-identifier), [Product Quantity](https://vtex.io/docs/components/product-related/vtex.product-quantity/) e [SKU Selector](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) caso tenha alguma dúvida durante a atividade.
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Evoluindo+sua+p%C3%A1gina+de+produto+(pdp)) 
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

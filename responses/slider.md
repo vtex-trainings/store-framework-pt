@@ -72,6 +72,14 @@ Nesta atividade, vamos criar um slider de marcas para o nosso site:
 
 :information_source: Lembre-se de acessar a documentação do [Slider Layout](https://vtex.io/docs/components/layout/vtex.slider-layout) e [Image](https://vtex.io/docs/components/general/vtex.store-components/image) caso tenha alguma dúvida durante a atividade.
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Nos dá um feedback! :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Carrossel+de+blocos) 
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).
