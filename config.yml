@@ -62,6 +62,10 @@ steps:
         left: '%payload.state%'
         operator: ===
         right: success
+      - type: gate
+        left: '%payload.branches[0].name%'
+        operator: ===
+        right: 'richtext'
       - type: respond
         with: new-issue.md
         issue: 4
