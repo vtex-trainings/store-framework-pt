@@ -88,6 +88,8 @@ Para finalizar, vamos usar o mesmo **Resumo de Produto**(`product-summary`) que 
 }
 ```
 
+9.  No bloco`product-summary.shelf` que se encontra no arquivo `default.jsonc`, inclua `product-summary-sku-selector` acima de `product-summary-buy-button`.
+
 :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout) do Flex Layout caso tenha alguma dúvida durante a atividade.
 
 ---
