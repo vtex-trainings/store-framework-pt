@@ -43,6 +43,10 @@ Vamos exibir um post de Instagram em nossa loja:
 
 :information_source: Lembre-se de acessar a documentação do [Iframe](https://vtex.io/docs/components/all/vtex.iframe/) caso tenha alguma dúvida durante a atividade.
 
+Resultado esperado:
+![](https://appliancetheme.vteximg.com.br/arquivos/imagem-iframe.png)
+
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).

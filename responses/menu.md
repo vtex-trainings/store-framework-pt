@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Com o Header já configurado e implementado, vamos agora adicionar nele o **Menu**.
+Com o Header já configurado e implementado, vamos agora adicionar nele o [**Menu**](https://vtex.io/docs/components/all/vtex.menu/).
 
 A configuração do Menu é um passo importante na construção do tema, pois é ele o bloco é responsável pela **navegação** do usuário na sua loja. 
 
@@ -39,10 +39,9 @@ Abaixo, podemos conferir um exemplo de implementação básica do bloco, contend
 
 ## Atividade
 
-Nesta atividade, entenderemos melhor sobre a configuração do Menu e a hierarquia existente dentro dele a partir da construção de *Menu Items* e Submenus.  
+Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vtex.io/docs/components/all/vtex.menu/) e a hierarquia existente dentro dele a partir da construção de *Menu Items* e Submenus.  
 
 1. No arquivo `menu-items.jsonc`, adicione `header-row#menu`  na lista de children do bloco `header-layout.desktop` (configurado na [atividade anterior]) para que o Menu possa ser renderizado pelo Header da loja;
-
 2. Copie e cole o código abaixo para declarar o bloco `header-row#menu` :
 
 ```
@@ -99,6 +98,8 @@ Nesta atividade, entenderemos melhor sobre a configuração do Menu e a hierarqu
 8. Construa agora o Menu secundário de *Small Appliances*. Assim como feito para *Major Appliance*, você deve definir `vertical` como valor da prop `orientation` e configurar os seguintes *Menu Items* na lista de children do bloco:  `menu-item#mixers`, `menu-item#toasters` e `menu-item#coffee`;
 
 9. Com base nos passos anteriores, faça o mesmo para *Eletronics*: crie o seu Submenu (`vtex.menu@2.x:submenu#electronics`) e Menu secundário. Depois, construa esse último com o mesmo valor de prop (`vertical`) e configure o os seguintes *Menu Items* na lista de children do bloco: `menu-item#cameras`, `menu-item#laptops` e `menu-item#tvs`. 
+
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.menu/) do Menu caso tenha alguma dúvida durante a atividade.
 
 ----
 
