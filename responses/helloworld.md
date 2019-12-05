@@ -139,7 +139,7 @@ Defina um [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) na su
 
 <img src="https://user-images.githubusercontent.com/12139385/70143376-2e7d3480-167a-11ea-8727-2bc6a9422f21.png" width="150" />
 
-Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.rich-text/) do Rich Text caso tenha alguma dúvida durante a atividade.
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.rich-text/) do Rich Text caso tenha alguma dúvida durante a atividade.
 
 ----
 
