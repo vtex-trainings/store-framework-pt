@@ -74,7 +74,7 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 },
 ```
 
-5. Como vimos na introdução, um *Menu Item* pode permitir a configuração de um Submenu dentro dele que, por sua vez, pode ter consigo outro Menu com *Menu Items*. Crie então o Submenu de *Major Appliance*, de acordo com o exemplo abaixo: 
+5. Como vimos na introdução, um *Menu Item* pode permitir a configuração de um Submenu dentro dele que, por sua vez, pode ter consigo outro Menu com *Menu Items*. Crie então o Submenu de *Major Appliance*, ainda no arquivo `menu.jsonc`, de acordo com o exemplo abaixo: 
 
 ```json
 "vtex.menu@2.x:submenu#major":{
@@ -84,7 +84,7 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 },
 ```
 
-6. Seguindo o formato estabelecido pelo bloco `vtex.menu@2.x:menu#categories`, construa o Menu secundário de *Major Appliances* declarado no último passo. Você deve definir `vertical` como valor da prop `orientation` e configurar os seguintes *Menu Items* na lista de children do bloco:  `menu-item#refrigerators`, `menu-item#ovens` e `menu-item#washers`; 
+6. Seguindo o formato estabelecido pelo bloco `vtex.menu@2.x:menu#categories`, construa o Menu secundário de *Major Appliances* declarado no último passo no arquivo `menu.jsonc`. Você deve definir `vertical` como valor da prop `orientation` e configurar os seguintes *Menu Items* na lista de children do bloco:  `menu-item#refrigerators`, `menu-item#ovens` e `menu-item#washers`; 
 
 7. Crie também o Submenu de *Small Appliances*:
 
@@ -96,7 +96,7 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 },
 ```
 
-8. Construa agora o Menu secundário de *Small Appliances*. Assim como feito para *Major Appliance*, você deve definir `vertical` como valor da prop `orientation` e configurar os seguintes *Menu Items* na lista de children do bloco:  `menu-item#mixers`, `menu-item#toasters` e `menu-item#coffee`;
+8. Construa agora o Menu secundário de *Small Appliances* no arquivo `menu.jsonc`. Assim como feito para *Major Appliance*, você deve definir `vertical` como valor da prop `orientation` e configurar os seguintes *Menu Items* na lista de children do bloco:  `menu-item#mixers`, `menu-item#toasters` e `menu-item#coffee`;
 
 9. Com base nos passos anteriores, faça o mesmo para *Eletronics*: crie o seu Submenu (`vtex.menu@2.x:submenu#electronics`) e Menu secundário. Depois, construa esse último com o mesmo valor de prop (`vertical`) e configure o os seguintes *Menu Items* na lista de children do bloco: `menu-item#cameras`, `menu-item#laptops` e `menu-item#tvs`. 
 
