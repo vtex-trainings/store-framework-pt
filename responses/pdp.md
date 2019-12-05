@@ -70,6 +70,8 @@ Além disso, queremos que:
 1. A coluna da direita esteja verticalmente alinhada ao centro (veja as props `verticalAlign` e `preventVerticalStrech` na [documentação de Flex Layout Column](https://vtex.io/docs/app/vtex.flex-layout#flex-layoutcol))
 2. O [`product-price`](https://vtex.io/docs/components/all/vtex.store-components/product-price#configuration) mostre o total de economia e o preço de listagem (`showSavings` e `showListPrice`)
 
+:information_source: Lembre-se de acessar a documentação do [`product-images`](https://vtex.io/docs/components/product-related/vtex.store-components/product-images), [`product-price`](https://vtex.io/docs/components/product-related/vtex.store-components/product-price), [`product-name`](https://vtex.io/docs/components/product-related/vtex.store-components/product-name) e [`buy-button`](https://vtex.io/docs/app/vtex.store-components/buy-button) caso tenha alguma dúvida durante a atividade.
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
