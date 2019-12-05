@@ -55,7 +55,7 @@ Em seguida devemos declarar esses blocos da seguinte forma:
 
 "rich-text#desktop": {
   "props": {
-    "text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
+    "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
     "textPosition": "CENTER",
     "textAlignment": "CENTER"
   }
@@ -63,7 +63,7 @@ Em seguida devemos declarar esses blocos da seguinte forma:
 
 "rich-text#mobile": {
   "props": {
-    "text": "# Your Coffee, Your Way /n ### New Coffee Makers Collection",
+    "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
     "textPosition": "CENTER",
     "textAlignment": "CENTER"
   }
