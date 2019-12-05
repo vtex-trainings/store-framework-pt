@@ -4,15 +4,15 @@
 
 ## Introdução
 
-Além do css, que já foi aprendido anteriormente, o Store Framework oferece um outro tipo de customização de design, provida a partir do `style.json`. 
+Além do css, que já foi aprendido anteriormente, o Store Framework oferece um outro tipo de customização de design, provida a partir do `style.json`.
 
 ## Estilização semântica 
 
-Todos os blocos do Store Framework se alavancam das mesmas definições semânticas de estilo, definidas usando o [Tachyons](https://tachyons.io/). Na prática, isso significa que ao invés de precisar mudar todos os fundos de botões para usar a cor que se interessa, é necessário apenas redefinir a cor que um `background` de uma `action-primary` tem. 
+Todos os blocos do Store Framework se alavancam das mesmas definições semânticas de estilo, definidas usando o [Tachyons](https://tachyons.io/). Na prática, isso significa que ao invés de precisar mudar todos os fundos de botões para usar a cor que se interessa, é necessário apenas redefinir a cor que um `background` de uma `action-primary` tem.
 
 Customizações através do `style.json` tendem a ter um impacto muito maior que através de css, pois, em geral, mantém a identidade visual da loja ao longo de todas as páginas sendo necessárias poucas mudanças. Por esse motivo, sempre que possível, essa ferramenta deve ser usada, evitando assim overhead de css desnecessário.
 
-## Investigando do `style.json`
+## Investigando o `style.json`
 
 ### Cores
 
@@ -24,7 +24,7 @@ Por exemplo, **clique com o botão direito em cima de qualquer botão da loja ap
 
 <img src="https://user-images.githubusercontent.com/18701182/69848770-b36ee500-1259-11ea-882a-b2ac5ebdde4d.png" width="400" />  
 
-Observando a barra lateral no Chrome que abriu é possível ver uma série de definições, uma delas é a de cor do background do botão (#0f3e99): 
+Observando a barra lateral no Chrome que abriu é possível ver uma série de definições, uma delas é a de cor do background do botão (#0f3e99):
   
 <img src="https://user-images.githubusercontent.com/18701182/69849050-77884f80-125a-11ea-87d2-7a148fd56787.png" width="500" />
 
@@ -47,17 +47,11 @@ Em um cabeçalho nível 1, por exemplo, ao inspecionar descobrimos que seu taman
 
 <img src="https://user-images.githubusercontent.com/18701182/69850673-8b35b500-125e-11ea-824b-3f3f3235e575.png" width="400" />
 
-
 1. Substitua todas as ocorrências das cores que encontramos, trocando:
   - **#072c75** por **#45a6a3**
   - **#0F3E99** por **#52BAB7**
-
 2. Mude o tamanho da fonte heading level 1 para que agora tenha 2.5 rem de altura
 
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
-
-
-
-
