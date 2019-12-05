@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Começamos nossa jornada pelo clássico **"Hello, World!"**. Para criar algo do tipo, precisamos conhecer os blocos do Store Framework e usar um que nos possibilite a criação de textos. Este bloco se chama **Rich Text**.
+Começamos nossa jornada pelo clássico **"Hello, World!"**. Para criar algo do tipo, precisamos conhecer os blocos do Store Framework e usar um que nos possibilite a criação de textos. Este bloco se chama [**Rich Text**](https://vtex.io/docs/components/all/vtex.rich-text/).
 
 ## Rich Text
 
@@ -115,7 +115,7 @@ Olhando a [documentação do Markdown](https://www.markdownguide.org/cheat-sheet
 }
 ```
 
-Para posicioná-lo ao centro, podemos adicionar `textPosition` [(*Choose in which position of the component text will be displayed, left, center or right. Default: "LEFT"*)](https://vtex.io/docs/app/vtex.rich-text#blocks-api) e atribuí-lo `CENTER`:
+Para posicioná-lo ao centro, podemos adicionar a prop `textPosition`  e atribuir a ela o valor `CENTER`:
 
 ```json
 {
@@ -135,9 +135,11 @@ Para posicioná-lo ao centro, podemos adicionar `textPosition` [(*Choose in whic
 
 ## Atividade
 
-Defina um `rich-text` na sua home e crie um texto "Hello, World!" em **negrito** e **posicionado à direita**.
+Defina um [Rich Text](https://vtex.io/docs/components/all/vtex.rich-text/) na sua home e crie um texto "Hello, World!" em **negrito** e **posicionado à direita**.
 
 <img src="https://user-images.githubusercontent.com/12139385/70143376-2e7d3480-167a-11ea-8727-2bc6a9422f21.png" width="150" />
+
+Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.rich-text/) do Rich Text caso tenha alguma dúvida durante a atividade.
 
 ----
 
