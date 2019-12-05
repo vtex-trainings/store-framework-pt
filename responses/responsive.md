@@ -96,7 +96,7 @@ Nessa atividade, vamos brincar um pouco com o markdown do [Rich Text](https://vt
     "link": {
       "url": "/small-appliances/coffee-makers"
     } ,
-    "alt": "Coffee Makers Collection",
+    "alt": "Coffee Makers Collection"
   }
 },
 
