@@ -28,8 +28,8 @@ A query schema é uma das [props do search result custom query](https://vtex.io/
 
 2. Crie um novo arquivo na pasta de blocos chamado `search-landing.jsonc`;
 3. Crie um novo template custom `store.custom#landing`;
-4. Defina o bloco [`image`](https://vtex.io/docs/components/all/vtex.store-components/image) como um dos blocos que são usados por esse template;
-5. Use também o `search-result-layout.customQuery`
+4. Defina o bloco [`image`](https://vtex.io/docs/components/all/vtex.store-components/image) como um dos blocos desse template;
+5. Faça o mesmo com o `search-result-layout.customQuery`:
 
 ```json
 {
@@ -43,11 +43,11 @@ A query schema é uma das [props do search result custom query](https://vtex.io/
 ```
 
 6. Defina o bloco `search-result-layout.customQuery` com [prop de *querySchema*](https://vtex.io/docs/app/vtex.search-result#queryschema) que:
-  - Ordena por data de lançamento de forma descrescente
-  - Esconda itens indisponíveis
-  - Mostre um máximo de 8 itens por página
-  - Use como *query* "Blue Top Retro Camera"
-  - Use como mapField `ft`
+  - Ordena por data de lançamento de forma descrescente;
+  - Esconda itens indisponíveis;
+  - Mostre um máximo de 8 itens por página;
+  - Use como *query* "Blue Top Retro Camera";
+  - Use como mapField `ft`.
 
 ----
 
