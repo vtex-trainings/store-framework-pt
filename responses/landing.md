@@ -18,7 +18,7 @@ A query schema é uma das [props do search result custom query](https://vtex.io/
 
 ![image](https://user-images.githubusercontent.com/18701182/69890324-d1792b80-12d3-11ea-911d-194d2cb778c8.png)
 
-1. Defina uma rota nova (`store.custom#landing`) no arquivo `routes.json`
+1. Defina uma rota nova (`store.custom#landing`) no arquivo `routes.json`;
 
 ```json
 "store.custom#landing": {
@@ -26,9 +26,9 @@ A query schema é uma das [props do search result custom query](https://vtex.io/
 }
 ```
 
-2. Crie um novo arquivo na pasta de blocos chamado `search-landing.jsonc`
-3. Crie um novo template custom `store.custom#landing`
-4. Nos blocos desse template use uma `image`
+2. Crie um novo arquivo na pasta de blocos chamado `search-landing.jsonc`;
+3. Crie um novo template custom `store.custom#landing`;
+4. Defina o bloco [`image`](https://vtex.io/docs/components/all/vtex.store-components/image) como um dos blocos que são usados por esse template;
 5. Use também o `search-result-layout.customQuery`
 
 ```json
