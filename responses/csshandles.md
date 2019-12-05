@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Dando uma rápida olhada na sua loja atual, você conseguirá perceber que todos os componentes possuem estilos parecidos, mesmo que nenhuma customização tenha sido feita por você.  
+Dando uma rápida olhada na sua loja atual, você conseguirá perceber que todos os componentes possuem estilos parecidos, mesmo que nenhuma customização tenha sido feita por você.
 
 Todos eles, incluindo o [Info Card](https://vtex.io/docs/components/all/vtex.store-components/info-card) recém configurado, compartilham **valores pré-estabelecidos** para fonte, cor de fundo, cor principal, formato dos botões, etc.
 
@@ -12,7 +12,7 @@ Isso se deve ao `style.json`, arquivo responsável por declarar valores genéric
 
 ![style](https://user-images.githubusercontent.com/52087100/69889933-60854400-12d2-11ea-8d11-97aef0f3bf83.png)
 
-Para criar uma identidade própria para os componentes da sua loja, você pode sobrescrever esses valores por meio de **customizações de CSS**.  
+Para criar uma identidade própria para os componentes da sua loja, você pode sobrescrever esses valores por meio de **customizações de CSS**.
 
 Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) para customizações de loja por CSS, percebemos que alguns passos serão necessários para aplicar o estilo próprio desejado por você, como:
 
@@ -20,25 +20,25 @@ Analisando a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-s
 2. Usar o CSS Handle do componente que será customizado dentro deste arquivo seguindo o formato abaixo:
 
 ```css
-.{CSSHandle} {  
+.{CSSHandle} {
     {PropriedadeDeCSS}: {ValorDesejado};
-    {PropriedadeDeCSS}: {ValorDesejado};  
+    {PropriedadeDeCSS}: {ValorDesejado};
 }
 ```
 
-3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{componentName})`. 
+3. Na falta de CSS Handles, aplicar CSS Selectors permitidos, como é o caso do `:global(vtex-{componentName})`.
 4. Para aplicar CSS em um bloco específico e não a todos os blocos daquele tipo, usa-se o recurso de blockClass, que aparece ao lado dos handles de css ao inspecionar seu código. As blockClass devem ser declaradas como uma prop no bloco em questão, e então referenciado no arquivo de estilo como mostrado abaixo:
 
 ```css
-.{CSSHandle}--{blockClass} {  
+.{CSSHandle}--{blockClass} {
     {PropriedadeDeCSS}: {ValorDesejado};
-    {PropriedadeDeCSS}: {ValorDesejado};  
+    {PropriedadeDeCSS}: {ValorDesejado};
 }
 ```
 
 ## Customizando o Info Card
 
-Para descobrir os CSS Handles de um componente, como o Info Card, basta acessar a sessão `Customization` da sua documentação. 
+Para descobrir os CSS Handles de um componente, como o Info Card, basta acessar a sessão `Customization` da sua documentação.
 
 De acordo com a descrição dos CSS Handles e com a recipe customizações de loja por CSS, conseguimos implementar um exemplo de Info Card customizado, alterando seu título e as configurações do botão call to action ao adicionar o código a seguir no arquivo `vtex.store-components.css` dentro de `/styles/css`:
 
@@ -102,7 +102,7 @@ Observe o efeito atingido linkando sua app.
 
 ## Atividade
 
-1. Copie o código acima para usá-lo no arquivo CSS do seu tema, seguindo a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) sobre customizações de loja por CSS;
+1. No arquivo `vtex.store-components.css`, copie o código acima para usá-lo no arquivo CSS do seu tema, seguindo a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) sobre customizações de loja por CSS;
 2. Com base nos Handles do [**Info Card**](https://vtex.io/docs/components/all/vtex.store-components/info-card), defina a largura máxima (`max-width`) de de todos os infocards para `1260px`, a margin para `0 auto` e o padding para `0`.
 3. Mude a cor do título do componente para `black`;
 4. Coloque o título em negrito (`bold`);

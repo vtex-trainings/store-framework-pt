@@ -54,7 +54,7 @@ Nesta atividade, vamos criar um slider de marcas para o nosso site:
 
 ![](https://appliancetheme.vteximg.com.br/arquivos/brand-slider.png)
 
-1. Declare o bloco `slider-layout#home` ao template `store.home`.
+1. No arquivo `home.jsonc`, declare o bloco `slider-layout#home` ao template `store.home`.
 
 2. Crie um arquivo chamado `slider-layout.jsonc` dentro da pasta `/store/blocks`.
 

@@ -95,18 +95,13 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
 
 ## Atividade
 
-A partir do código acima, crie o `info-card#button-right` proposto no seu template de `store.home`. Logo abaixo deste infocard, declare um novo bloco chamado `info-card#button-left`. Este novo infocard deve possuir:
+A partir do código acima, no arquivo `home.jsonc`, crie o `info-card#button-right` proposto no seu template de `store.home`. Logo abaixo deste infocard, declare um novo bloco chamado `info-card#button-left`. Este novo infocard deve possuir:
 
  1. O título `Shining chrome`
- 
  2. Um call to action do tipo link com o texto `Go to Collection` no lugar do botao
- 
  3. A imagem `https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png`
- 
  4. O subtítulo `Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.`
- 
  5. O texto posicionado à esquerda.
- 
 
 O resultado esperado é semelhante ao apresentado na imagem abaixo:
 
