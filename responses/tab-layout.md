@@ -16,6 +16,7 @@ Primeiro, é necessário declarar o block `tab-layout` no template desejado:
 {
   "store.custom#about-us": {
     "blocks": [
+      ...
       "tab-layout"
     ]
   }
@@ -26,33 +27,36 @@ Primeiro, é necessário declarar o block `tab-layout` no template desejado:
 Depois, é necessário declarar um `tab-list` e um `tab-content` como children do `tab-layout`:
 
 ```json
-  "tab-layout": {
-    "children": [
-      "tab-list",
-      "tab-content"
-    ]
-  }
+...
+"tab-layout": {
+  "children": [
+    "tab-list",
+    "tab-content"
+  ]
+}
 ```
 
 
 Com isso, temos esses dois containers como componentes do nosso `tab-layout`. O próximo passo é declarar os `tab-list.item` e `tab-content.item` como children do `tab-list` e do `tab-content`, respectivamente:
 
 ```json
-  "tab-list": {
-    "children": [
-      "tab-list.item#1",
-      "tab-list.item#2"
-      ]
-  }
+...
+"tab-list": {
+  "children": [
+    "tab-list.item#1",
+    "tab-list.item#2"
+    ]
+}
 ```
 
 ```json
-  "tab-content": {
-    "children": [
-      "tab-content.item#1",
-      "tab-content.item#2"
-      ]
-  }
+...
+"tab-content": {
+  "children": [
+    "tab-content.item#1",
+    "tab-content.item#2"
+    ]
+}
 ```
 
 Na próxima etapa, temos declarar que as propriedades dos `tab-list.item`. O código abaixo gera uma interface de tabs como a desta imagem:
@@ -62,19 +66,20 @@ Na próxima etapa, temos declarar que as propriedades dos `tab-list.item`. O có
 A propriedade `tabId` é muito importante, pois ela é a chave que conecta o botão de um `tab-list.item` com um `tab-content.item`.
 
 ```json
-  "tab-list.item#1": {
-    "props": {
-      "tabId": "majorAppliances",
-      "label": "Major Appliances",
-      "defaultActiveTab": true
-    }
-  },
-  "tab-list.item#2": {
-    "props": {
-      "tabId": "electronics",
-      "label": "Electronics"
-    }
+...
+"tab-list.item#1": {
+  "props": {
+    "tabId": "majorAppliances",
+    "label": "Major Appliances",
+    "defaultActiveTab": true
   }
+},
+"tab-list.item#2": {
+  "props": {
+    "tabId": "electronics",
+    "label": "Electronics"
+  }
+}
 ```
 
 A seguir, vamos declarar as children e as props dos `tab-content.item`.
@@ -84,22 +89,23 @@ No array de children, é possível incluir diversos blocks como `rich-text`, `in
 Na prop `tabId`, é necessário incluir os mesmos ids declarados nos `tab-list.item` para que o link entre a aba e o conteúdo funcione.
 
 ```json
-  "tab-content.item#1": {
-    "children": [
-      "rich-text#1"
-    ],
-    "props": {
-      "tabId": "majorAppliances"
-    }
-  },
-  "tab-content.item#2": {
-    "children": [
-      "rich-text#2"
-    ],
-    "props": {
-      "tabId": "electronics"
-    }
+...
+"tab-content.item#1": {
+  "children": [
+    "rich-text#1"
+  ],
+  "props": {
+    "tabId": "majorAppliances"
   }
+},
+"tab-content.item#2": {
+  "children": [
+    "rich-text#2"
+  ],
+  "props": {
+    "tabId": "electronics"
+  }
+}
 ```
 
 Por fim, você deve declarar as propriedades do seu conteúdo. No nosso exemplo, colocamos apenas um `rich-text` em cada `tab-content.item`:
@@ -136,8 +142,9 @@ Nesta atividade, vamos criar a estrutura simples de um tab layout, conforme imag
 7. Em cada `tab-content.item`, declare apenas um `rich-text` como children (por exemplo, `rich-text#home1` e `rich-text#home2`).
 8. Depois, inclua uma prop `tabId` em cada `tab-content.item` de maneira que aconteça o link entre o `tab-list` criado anteriormente e `tab-content`
 9. Por fim, adicione os `rich-text` e declare suas props conforme o código abaixo
+  
   ```json
-    "rich-text#home1": {
+  "rich-text#home1": {
     "props": {
       "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
       "textPosition": "CENTER",
