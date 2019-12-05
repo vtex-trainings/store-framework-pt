@@ -42,7 +42,7 @@ Abaixo, podemos conferir um exemplo de implementação básica do bloco, contend
 
 Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vtex.io/docs/components/all/vtex.menu/) e a hierarquia existente dentro dele a partir da construção de *Menu Items* e Submenus.  
 
-1. No arquivo `header.jsonc`, adicione `header-row#menu`  na lista de children do bloco `header-layout.desktop` (configurado na [atividade anterior]) para que o Menu possa ser renderizado pelo Header da loja;
+1. No arquivo `header.jsonc`, adicione `header-row#menu`  como o último item na lista de children do bloco `header-layout.desktop` (configurado na [atividade anterior]) para que o Menu possa ser renderizado pelo Header da loja;
 2. Copie e cole o código abaixo para declarar o bloco `header-row#menu` :
 
 ```json
