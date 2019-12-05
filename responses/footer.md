@@ -60,6 +60,9 @@ Não implementaremos o menu nessa atividade, pois ele já foi visto no contexto 
 
 :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.store-footer/) do Footer caso tenha alguma dúvida durante a atividade. 
 
+Resultado esperado:
+![](https://appliancetheme.vteximg.com.br/arquivos/imagem-footer.png)
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
