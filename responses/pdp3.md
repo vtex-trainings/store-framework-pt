@@ -6,6 +6,8 @@
 
 Neste passo vamos terminar de montar a nossa página de produto. Aprenderemos como empilhar blocos usando o [**Stack Layout**](https://vtex.io/docs/app/vtex.stack-layout), como sugerir produtos similares e como customizar melhor o SKU Selector para produtos com imagem de SKU.
 
+Para testar este step, utilize a url do produto `/3-colors-retro-stand-mixer/p`.
+
 ![image](https://user-images.githubusercontent.com/18701182/69393219-50a8a700-0cb7-11ea-8718-c5ec0536cbe2.png)
 
 ## Stack Layout
@@ -33,6 +35,8 @@ Evolua a página de produto adicionando os passos abaixo ao arquivo `product.jso
   ]
 }
 ```
+
+:warning: Lembre-se, esta prateleira de produtos aparece somente no produto `/3-colors-retro-stand-mixer/p`.
 
 2. Troque `product-images` na coluna da esquerda por uma declaração de `stack-layout`;
 
@@ -63,6 +67,8 @@ Evolua a página de produto adicionando os passos abaixo ao arquivo `product.jso
   - mostre erro se nenhuma variação de sku for selecionada.
   
   :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/app/vtex.stack-layout) do Stack Layout caso tenha alguma dúvida durante a atividade.
+
+:information_source: Lembre-se de utilizar o produto `/3-colors-retro-stand-mixer/p` para testar este passo.
 
 ---
 
