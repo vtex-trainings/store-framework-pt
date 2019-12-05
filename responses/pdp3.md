@@ -59,7 +59,7 @@ Evolua a página de produto adicionando os passos abaixo ao arquivo `product.jso
 }
 ```
 
-4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer com altura de **30**. 
+4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer com altura de **30** e incluir a prop `displayMode: "logo"`. 
 
 5. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) para fazer com que o `sku-selector`: 
   - comece sem nenhum SKU selecionado;
