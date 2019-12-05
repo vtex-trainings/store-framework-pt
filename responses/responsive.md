@@ -84,7 +84,7 @@ Nessa atividade, vamos brincar um pouco com o markdown do [Rich Text](https://vt
 
 ![image](https://user-images.githubusercontent.com/12139385/70152883-bf5d0b80-168c-11ea-81e0-25be5ed3d5ce.png)
 
-1. Adicione o código proposto acima no arquivo `home.jsonc`, e delcare os blocos de responsive-layout no template `store.home`
+1. Adicione o código proposto acima no arquivo `home.jsonc` e declare os blocos de `responsive-layout` no template `store.home`;
 2. No `rich-text#mobile`, altere o markdown da primeira frase para `h3` e da segunda para `h4`;
 3. Adicione `image#desktop` como children de `responsive-layout.desktop#desktop`. Faça o mesmo com `image#mobile`  em `responsive-layout.mobile#mobile`;
 4. Declare os seguintes blocos de Image no arquivo `home.jsonc`: 
@@ -112,6 +112,8 @@ Nessa atividade, vamos brincar um pouco com o markdown do [Rich Text](https://vt
 ```
 
 5. Analisando as props do [componente Image](https://vtex.io/docs/components/general/vtex.store-components/image), defina a largura máxima das duas imagens como `100%`.
+
+:information_source: Lembre-se de acessar a [documentação]((https://vtex.io/docs/components/layout/vtex.responsive-layout)) do Responsive Layout caso tenha alguma dúvida durante a atividade.
 
 ----
 
