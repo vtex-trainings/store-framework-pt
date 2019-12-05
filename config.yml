@@ -25,6 +25,9 @@ steps:
       - type: createIssue
         title: 'Funcionamento do curso'
         body: course.md
+      - type: createLabel
+        name: 'foo'
+        color: f87000
   - title: Funcionamento do curso
     description: Explicando como interagir com o curso.
     event: issues.closed
