@@ -1,8 +1,7 @@
 # Funcionamento do curso
 
-<a href="http://bit.ly/vtex-course-workflow" target="_blank"><img src="https://user-images.githubusercontent.com/18701182/70206348-fae7ec00-1705-11ea-8c8d-90f614062782.png
-" 
-alt="IMAGE ALT TEXT HERE" width="600" height="360" border="10" /></a>
+<a href="http://bit.ly/vtex-course-workflow" target="_blank"><img src="https://user-images.githubusercontent.com/18701182/70206348-fae7ec00-1705-11ea-8c8d-90f614062782.png" 
+alt="IMAGE ALT TEXT HERE" width="720" height="360" border="10" /></a>
 
 ## Objetivo
 
