@@ -30,7 +30,7 @@ Ambientes de trabalho protegidos que representam uma cópia bem próxima do est�
 
 ### :no_entry_sign: Perdido? 
 
-Há algum problema com esse passo? Nos dá um feedback! :pray:
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
 
 [Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Store+Framework+101) 
 

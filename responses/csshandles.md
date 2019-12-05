@@ -116,7 +116,7 @@ Observe o efeito atingido linkando sua app.
 
 ### :no_entry_sign: Perdido? 
 
-Há algum problema com esse passo? Nos dá um feedback! :pray:
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
 
 [Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=CSS+handles+e+o+poder+da+customiza%C3%A7%C3%A3o+de+blocos) 
 

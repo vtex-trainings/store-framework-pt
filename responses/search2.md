@@ -88,7 +88,7 @@ No último step conhecemos a página de busca e seus principais componentes. Tam
 
 ### :no_entry_sign: Perdido? 
 
-Há algum problema com esse passo? Nos dá um feedback! :pray:
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
 
 [Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Ajustando+layout+da+p%C3%A1gina+de+busca) 
 
