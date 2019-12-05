@@ -106,14 +106,22 @@ Vamos criar uma página com informações sobre a sua loja conforme o exemplo ab
 
 ![](https://appliancetheme.vteximg.com.br/arquivos/about-us-activity.png)
 
-1. Na pasta `blocks`, crie um arquivo `about-us.jsonc`
-2. Declare um template `store.custom#about-us` neste arquivo
-3. Inclua um block "flex-layout.row#about-us" neste template
-4. Após declarar o flex-layout.row, utilize o código do exemplo dado acima para completar o layout da página
-5. Na pasta `store`, crie um arquivo `routes.json`
-6. Neste arquivo, declare um path `/about-us`
-7. Com o código linkado, acesse `{workspace}--appliancetheme.myvtex.com/about-us` para ver sua nova landing page
+1. Na pasta `blocks`, crie um arquivo `about-us.jsonc`;
+2. Declare um template `store.custom#about-us` neste arquivo;
+3. Inclua um block "flex-layout.row#about-us" neste template;
+4. Após declarar o `flex-layout.row`, utilize o código do exemplo dado acima para completar o layout da página;
+5. Na pasta `store`, crie um arquivo `routes.json`;
+6. Neste arquivo, declare um path `/about-us`;
+7. Com o código linkado, acesse `{workspace}--appliancetheme.myvtex.com/about-us` para ver sua nova landing page.
+
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Criando+templates+customizados) 
 
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

@@ -22,18 +22,19 @@ Mas o Menu não necessariamente precisa ser configurado seguindo esse cenário m
 
 Abaixo, podemos conferir um exemplo de implementação básica do bloco, contendo apenas 3 *Menu Items*:
 
-```
+```json
 {
   "vtex.menu@2.x:menu#categories": {
-  "children": [
-    "menu-item#major-appliances",
-    "menu-item#small-appliances",
-    "menu-item#electronics"
-  ],
+    "children": [
+      "menu-item#major-appliances",
+      "menu-item#small-appliances",
+      "menu-item#electronics"
+    ],
 
-  "props":{
-    "orientation": "horizontal"
-   }
+    "props":{
+      "orientation": "horizontal"
+    }
+  }
 },
 ```
 
@@ -44,7 +45,7 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 1. No arquivo `menu-items.jsonc`, adicione `header-row#menu`  na lista de children do bloco `header-layout.desktop` (configurado na [atividade anterior]) para que o Menu possa ser renderizado pelo Header da loja;
 2. Copie e cole o código abaixo para declarar o bloco `header-row#menu` :
 
-```
+```json
 "header-row#menu": {
   "children": [
     "header-spacer",
@@ -58,14 +59,14 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 
 4. Cole o código abaixo para renderizar horizontalmente os 3 itens do seu Menu principal:
 
-```
+```json
 {
  "vtex.menu@2.x:menu#categories": {
    "children": [
      "menu-item#major-appliances",
      "menu-item#small-appliances",
      "menu-item#electronics"
-  ],
+   ],
 
    "props":{
      "orientation": "horizontal"
@@ -75,7 +76,7 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 
 5. Como vimos na introdução, um *Menu Item* pode permitir a configuração de um Submenu dentro dele que, por sua vez, pode ter consigo outro Menu com *Menu Items*. Crie então o Submenu de *Major Appliance*, de acordo com o exemplo abaixo: 
 
-```
+```json
 "vtex.menu@2.x:submenu#major":{
   "children":[
     "vtex.menu@2.x:menu#major"
@@ -87,7 +88,7 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 
 7. Crie também o Submenu de *Small Appliances*:
 
-```
+```json
  "vtex.menu@2.x:submenu#small":{
    "children":[
      "vtex.menu@2.x:menu#small"
@@ -101,6 +102,17 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 
 :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.menu/) do Menu caso tenha alguma dúvida durante a atividade.
 
+Resultado esperado:
+![](https://appliancetheme.vteximg.com.br/arquivos/imagem-menu.png)
+
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Menu) 
+
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

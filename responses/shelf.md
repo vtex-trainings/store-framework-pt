@@ -64,9 +64,19 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 
 Obs.: É importante notar que o bloco `product-summary.shelf` já está declarado dentro do arquivo `default.jsonc`. Por este motivo, não foi necessário declará-lo nesta atividade.
 
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/app/vtex.shelf) da Shelf caso tenha alguma dúvida durante a atividade.
+
 O resultado final esperado deve ser semelhante a este:
 ![image](https://user-images.githubusercontent.com/12139385/70187041-1209e800-16cc-11ea-85b8-80162239ce1d.png)
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Prateleira+de+produtos) 
+
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

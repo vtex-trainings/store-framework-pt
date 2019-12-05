@@ -46,7 +46,14 @@ Vamos exibir um post de Instagram em nossa loja:
 Resultado esperado:
 ![](https://appliancetheme.vteximg.com.br/arquivos/imagem-iframe.png)
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Inserindo+um+Iframe+na+nossa+p%C3%A1gina+institucional) 
 
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

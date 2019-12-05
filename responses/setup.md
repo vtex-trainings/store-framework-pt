@@ -1,21 +1,39 @@
 # Configurações básicas
 
+<a href="https://bit.ly/setup-vtex" target="_blank"><img src="https://user-images.githubusercontent.com/18701182/70204540-be18f680-16ff-11ea-994d-ef580767a673.png" 
+alt="IMAGE ALT TEXT HERE" width="600" height="360" border="10" /></a>
+
+> Para o vídeo de setup do Mac, [clique aqui](https://bit.ly/setup-vtex-mac)
+
+## Introdução 
+
+Antes de começar a botar a mão na massa e aprender mais sobre o Store Framework do VTEX IO, algumas configurações básicas precisam ser feitas por você, como:
+
+- Instalar o **Git**; 
+- Instalar o **Toolbelt**; 
+- Fazer **login** em uma conta VTEX;
+- Criar um **workspace** de desenvolvimento;
+- **Linkar** seus arquivos locais com a plataforma.
+
+Confira abaixo o passo a passo para cada uma dessas configurações:
+
+## Instalando o Git 
+
+Instale o Git no seu computador acessando o link abaixo e selecionando o software usado pelo seu computador (Windows, MAC ou Linux):
+
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+
+## Instalando o Toolbelt
+
 O **Toolbelt** é a ferramenta de **linha de comando** do VTEX IO. É ele quem permite a realização de qualquer atividade na plataforma, como criar um novo workspace de desenvolvimento, fazer login em uma conta VTEX, desenvolver novas apps, gerenciar as já existentes, etc.
 
 Uma vez que o Toolbelt é quem estabelece a comunicação entre o desenvolvedor e a plataforma, você precisará dele para conseguir realizar todas as atividades propostas durante o curso do Store Framework. 
 
-Por isso, o seu primeiro passo é instalar a linha de comando do VTEX IO no seu computador.   
+1. Instale o [**Node.js**](https://nodejs.org/). Se o computador que você está usando é MAC, instale também o [**Yarn**](https://yarnpkg.com/);
+2. Execute o comando `npm i -g vtex` no seu terminal se você estiver trabalhando de um Windows e `yarn global add vtex` no MAC;
 
-## Instalando o Toolbelt
-
-1. Instale o [**Node.js**](https://nodejs.org/) e o [**Yarn**](https://yarnpkg.com/) no seu computador;
-2. Execute o comando `yarn global add vtex` no seu terminal;
-
-```
-$ yarn global add vtex
-```
-
-Você pode executar o comando `vtex` para confirmar se a instalação do Toolbelt ocorreu como esperado. 
+Você pode executar o comando `vtex-v` (Windows) ou `vtex` (MAC) para confirmar se a instalação do Toolbelt ocorreu como esperado. 
 
 Com a instalação concluída, o seu próximo passo deve ser *logar* em uma conta VTEX. 
 
@@ -40,6 +58,15 @@ Depois que seu workspace foi criado, você conseguirá acessá-lo a partir do li
 ## Linkando seus arquivos locais
 
 Ao executar `vtex link` a partir da pasta onde estão os arquivos do seu tema, eles passarão a ser automaticamente sincronizados com a plataforma do VTEX IO. Isso significa que qualquer alteração feita e salva por você será refletida no workspace e na conta em que você está *logado*, e poderá ser visualizada através do endereço descrito acima.
+
+---
+
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Configura%C3%A7%C3%B5es+b%C3%A1sicas) 
 
 ---
 

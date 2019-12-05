@@ -34,7 +34,7 @@ Evolua a página de produto adicionando os passos abaixo ao arquivo `product.jso
 }
 ```
 
-2. Troque `product-images` na coluna da esquerda por uma declaração de `stack-layout`
+2. Troque `product-images` na coluna da esquerda por uma declaração de `stack-layout`;
 
 ```json
 "flex-layout.col#left": {
@@ -44,7 +44,7 @@ Evolua a página de produto adicionando os passos abaixo ao arquivo `product.jso
 }
 ```
 
-3. Defina o `stack-layout` e coloque como filhos o `product-images` e `product-brand`
+3. Defina o `stack-layout` e coloque como filhos o `product-images` e [`product-brand`](https://vtex.io/docs/components/product-related/vtex.store-components/product-brand);
 
 ```json
 "stack-layout#brand": {
@@ -55,13 +55,23 @@ Evolua a página de produto adicionando os passos abaixo ao arquivo `product.jso
 }
 ```
 
-4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer e com altura de **30**. 
+4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer com altura de **30**. 
 
-5. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) para fazer com que o `sku-selector`:
-  - comece sem nenhum SKU selecionado,
-  - mostre o nome por variação de sku,
-  - mostre erro se nenhuma variação de sku for selecionada
+5. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) para fazer com que o `sku-selector`: 
+  - comece sem nenhum SKU selecionado;
+  - mostre o nome por variação de sku;
+  - mostre erro se nenhuma variação de sku for selecionada.
+  
+  :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/app/vtex.stack-layout) do Stack Layout caso tenha alguma dúvida durante a atividade.
+
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Finalizando+sua+pdp) 
 
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

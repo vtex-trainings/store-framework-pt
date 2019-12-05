@@ -15,7 +15,8 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
 1. No arquivo `menu.jsonc`, substitua `vtex.menu@2.x:menu#major` por `flex-layout.row#major` na lista de *children* do bloco `vtex.menu@2.x:submenu#major`;
 2. Defina em seguida o bloco `flex-layout.row#major`: 
 
-```
+```json
+...
 "flex-layout.row#major": {
   "children": [
     "flex-layout.col#menu",
@@ -23,19 +24,23 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
   ]
 },
 ```
+
 3. Agora temos que declarar os blocos definidos em  `flex-layout.row#major`. Para começar, declare o bloco `flex-layout.col#menu` com `vtex.menu@2.x:menu#major` como *children*;
 4. Faça o mesmo para o bloco `flex-layout.col#img`, o declarando com `image#menu` e `rich-text#header` como *children* e as seguintes props:
 
-```
+```json
+...
 "props":{
   "paddingRight": 4,
   "horizontalAlign": "right"
  }
+...
 ```
 
 5. Por último, vamos declarar o `image#menu` passado como *children* no último passo. Para isso, use o código abaixo: 
 
-```
+```json
+...
 "image#menu": {
   "props": {
     "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
@@ -53,6 +58,14 @@ De acordo com o que foi praticado na atividade anterior e o que foi aprendido so
 Resultado esperado:
 ![](https://appliancetheme.vteximg.com.br/arquivos/menu-flex.png)
 
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Menu+avan%C3%A7ado+com+flex+layout) 
+
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

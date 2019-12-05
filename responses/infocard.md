@@ -6,13 +6,13 @@
 
 Uma loja precisa de uma boa *home page* para manter a atenção do usuário, aumentando o tempo de sessão e, portanto, aumentando as chances de conversão. Para que isso seja possível, vários elementos podem ser usados, como: banners promocionais, prateleiras de destaque, conteúdos institucionais.
 
-Criaremos o próximo bloco na *home page* usando um *Call to Action*. No Store Framework, temos um bloco que serve para esse propósito chamado **Info Card**.
+Criaremos o próximo bloco na *home page* usando um *Call to Action*. No Store Framework, temos um bloco que serve para esse propósito chamado [**Info Card**](https://vtex.io/docs/app/vtex.store-components/Info-Card).
 
 ## Info Card
 
 ![image](https://user-images.githubusercontent.com/18701182/68480411-7b085800-0213-11ea-9426-31dcb0d0aa7d.png)
 
-Com o [Info Card](https://vtex.io/docs/app/vtex.store-components/Info-Card#blocks-api) é possível criar imagens que, no topo ou ao lado, existam links ou botões que direcionem o fluxo do usuário (*Call to Action*).
+Com o Info Card, é possível criar imagens com links e botões (no topo ou na lateral do bloco) que direcionem o fluxo do usuário (*Call to Action*).
 
 Olhando a [documentação](https://vtex.io/docs/app/vtex.store-components/info-card#blocks-api) é possível ver que:
 
@@ -32,7 +32,7 @@ Ficamos, assim, com as seguintes props:
     "store.home": {
       "blocks": [
         "rich-text",
-        "info-card",
+        "info-card"
       ]
     },
     "rich-text": {
@@ -70,8 +70,8 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
   {
     "store.home": {
       "blocks": [
-        "rich-text"
-        "info-card#button-right",
+        "rich-text",
+        "info-card#button-right"
       ]
     },
     ...
@@ -107,7 +107,16 @@ O resultado esperado é semelhante ao apresentado na imagem abaixo:
 
 ![image](https://appliancetheme.vteximg.com.br/arquivos/info-card-activity.png)
 
+:information_source: Lembre-se de acessar a documentação do [Info Card](https://vtex.io/docs/app/vtex.store-components/Info-Card) caso tenha alguma dúvida durante a atividade.
+
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Info+Card:+o+call+to+action+do+Store+Framework) 
 
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

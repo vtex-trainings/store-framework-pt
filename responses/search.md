@@ -37,7 +37,7 @@ Como você já deve ter percebido, os dois primeiros definem qual layout será e
      "blocks": [
         "search-result-layout.desktop",
         "search-result-layout.mobile",
-        "not-found"
+        "search-not-found-layout"
      ]
   }
 }
@@ -47,7 +47,7 @@ No curso, **focaremos** na implementação do **layout de desktop**
 
 ## Blocos de search
 
-A [documentação de search result](https://vtex.io/docs/components/search-related/vtex.search-result/) oferece uma boa referência dos blocos que podem ser usados no **contexto de busca**. Nesse step focaremos em tentar exibir os principais:
+A [documentação de Search Result](https://vtex.io/docs/components/search-related/vtex.search-result/) oferece uma boa referência dos blocos que podem ser usados no **contexto de busca**. Nesse step focaremos em tentar exibir os principais:
 
 - Breadcrumb da search (`breadcrumb.search`);
 - Título de busca (`search-title.v2`);
@@ -77,8 +77,18 @@ E tenha como filhos, nesta ordem:
 - `search-fetch-previous`;
 - `search-content`;
 - `filter-navigator.v3`;
-- `search-fetch-more`
+- `search-fetch-more`.
+
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.search-result/) de Search Result caso tenha alguma dúvida durante a atividade.
+
+---
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=P%C3%A1gina+de+busca) 
 
 ----
 
-Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
+Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/3).

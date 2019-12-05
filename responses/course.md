@@ -1,5 +1,8 @@
 # Funcionamento do curso
 
+<a href="http://bit.ly/vtex-course-workflow" target="_blank"><img src="https://user-images.githubusercontent.com/18701182/70206348-fae7ec00-1705-11ea-8c8d-90f614062782.png" 
+alt="IMAGE ALT TEXT HERE" width="720" height="360" border="10" /></a>
+
 ## Objetivo
 
 É importante estabelecer que este não é um curso expositivo. O seu objetivo é ensinar os participantes sobre o Store Framework do VTEX IO a partir de atividades práticas. Por isso, para que se consiga avançar, é preciso que um pouco do seu tempo e dedicação sejam investidos. 
@@ -12,12 +15,22 @@ O curso é divido em etapas. Ao começo de cada etapa, você receberá instruç�
 
 Para que suas respostas sejam enviadas, siga os seguintes passos:
 
-1. Baixe o código deste [repositório](https://github.com/{{ user.username }}/store-framework/archive/master.zip) e descomprima o arquivo `.zip` (se preferir você também pode clonar o repositório); 
-2. Abra o projeto no VSCode, em `File`>`Open`;
-3. Abra a [página de instalação do nosso robô de testes](https://github.com/apps/vtex-course-hub) e clique em **Configure**;
+1. Abra uma nova janela do VSCode
+2. Execute Ctrl + Shift + P (Cmd + Shift + P)
+3. Digite `git clone`
+
+![image](https://user-images.githubusercontent.com/18701182/70205859-51ecc180-1704-11ea-9683-e33f04d7893a.png)
+
+4. Digite o nome do repositório como `https://github.com/{{ user.username }}/store-framework`
+5. Confirme e selecione o lugar onde deseja baixar o repositório
+6. Clique em `Open` na notificação que abre no canto inferior direito 
+
+![image](https://user-images.githubusercontent.com/18701182/70205950-ae4fe100-1704-11ea-9dfd-b90e7e3e294e.png)
+
+7. Abra a [página de instalação do nosso robô de testes](https://github.com/apps/vtex-course-hub) e clique em **Configure**;
     - :warning: Note que este bot é diferente do bot do [GitHub Learning Lab](https://lab.github.com/). Ele é responsável por analisar a resposta de cada etapa do curso.
-4. Selecione **Only selected repositories**, clique em **Select repositories** e digite `store-framework`;
-5. Clique em `{{ user.username }}/store-framework` e clique em **Install**.
+8. Selecione **Only selected repositories**, clique em **Select repositories** e digite `store-framework`;
+9. Clique em `{{ user.username }}/store-framework` e clique em **Install**.
 
 <img src="https://user-images.githubusercontent.com/18701182/68790213-a03b0300-0625-11ea-8b8a-ec483f4c0a7a.png" width="350" />
 
@@ -72,7 +85,7 @@ Ao longo do curso, é possível que você não consiga completar corretamente a 
 <img src="https://user-images.githubusercontent.com/18701182/68778030-56e0b880-0611-11ea-806b-d5232b6e3bd6.png" width="450" />
 
 Você pode submeter quantas respostas você quiser, basta refazer todo o processo explicado na seção anterior. 
-:warning: No **Step 6** não será necessário refazer tudo, uma vez que a branch do step já foi criada. No **Step 7**, ao invés de ver uma nuvem, você verá algumas setas, basta clicar nelas para reenviar:
+:warning: No **item 6** não será necessário refazer tudo, uma vez que a branch do step já foi criada. No **item 7**, ao invés de ver uma nuvem, você verá algumas setas, basta clicar nelas para reenviar:
 
 ![image](https://user-images.githubusercontent.com/18701182/68778823-762c1580-0612-11ea-80e2-4406097fddd0.png)
 
@@ -81,6 +94,23 @@ Você pode submeter quantas respostas você quiser, basta refazer todo o process
 A qualquer momento do curso você pode acompanhar o seu progresso voltando na [página inicial](https://lab.github.com/vtex-trainings/store-framework). Nela, serão indicados todos os steps, quais você já completou e um botão para você voltar para o step de onde parou:
 
 ![image](https://user-images.githubusercontent.com/18701182/68779406-62cd7a00-0613-11ea-93e5-7604f57f8f86.png)
+
+## Não esqueça de linkar
+
+A todo momento, abrindo o terminal do VSCode, você pode executar um `vtex link` e acompanhar a evolução do seu projeto em `https://{workspace}--{conta}.myvtex.com`. Certifique-se que **visualmente** a solução é **equiparável com o que foi apresentado** e que **nenhum erro aconteceu no link**.
+
+## :warning: Cuidado :warning:   
+
+Não crie issues e PRs durante o fluxo do curso, isso pode interferir no seu funcionament
+
+---
+
+
+### :no_entry_sign: Perdido? 
+
+Há algum problema com esse passo? Que tal nos enviar um feedback? :pray:
+
+[Criar feedback](https://docs.google.com/forms/d/e/1FAIpQLSeaWrm0Hogm-txm5Ww6mUa68eDuE3WnpFjUSVJ3Wi3dnmCb7A/viewform?usp=pp_url&entry.1784529524=Funcionamento+do+curso) 
 
 ----
 
