@@ -24,8 +24,8 @@ Abaixo, temos um exemplo de flex layout composto de um `flex-layout.row` com doi
 ```json
   "flex-layout.row":{
     "children": [
-      "info-card",
-      "rich-text"
+      "info-card#rethink",
+      "rich-text#deletar"
     ]
   },
   
