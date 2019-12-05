@@ -64,6 +64,8 @@ Abaixo, temos o exemplo da implementação de uma Shelf:
 
 Obs.: É importante notar que o bloco `product-summary.shelf` já está declarado dentro do arquivo `default.jsonc`. Por este motivo, não foi necessário declará-lo nesta atividade.
 
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/app/vtex.shelf) da Shelf caso tenha alguma dúvida durante a atividade.
+
 O resultado final esperado deve ser semelhante a este:
 ![image](https://user-images.githubusercontent.com/12139385/70187041-1209e800-16cc-11ea-85b8-80162239ce1d.png)
 
