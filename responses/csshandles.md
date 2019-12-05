@@ -103,7 +103,7 @@ Observe o efeito atingido linkando sua app.
 ## Atividade
 
 1. Copie o código acima para usá-lo no arquivo CSS do seu tema, seguindo a [recipe](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization) sobre customizações de loja por CSS;
-2. Com base nos Handles do [**Info Card**](https://vtex.io/docs/components/all/vtex.store-components/info-card), defina a largura máxima (`max-width`) de de todos os infocards para `1260px`, a margin para `0 auto` e o padding para `0`.
+2. Com base nos Handles do [**Info Card**](https://vtex.io/docs/components/all/vtex.store-components/info-card), defina a largura máxima (`max-width`) de todos os infocards para `1260px`, a margin para `0 auto` e o padding para `0`.
 3. Mude a cor do título do componente para `black`;
 4. Coloque o título em negrito (`bold`);
 5. Mude a cor de fundo do botão durante o hover para `white`.
