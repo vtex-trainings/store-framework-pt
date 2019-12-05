@@ -54,14 +54,16 @@ Não implementaremos o menu nessa atividade, pois ele já foi visto no contexto 
 
 3. Com base no bloco acima, construa o `flex-layout.col#footer-left-desktop` com a seguinte children: `accepted-payment-methods`;
 
-4. Agora construa o bloco `accepted-payment-methods` com os seguintes meios de pagamento: `MasterCard`, `Visa` e `Diners Club`. Só para mostrar um pouco mais de conhecimento, descubra também como mostrar os meios de pagamento em cores;
+4. Agora construa o bloco `accepted-payment-methods` com os seguintes meios de pagamento: `MasterCard`, `Visa` e `Diners Club`. Só para mostrar um pouco mais de conhecimento, descubra também como mostrar os meios de pagamento em cores nesta [documentação](https://vtex.io/docs/components/all/vtex.store-footer/);
 
 5. No próximo passo iremos usar o bloco `social-networks` para mostrar as redes sociais da nossa loja. Veja na documentação como fazer isso. E implemente como children do bloco `flex-layout.col#footer-right-desktop`. Nós queremos mostrar `Facebook`, `Instagram` e `Twitter`.
+
+6. Agora, faça os logos das redes sociais aparecerem com cores, como a [documentação](https://vtex.io/docs/components/all/vtex.store-footer/) do footer menciona.
 
 :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.store-footer/) do Footer caso tenha alguma dúvida durante a atividade. 
 
 Resultado esperado:
-![](https://appliancetheme.vteximg.com.br/arquivos/imagem-footer.png)
+![image](https://user-images.githubusercontent.com/12139385/70229436-00105f80-1735-11ea-9c26-9f16a3820f52.png)
 
 ---
 
