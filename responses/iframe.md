@@ -4,9 +4,9 @@
 
 ## Introdução
 
-Um [*iframe*](https://vtex.io/docs/app/vtex.iframe) é um elemento HTML que permite a incorporação de uma outra página HTML à atual. Dessa forma, é possível embutir conteúdos de outras URLs para serem exibidos em nossa página. É importante lembrar que que as URLs renderizadas pelo iframe possuem um contexto próprio, tendo histórico de sessão e DOM independentes da sua página customizada.
+Um *Iframe* é um elemento HTML que permite a incorporação de uma outra página HTML à atual. Dessa forma, a partir do bloco [**Iframe**](https://vtex.io/docs/components/all/vtex.iframe/) é possível embutir conteúdos de outras URLs para serem exibidos em nossa página. É importante lembrar que as URLs renderizadas pelo Iframe possuem um contexto próprio, tendo histórico de sessão e DOM independentes da sua página customizada.
 
-**ATENÇÃO**: iframes só são permitidos dentro de templates de custom pages
+**ATENÇÃO**: Iframes só são permitidos dentro de templates de custom pages.
 
 O bloco `iframe` tem propriedades bem simples:
 
@@ -24,8 +24,6 @@ Abaixo, vemos um exemplo de implementação do bloco `iframe`:
    ]
  },
 
-...
-
 "iframe": {
   "props": {
     "src": "http://someURL.com/resource",
@@ -39,9 +37,11 @@ Abaixo, vemos um exemplo de implementação do bloco `iframe`:
 
 Vamos exibir um post de Instagram em nossa loja:
 
-1. Troque a label da aba "Electronics" para "Instagram"
-2. No conteúdo da aba Instagram, apague o `rich-text` e inclua um bloco `iframe`
-3. Nas props do `iframe`, exiba o conteúdo do link `https://www.instagram.com/p/B37Zfd6FobU/embed` num container de 800px de largura por 1000px de altura
+1. Troque a label da aba "Electronics" para "Instagram";
+2. No conteúdo da aba Instagram, apague o `rich-text` e inclua um bloco `iframe`;
+3. Nas props do `iframe`, exiba o conteúdo do link `https://www.instagram.com/p/B37Zfd6FobU/embed` num container de 800px de largura por 1000px de altura.
+
+:information_source: Lembre-se de acessar a documentação do [Iframe](https://vtex.io/docs/components/all/vtex.iframe/) caso tenha alguma dúvida durante a atividade.
 
 ----
 
