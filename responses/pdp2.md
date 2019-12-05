@@ -23,7 +23,7 @@ Na [nossa documentação](https://vtex.io/docs/components/product-related) é po
 
 Evolua a página de produto adicionando os outros 4 blocos listados acima da seguinte forma no arquivo `product.jsonc`:
 
-1. Defina um `breadcrumb` logo no início antes da **linha principal** do produto
+1. Defina um `breadcrumb` logo no início antes da **linha principal** do produto;
 
 ```json
 "store.product": {
@@ -34,8 +34,8 @@ Evolua a página de produto adicionando os outros 4 blocos listados acima da seg
 }
 ```
 
-2. Defina o `product-identifier.product` logo abaixo do `product-name`
-3. Crie uma **linha** logo abaixo do preço com o `sku-selector` e o `product-quantity` como filhos
+2. Defina o `product-identifier.product` logo abaixo do `product-name`;
+3. Crie uma **linha** logo abaixo do preço com o `sku-selector` e o `product-quantity` como children;
 
 ```json
 {
@@ -56,6 +56,8 @@ Evolua a página de produto adicionando os outros 4 blocos listados acima da seg
 ```
 
 4. Defina `shipping-simulator` logo abaixo da linha com o SKU Selector e o Product Quantity
+
+:information_source: Lembre-se de acessar a documentação do [Breadcrumb](https://vtex.io/docs/app/vtex.breadcrumb), [Product Identifier](https://vtex.io/docs/components/product/vtex.product-identifier), [Product Quantity](https://vtex.io/docs/components/product-related/vtex.product-quantity/) e [SKU Selector](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) caso tenha alguma dúvida durante a atividade.
 
 ----
 
