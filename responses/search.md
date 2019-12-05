@@ -37,7 +37,7 @@ Como você já deve ter percebido, os dois primeiros definem qual layout será e
      "blocks": [
         "search-result-layout.desktop",
         "search-result-layout.mobile",
-        "not-found"
+        "search-not-found-layout"
      ]
   }
 }
