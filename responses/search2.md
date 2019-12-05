@@ -55,7 +55,7 @@ No último step conhecemos a página de busca e seus principais componentes. Tam
 }
 ```
 
-5. Configure a prop `width` da coluna `filter` para `100%`.
+5. Configure a prop `width` da coluna `filter` para `20%`.
 
 6. Na coluna da esquerda inclua o `filter-navigator.v3` novamente e, na da direita, inclua o `search-content`
 
