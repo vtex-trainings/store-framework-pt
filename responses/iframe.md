@@ -28,7 +28,7 @@ Abaixo, vemos um exemplo de implementação do bloco `iframe`:
   "props": {
     "src": "http://someURL.com/resource",
     "width": 100,
-    "heigth": 200,
+    "height": 200,
   }
 }
 ```
