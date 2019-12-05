@@ -56,9 +56,11 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer com altura de **30**. 
 
 5. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) para fazer com que o `sku-selector`: 
-  - comece sem nenhum SKU selecionado,
-  - mostre o nome por variação de sku,
-  - mostre erro se nenhuma variação de sku for selecionada
+  - comece sem nenhum SKU selecionado;
+  - mostre o nome por variação de sku;
+  - mostre erro se nenhuma variação de sku for selecionada.
+  
+  :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/app/vtex.stack-layout) do Stack Layout caso tenha alguma dúvida durante a atividade.
 
 ----
 
