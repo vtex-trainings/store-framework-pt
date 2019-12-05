@@ -22,6 +22,12 @@ Abaixo, podemos conferir um exemplo de implementação:
 
 ```json
 {
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
   "header.full": {
     "blocks": [
       "header-layout.desktop",
