@@ -141,7 +141,7 @@ Ao concluir o passo 8, os novos ícones de barra de busca e carrinho devem estar
 
 ![new-store-icons](https://user-images.githubusercontent.com/52087100/69972450-652f3f80-1500-11ea-93b0-c9a652622840.png)
 
-Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.store-header/) do Header caso tenha alguma dúvida durante a atividade.
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.store-header/) do Header caso tenha alguma dúvida durante a atividade.
 
 ----
 
