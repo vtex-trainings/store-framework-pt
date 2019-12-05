@@ -32,7 +32,7 @@ Ficamos, assim, com as seguintes props:
     "store.home": {
       "blocks": [
         "rich-text",
-        "info-card",
+        "info-card"
       ]
     },
     "rich-text": {
@@ -70,8 +70,8 @@ Todos os blocos têm nomes preestabelecidos, mas você pode criar instâncias de
   {
     "store.home": {
       "blocks": [
-        "rich-text"
-        "info-card#button-right",
+        "rich-text",
+        "info-card#button-right"
       ]
     },
     ...
