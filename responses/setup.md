@@ -2,11 +2,11 @@
 
 Antes de começar a botar a mão na massa e aprender mais sobre o Store Framework do VTEX IO, algumas configurações básicas precisam ser feitas por você, como:
 
-- Instalar o Git; 
-- Instalar o Toolbelt; 
-- Fazer login em uma conta VTEX;
-- Criar um workspace de desenvolvimento;
-- Linkar seus arquivos locais com a plataforma.
+- Instalar o **Git**; 
+- Instalar o **Toolbelt**; 
+- Fazer **login** em uma conta VTEX;
+- Criar um **workspace** de desenvolvimento;
+- **Linkar** seus arquivos locais com a plataforma.
 
 Confira abaixo o passo a passo para cada uma dessas configurações:
 
