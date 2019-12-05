@@ -23,7 +23,7 @@ No `home.jsonc` se ver um bloco que é padrão em todos os temas: `store.home`. 
 ```json
 {
   "store.home": {
-    blocks: []
+    "blocks": []
   }
   ...
 }

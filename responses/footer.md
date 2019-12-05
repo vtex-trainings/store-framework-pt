@@ -35,7 +35,7 @@ Agora, vamos configurar um footer para a página inicial da sua loja, levando em
 
 Não implementaremos o menu nessa atividade, pois ele já foi visto no contexto do Header. Iremos cobrir os casos de meios de pagamento aceitos e redes sociais da loja.
 
-1. Copie o código acima para usá-lo no seu tema;
+1. No arquivo `footer.jsonc`, copie o código acima para usá-lo no seu tema;
 2. Declare o seguinte bloco em seguida:
 
 ```json

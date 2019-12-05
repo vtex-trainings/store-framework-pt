@@ -12,7 +12,7 @@ Como vimos no [terceiro passo](https://github.com/{{ user.username }}/store-fram
 
 ## Configurando o Rich Text
 
-Assim como a sua funcionalidade, a configuração do Rich Text também é simples. 
+Assim como a sua funcionalidade, a configuração do Rich Text também é simples.
 
 Da mesma forma que o "**Hello, world!**" foi feito, podemos montar um exemplo de implementação do bloco usando texto escrito em markdown. Por exemplo:
 
@@ -26,9 +26,9 @@ Da mesma forma que o "**Hello, world!**" foi feito, podemos montar um exemplo de
 },
 ```
 
-Como falado anteriormente, o uso de Markdown permite flexibilidade ao componente. Mas, por outro lado, também pode fazer com que a sua renderização sofra alterações de acordo com o dispositivo usado pelo usuário. 
+Como falado anteriormente, o uso de Markdown permite flexibilidade ao componente. Mas, por outro lado, também pode fazer com que a sua renderização sofra alterações de acordo com o dispositivo usado pelo usuário.
 
-Por exemplo: a frase acima ( `# Your Coffee, Your Way \n ### New Coffee Makers Collection` ) pode usar um markdown adequado para desktop, mas não necessariamente para mobile (cujo tamanho de tela é menor). 
+Por exemplo: a frase acima ( `# Your Coffee, Your Way \n ### New Coffee Makers Collection` ) pode usar um markdown adequado para desktop, mas não necessariamente para mobile (cujo tamanho de tela é menor).
 
 Para resolver esse cenário e tornar o componente mais adaptável a outros dispositivos, devemos usar o [**Responsive Layout**](https://vtex.io/docs/components/layout/vtex.responsive-layout).
 
@@ -87,7 +87,7 @@ Nessa atividade, vamos brincar um pouco com o markdown do [Rich Text](https://vt
 1. Adicione o código proposto acima no arquivo `home.jsonc` e declare os blocos de `responsive-layout` no template `store.home`;
 2. No `rich-text#mobile`, altere o markdown da primeira frase para `h3` e da segunda para `h4`;
 3. Adicione `image#desktop` como children de `responsive-layout.desktop#desktop`. Faça o mesmo com `image#mobile`  em `responsive-layout.mobile#mobile`;
-4. Declare os seguintes blocos de Image no arquivo `home.jsonc`: 
+4. Declare os seguintes blocos de Image:
 
 ```json
 "image#desktop": {

@@ -16,11 +16,13 @@ O `stack-layout` é um tipo layout que possibilita que blocos possam ser empilha
 
 (Na imagem, uma shelf empilhada sobre um carrossel :point_up_2:)
 
-Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de produto. 
+Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de produto.
 
 ## Atividade
 
-1. Declare um [`shelf.relatedProducts`](https://vtex.io/docs/app/vtex.shelf) abaixo da **linha principal** de produto;
+Evolua a página de produto adicionando os passos abaixo ao arquivo `product.jsonc`:
+
+1. Declare um [`shelf.relatedProducts`](https://vtex.io/docs/app/vtex.shelf) abaixo da **linha principal** de produto
 
 ```json
 "store.product": {
@@ -35,8 +37,8 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 2. Troque `product-images` na coluna da esquerda por uma declaração de `stack-layout`;
 
 ```json
-"flex-layout.col#left": { 
-  "children": [ 
+"flex-layout.col#left": {
+  "children": [
     "stack-layout#brand"
   ]
 }
@@ -45,7 +47,7 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 3. Defina o `stack-layout` e coloque como filhos o `product-images` e [`product-brand`](https://vtex.io/docs/components/product-related/vtex.store-components/product-brand);
 
 ```json
-"stack-layout#brand": { 
+"stack-layout#brand": {
   "children": [
     "product-images",
     "product-brand"
