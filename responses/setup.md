@@ -1,5 +1,12 @@
 # Configurações básicas
 
+<a href="https://bit.ly/setup-vtex" target="_blank"><img src="https://user-images.githubusercontent.com/18701182/70204540-be18f680-16ff-11ea-994d-ef580767a673.png" 
+alt="IMAGE ALT TEXT HERE" width="600" height="360" border="10" /></a>
+
+> Para o vídeo de setup do Mac, [clique aqui](https://bit.ly/setup-vtex-mac)
+
+## Introdução 
+
 Antes de começar a botar a mão na massa e aprender mais sobre o Store Framework do VTEX IO, algumas configurações básicas precisam ser feitas por você, como:
 
 - Instalar o **Git**; 

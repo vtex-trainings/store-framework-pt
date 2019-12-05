@@ -24,9 +24,9 @@ steps:
           nextName: 'Funcionamento do curso'
       - type: createIssue
         title: 'Funcionamento do curso'
-        body: course.md
-  - title: Funcionamento do curso
-    description: Explicando como interagir com o curso.
+        body: storeframework.md
+  - title: Store Framework 101
+    description: Definições rápidas e introdutórias sobre o Store Framework.
     event: issues.closed
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -35,12 +35,12 @@ steps:
         issue: 2
         data:
           nextIssue: '3'
-          nextName: 'Store Framework 101'
+          nextName: 'Funcionamento do curso'
       - type: createIssue
-        title: 'Store Framework 101'
-        body: storeframework.md
-  - title: Store Framework 101
-    description: Definições rápidas e introdutórias sobre o Store Framework.
+        title: 'Funcionamento do curso'
+        body: course.md
+  - title: Funcionamento do curso
+    description: Explicando como interagir com o curso.
     event: issues.closed
     link: '{{ repoUrl }}/issues/3'
     actions:
