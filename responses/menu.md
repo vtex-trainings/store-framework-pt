@@ -103,6 +103,9 @@ Nesta atividade, entenderemos melhor sobre a configuração do [Menu](https://vt
 
 :information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.menu/) do Menu caso tenha alguma dúvida durante a atividade.
 
+Resultado esperado:
+![](https://appliancetheme.vteximg.com.br/arquivos/imagem-menu.png)
+
 ----
 
 Se ainda tiver dúvida sobre como enviar sua resposta, você pode rever [aqui](https://github.com/{{ user.username }}/store-framework/issues/2).
