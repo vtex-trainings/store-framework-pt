@@ -101,7 +101,7 @@ A partir do código acima, no arquivo `home.jsonc`, crie o `info-card#button-lef
  2. Um call to action do tipo link com o texto `Go to Collection` no lugar do botao
  3. A imagem `https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png`
  4. O subtítulo `Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.`
- 5. O texto posicionado à esquerda.
+ 5. O texto posicionado à esquerda da imagem (`textPosition`).
 
 O resultado esperado é semelhante ao apresentado na imagem abaixo:
 
