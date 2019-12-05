@@ -20,7 +20,7 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 
 ## Atividade
 
-1. Declare um [`shelf.relatedProducts`](https://vtex.io/docs/app/vtex.shelf) abaixo da **linha principal** de produto
+1. Declare um [`shelf.relatedProducts`](https://vtex.io/docs/app/vtex.shelf) abaixo da **linha principal** de produto;
 
 ```json
 "store.product": {
@@ -32,7 +32,7 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 }
 ```
 
-2. Troque `product-images` na coluna da esquerda por uma declaração de `stack-layout`
+2. Troque `product-images` na coluna da esquerda por uma declaração de `stack-layout`;
 
 ```json
 "flex-layout.col#left": { 
@@ -42,7 +42,7 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 }
 ```
 
-3. Defina o `stack-layout` e coloque como filhos o `product-images` e `product-brand`
+3. Defina o `stack-layout` e coloque como filhos o `product-images` e [`product-brand`](https://vtex.io/docs/components/product-related/vtex.store-components/product-brand);
 
 ```json
 "stack-layout#brand": { 
@@ -53,7 +53,7 @@ Neste passo, usaremos o `stack-layout` para colocar a marca sobre as imagens de 
 }
 ```
 
-4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer e com altura de **30**. 
+4. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/product-brand#configuration) para mudar a forma que o `product-brand` é exibido. Você deve fazer o logo aparecer com altura de **30**. 
 
 5. Consulte a [documentação](https://vtex.io/docs/components/product/vtex.store-components/sku-selector) para fazer com que o `sku-selector`: 
   - comece sem nenhum SKU selecionado,
