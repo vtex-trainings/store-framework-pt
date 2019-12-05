@@ -4,7 +4,7 @@
 
 ## Introdução
 
-O Flex Layout é um paradigma de estruturação de layout criado no Store Framework para permitir a construção de layouts complexos. Esse paradigma usa o conceito de **linhas** e **colunas** para definir a estrutura e o posicionamento desejados dos blocos em uma determinada página.
+O [Flex Layout](https://vtex.io/docs/components/layout/vtex.flex-layout) é um paradigma de estruturação de layout criado no Store Framework para permitir a construção de layouts complexos. Esse paradigma usa o conceito de **linhas** e **colunas** para definir a estrutura e o posicionamento desejados dos blocos em uma determinada página.
 
 Existem dois blocos de construção básicos de cada Flex Layout:
 
@@ -15,10 +15,9 @@ Se você já está familiarizado com o Flexbox utilizado no CSS, o Flex Layout d
 
 ## Flex Layout
 
-Com o [Flex Layout](https://vtex.io/docs/components/layout/vtex.flex-layout) é possível criar layouts personalizados, utilizando a estrutura de linhas e colunas do Flexbox.
+Com o Flex Layout é possível criar layouts personalizados, utilizando a estrutura de linhas e colunas do Flexbox.
 
-Analisando a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout), vemos que você pode utilizar qualquer *array* de blocos como `children` do Flex Layout. Além disso, você deve sempre usar `flex-layout.row` e `flex-layout.col`, **NUNCA** `flex-layout` de forma isolada.
-
+Analisando a documentação do bloco, vemos que você pode utilizar qualquer *array* de blocos como `children` do Flex Layout. Além disso, você deve sempre usar `flex-layout.row` e `flex-layout.col`, **NUNCA** `flex-layout` de forma isolada.
 
 Abaixo, temos um exemplo de flex layout composto de um `flex-layout.row` com dois *children*: um `info-card` e um `rich-text`:
 
@@ -76,7 +75,7 @@ O resultado obtido deve ser semelhante a este:
 ![image](https://user-images.githubusercontent.com/12139385/70185681-0c5ed300-16c9-11ea-9260-b88179b508f2.png)
 
 
-Lembre-se, acesse a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout) caso haja alguma dúvida.
+Lembre-se de acessar a [documentação](https://vtex.io/docs/components/layout/vtex.flex-layout) caso haja alguma dúvida.
 
 ----
 
