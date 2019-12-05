@@ -47,7 +47,7 @@ No curso, **focaremos** na implementação do **layout de desktop**
 
 ## Blocos de search
 
-A [documentação de search result](https://vtex.io/docs/components/search-related/vtex.search-result/) oferece uma boa referência dos blocos que podem ser usados no **contexto de busca**. Nesse step focaremos em tentar exibir os principais:
+A [documentação de Search Result](https://vtex.io/docs/components/search-related/vtex.search-result/) oferece uma boa referência dos blocos que podem ser usados no **contexto de busca**. Nesse step focaremos em tentar exibir os principais:
 
 - Breadcrumb da search (`breadcrumb.search`);
 - Título de busca (`search-title.v2`);
@@ -77,7 +77,9 @@ E tenha como filhos, nesta ordem:
 - `search-fetch-previous`;
 - `search-content`;
 - `filter-navigator.v3`;
-- `search-fetch-more`
+- `search-fetch-more`.
+
+:information_source: Lembre-se de acessar a [documentação](https://vtex.io/docs/components/all/vtex.search-result/) de Search Result caso tenha alguma dúvida durante a atividade.
 
 ----
 
