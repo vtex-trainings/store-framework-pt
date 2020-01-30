@@ -5,7 +5,7 @@ description: >-
   powered by VTEX IO.
 template:
   repo: store-framework-template
-  name: store-framework
+  name: store-framework-pt
 before:
   - type: createIssue
     title: Configurações básicas
@@ -21,9 +21,9 @@ steps:
         issue: 1
         data:
           nextIssue: '2'
-          nextName: 'Store Framework 101'
+          nextName: Store Framework 101
       - type: createIssue
-        title: 'Store Framework 101'
+        title: Store Framework 101
         body: storeframework.md
   - title: Store Framework 101
     description: Definições rápidas e introdutórias sobre o Store Framework.
@@ -35,9 +35,9 @@ steps:
         issue: 2
         data:
           nextIssue: '3'
-          nextName: 'Funcionamento do curso'
+          nextName: Funcionamento do curso
       - type: createIssue
-        title: 'Funcionamento do curso'
+        title: Funcionamento do curso
         body: course.md
   - title: Funcionamento do curso
     description: Explicando como interagir com o curso.
@@ -85,11 +85,11 @@ steps:
         issue: 5
         data:
           nextIssue: '6'
-          nextName: 'CSS handles e o poder da customização de blocos'
+          nextName: CSS handles e o poder da customização de blocos
       - type: createIssue
-        title: 'CSS handles e o poder da customização de blocos'
+        title: CSS handles e o poder da customização de blocos
         body: csshandles.md
-  - title: 'CSS handles e o poder da customização de blocos'
+  - title: CSS handles e o poder da customização de blocos
     description: Personalize o estilo dos seus blocos
     event: status
     link: '{{ repoUrl }}/issues/6'
@@ -125,7 +125,7 @@ steps:
       - type: createIssue
         title: Prateleira de produtos
         body: shelf.md
-  - title: 'Prateleira de produtos'
+  - title: Prateleira de produtos
     description: Como exibir uma vitrine de produtos de forma intuitiva
     event: status
     link: '{{ repoUrl }}/issues/8'
@@ -139,12 +139,12 @@ steps:
         issue: 8
         data:
           nextIssue: '9'
-          nextName: Carrossel de blocos 
+          nextName: Carrossel de blocos
       - type: createIssue
         title: Carrossel de blocos
         body: slider.md
   - title: Carrossel de blocos
-    description: Insira conteúdo num layout de carrossel 
+    description: Insira conteúdo num layout de carrossel
     event: status
     link: '{{ repoUrl }}/issues/9'
     actions:
@@ -162,7 +162,9 @@ steps:
         title: Tornando seu conteúdo responsivo
         body: responsive.md
   - title: Tornando seu conteúdo responsivo
-    description: Use o responsive layout para adaptar seu conteúdo para diferentes dispositivos
+    description: >-
+      Use o responsive layout para adaptar seu conteúdo para diferentes
+      dispositivos
     event: status
     link: '{{ repoUrl }}/issues/10'
     actions:
@@ -396,7 +398,7 @@ steps:
         title: Menu
         body: menu.md
   - title: Menu
-    description: Criando a navegação da sua loja 
+    description: Criando a navegação da sua loja
     event: status
     link: '{{ repoUrl }}/issues/23'
     actions:
@@ -414,7 +416,7 @@ steps:
         title: Menu avançado com flex layout
         body: menu-flex.md
   - title: Menu avançado com flex layout
-    description: Enriquecendo o menu com outros blocos 
+    description: Enriquecendo o menu com outros blocos
     event: status
     link: '{{ repoUrl }}/issues/24'
     actions:
@@ -431,7 +433,7 @@ steps:
       - type: createIssue
         title: Rodapé
         body: footer.md
-  - title: Rodapé 
+  - title: Rodapé
     description: Definindo blocos de rodapé
     event: status
     link: '{{ repoUrl }}/issues/25'
